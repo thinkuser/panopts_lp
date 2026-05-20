@@ -1,0 +1,31 @@
+[     580ms] [ERROR] Failed to load resource: net::ERR_HTTP2_PROTOCOL_ERROR @ https://www.bermad.com/wp-includes/js/jquery/jquery.min.js:0
+[     767ms] ReferenceError: jQuery is not defined
+    at https://www.bermad.com/wp-includes/js/jquery/jquery-migrate.min.js:2:1
+[     767ms] ReferenceError: jQuery is not defined
+    at https://www.bermad.com/wp-content/themes/bermad-theme/js/analytics-products.js:1:1
+[     768ms] [WARNING] <link rel=preload> uses an unsupported `as` value @ https://www.bermad.com/:70
+[     892ms] ReferenceError: jQuery is not defined
+    at https://www.bermad.com/wp-content/themes/bermad-theme/js/global.js:1:13
+[     893ms] ReferenceError: jQuery is not defined
+    at https://www.bermad.com/wp-content/themes/bermad-theme/js/analytics.js:1:1
+[     896ms] TypeError: Cannot read properties of undefined (reading 'fn')
+    at https://www.bermad.com/wp-content/themes/bermad-theme/js/owl.carousel.min.js:6:21377
+    at https://www.bermad.com/wp-content/themes/bermad-theme/js/owl.carousel.min.js:6:21982
+[     897ms] ReferenceError: jQuery is not defined
+    at https://www.bermad.com/wp-content/themes/bermad-theme/js/select2.min.js:2:241
+    at https://www.bermad.com/wp-content/themes/bermad-theme/js/select2.min.js:2:249
+[     903ms] ReferenceError: jQuery is not defined
+    at https://www.bermad.com/wp-includes/js/hoverIntent.min.js:2:162
+    at https://www.bermad.com/wp-includes/js/hoverIntent.min.js:2:204
+[     904ms] ReferenceError: jQuery is not defined
+    at https://www.bermad.com/wp-content/plugins/megamenu/js/maxmegamenu.js:953:4
+[     904ms] ReferenceError: jQuery is not defined
+    at https://www.bermad.com/wp-content/plugins/megamenu-pro/assets/public.js:49:4
+[     904ms] ReferenceError: jQuery is not defined
+    at https://www.bermad.com/:1489:3
+[     906ms] ReferenceError: jQuery is not defined
+    at HTMLDocument.<anonymous> (https://www.bermad.com/:627:44)
+[     978ms] ReferenceError: jQuery is not defined
+    at https://www.bermad.com/wp-content/themes/bermad-theme/blocks/control_the_flow_block/control_the_flow.js:2:1
+[    1211ms] TypeError: Cannot set properties of null (setting 'value')
+    at <anonymous>:1:219

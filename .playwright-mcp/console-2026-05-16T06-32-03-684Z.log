@@ -1,0 +1,9 @@
+[     974ms] [WARNING] An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing. @ https://agent.shebaai.7-twenty.com/aipanelagent.js:1524
+[    1126ms] [LOG] Recaptcha loaded! @ https://www.sheba.co.il/chunk-OTFY5DGM.js:0
+[    1204ms] [LOG] Version 0.28.65 @ https://www.sheba.co.il/main-JRXDFVST.js:0
+[    1278ms] [ERROR] Executing inline script violates the following Content Security Policy directive 'script-src 'none''. Either the 'unsafe-inline' keyword, a hash ('sha256-o+wLtgDll7FsiXZR+VHyAOQ4TN3zvullJqQQLQqZesQ='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked. @ https://agent.shebaai.7-twenty.com/defaultLogo.svg:1
+[    1278ms] [ERROR] Executing inline script violates the following Content Security Policy directive 'script-src 'none''. Either the 'unsafe-inline' keyword, a hash ('sha256-o+wLtgDll7FsiXZR+VHyAOQ4TN3zvullJqQQLQqZesQ='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked. @ https://agent.shebaai.7-twenty.com/defaultLogo.svg:1
+[    1283ms] [ERROR] Executing inline script violates the following Content Security Policy directive 'script-src 'none''. Either the 'unsafe-inline' keyword, a hash ('sha256-o+wLtgDll7FsiXZR+VHyAOQ4TN3zvullJqQQLQqZesQ='), or a nonce ('nonce-...') is required to enable inline execution. The action has been blocked. @ https://agent.shebaai.7-twenty.com/defaultLogo.svg:1
+[    2699ms] [LOG] runPoptinNow @ https://cdn.popt.in/pixel.js?id=866e54752f089:14
+[    2700ms] [LOG] poptinInit loading @ https://cdn.popt.in/pixel.js?id=866e54752f089:3
+[    2798ms] [LOG] initiatePullPoptinsRequest() @ https://cdn.popt.in/pixel.js?id=866e54752f089:3

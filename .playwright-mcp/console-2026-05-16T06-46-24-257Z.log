@@ -1,0 +1,15 @@
+[       8ms] ReferenceError: productForm is not defined
+    at https://www.metzer-group.co.il/wp-content/themes/metzer/assets/js/blocks/block-contact-us-section.js?ver=1.1.10:1503:9
+    at dispatch (https://www.metzer-group.co.il/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:40035)
+    at v.handle (https://www.metzer-group.co.il/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:38006)
+[    1207ms] [LOG] EN @ https://vee-crm.com/js/:1946
+[    1207ms] [LOG] Vee Plugin using window.args @ https://vee-crm.com/js/:1953
+[    1207ms] [LOG] Vee Plugin config validated successfully. @ https://vee-crm.com/js/:1974
+[    1883ms] [LOG] Vee Plugin first run... @ https://vee-crm.com/js/:135
+[    1883ms] [LOG] page_lang EN @ https://vee-crm.com/js/:158
+[    1883ms] [LOG] Checking docReady... @ https://vee-crm.com/js/:107
+[    1967ms] [LOG] Vee Plugin successfully loaded! @ https://vee-crm.com/js/:175
+[    1968ms] [LOG] Vee CSS element found. @ https://vee-crm.com/js/:484
+[    2026ms] [LOG] Vee CSS file loaded. @ https://vee-crm.com/js/:489
+[    2640ms] [LOG] Verifying window.onload... @ https://vee-crm.com/js/:113
+[    3641ms] [LOG] Plugin activated. @ https://vee-crm.com/js/:129

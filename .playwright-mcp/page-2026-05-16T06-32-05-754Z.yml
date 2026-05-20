@@ -1,0 +1,656 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - link [ref=e5] [cursor=pointer]:
+      - /url: /#main-content
+      - text: SHARED.ACCESSIBILITY.SKIP_TO_MAIN_CONTENT
+    - banner [ref=e7]:
+      - link [ref=e9] [cursor=pointer]:
+        - /url: /
+        - img [ref=e10]
+      - generic [ref=e12]:
+        - button [ref=e13] [cursor=pointer]:
+          - text: תחומי הבריאות
+          - img [ref=e16]
+        - button [ref=e18] [cursor=pointer]:
+          - text: שירותים
+          - img [ref=e21]
+        - button [ref=e23] [cursor=pointer]:
+          - text: מידע
+          - img [ref=e26]
+        - button [ref=e28] [cursor=pointer]:
+          - text: קהל מקצועי
+          - img [ref=e31]
+      - generic [ref=e33]:
+        - generic [ref=e34]:
+          - link [ref=e35] [cursor=pointer]:
+            - /url: https://shebaconnect.sheba.co.il/
+            - generic [ref=e36]: אזור אישי
+            - img [ref=e38]
+          - button [ref=e41] [cursor=pointer]:
+            - generic [ref=e42]: עב
+            - img [ref=e45]
+        - button [ref=e49] [cursor=pointer]:
+          - img [ref=e51]
+          - generic [ref=e54]: SHARED.ACCESSIBILITY.SEARCH_ICON
+    - generic [ref=e55]:
+      - generic [ref=e57]:
+        - generic [ref=e59]:
+          - heading [level=1] [ref=e60]:
+            - generic [ref=e61]: שיבא עיר הבריאות
+            - generic [ref=e62]: תקווה ללא גבול
+          - generic [ref=e67]:
+            - textbox [ref=e68]:
+              - /placeholder: חיפוש לפי מצב רפואי, מרפאה, רופא/ה ועוד
+            - button [ref=e70] [cursor=pointer]:
+              - img [ref=e72]
+              - generic [ref=e75]: SHARED.ACCESSIBILITY.SEARCH_ICON
+          - heading [level=2] [ref=e76]: שירותים נפוצים
+          - generic [ref=e77]:
+            - link [ref=e78] [cursor=pointer]:
+              - /url: /general/services/booking-appointments-in-sheba
+              - text: לקבוע תור
+              - img [ref=e80]
+            - link [ref=e82] [cursor=pointer]:
+              - /url: /locations
+              - text: להגיע לשיבא
+              - img [ref=e84]
+            - link [ref=e86] [cursor=pointer]:
+              - /url: /general/services/sheba-customer-service
+              - text: לקבל שירות
+              - img [ref=e88]
+        - generic [ref=e92]:
+          - generic:
+            - img
+          - generic [ref=e96]:
+            - button [ref=e97] [cursor=pointer]:
+              - img [ref=e99]
+            - link [ref=e103] [cursor=pointer]:
+              - /url: /en/city-of-health
+              - generic [ref=e104]: לעולם החדשנות הגלובלית
+              - img [ref=e107]
+      - generic [ref=e110]:
+        - generic [ref=e115]:
+          - button [ref=e117] [cursor=pointer]:
+            - generic [ref=e118]: החלק הקודם
+            - img [ref=e120]
+          - generic [ref=e125]:
+            - group [ref=e126]:
+              - link [ref=e128] [cursor=pointer]:
+                - /url: /general/er/er-first
+                - generic [ref=e130]:
+                  - img [ref=e131]
+                  - generic [ref=e133]:
+                    - generic [ref=e134]: מיון FIRST
+                    - generic [ref=e135]: מיון בטופ העולמי מתחיל בבית
+                    - generic [ref=e136]:
+                      - text: זה מעניין אותי
+                      - img [ref=e138]
+            - group [disabled] [ref=e140]:
+              - link [disabled] [ref=e142] [cursor=pointer]:
+                - /url: /general/news/sheba-leads-duns-100-ranking-for-the-6th-time
+                - generic [ref=e144]:
+                  - img [ref=e145]
+                  - generic [ref=e147]:
+                    - generic [ref=e148]: "בפעם ה-6 ברציפות: שיבא מוביל בדירוג Dun's 100"
+                    - generic [ref=e149]:
+                      - text: זה מעניין אותי
+                      - img [ref=e151]
+            - group [disabled] [ref=e153]:
+              - link [disabled] [ref=e155] [cursor=pointer]:
+                - /url: /general/news/innovative-hyperbaric-chamber-opens-at-sheba
+                - generic [ref=e157]:
+                  - img [ref=e158]
+                  - generic [ref=e160]:
+                    - generic [ref=e161]: "חדש בשיבא: תא לחץ בחמצן היפרברי"
+                    - generic [ref=e162]:
+                      - text: זה מעניין אותי
+                      - img [ref=e164]
+            - group [disabled] [ref=e166]:
+              - link [disabled] [ref=e168] [cursor=pointer]:
+                - /url: /rehabilitation/info/fifth-element-new
+                - generic [ref=e170]:
+                  - img [ref=e171]
+                  - generic [ref=e173]:
+                    - generic [ref=e174]: האלמנט החמישי – מרחב בטבע לטיפול גוף ונפש
+                    - generic [ref=e175]:
+                      - text: זה מעניין אותי
+                      - img [ref=e177]
+            - group [disabled] [ref=e179]:
+              - link [disabled] [ref=e181] [cursor=pointer]:
+                - /url: /general/guides/sheba-negev
+                - generic [ref=e183]:
+                  - img [ref=e184]
+                  - generic [ref=e186]:
+                    - generic [ref=e187]: מרכז רפואי חדש בנגב
+                    - generic [ref=e188]: להפריח את רפואת העתיד. שיבא מקים בית חולים ציבורי חדש ומתקדם ע"ש שמעון פרס בבאר שבע, שייתן מענה רפואי לתושבים באזור הדרום
+                    - generic [ref=e189]:
+                      - text: זה מעניין אותי
+                      - img [ref=e191]
+            - group [disabled] [ref=e193]:
+              - link [disabled] [ref=e195] [cursor=pointer]:
+                - /url: /general/news/new-ai-system-at-sheba-er
+                - generic [ref=e197]:
+                  - img [ref=e198]
+                  - generic [ref=e200]:
+                    - generic [ref=e201]: מערכת בינה מלאכותית בשירות הרופאים בחדר המיון
+                    - generic [ref=e202]: חדש ורק בשיבא
+                    - generic [ref=e203]:
+                      - text: זה מעניין אותי
+                      - img [ref=e205]
+            - group [disabled] [ref=e207]:
+              - link [disabled] [ref=e209] [cursor=pointer]:
+                - /url: /general/news/sheba-developed-personalized-med-for-rare-genetic-disease
+                - generic [ref=e211]:
+                  - img [ref=e212]
+                  - generic [ref=e214]:
+                    - generic [ref=e215]: "פריצת דרך עולמית: בשיבא פיתחו תרופה מותאמת אישית למחלה גנטית"
+                    - generic [ref=e216]:
+                      - text: זה מעניין אותי
+                      - img [ref=e218]
+            - group [disabled] [ref=e220]:
+              - link [disabled] [ref=e222] [cursor=pointer]:
+                - /url: /general/news/genome-cracking-nvidia-sheba
+                - generic [ref=e224]:
+                  - img [ref=e225]
+                  - generic [ref=e227]:
+                    - generic [ref=e228]: שיתוף פעולה עם אנבידיה לפיצוח הגנום בעזרת AI
+                    - generic [ref=e229]:
+                      - text: זה מעניין אותי
+                      - img [ref=e231]
+          - button [ref=e234] [cursor=pointer]:
+            - generic [ref=e235]: החלק הבא
+            - img [ref=e237]
+        - generic [ref=e252]:
+          - heading [level=2] [ref=e253]: מה היית רוצה לעשות?
+          - generic [ref=e254]:
+            - link [ref=e255] [cursor=pointer]:
+              - /url: /general/services/booking-appointments-in-sheba
+              - img [ref=e257]
+              - generic [ref=e258]: לקבוע תור
+            - link [ref=e259] [cursor=pointer]:
+              - /url: /locations
+              - img [ref=e261]
+              - generic [ref=e262]: להגיע לשיבא
+            - link [ref=e263] [cursor=pointer]:
+              - /url: /lobbies-container/doctors-lobby
+              - img [ref=e265]
+              - generic [ref=e266]: לחפש רופאים
+            - link [ref=e267] [cursor=pointer]:
+              - /url: /lobbies/clinics-lobby
+              - img [ref=e269]
+              - generic [ref=e270]: לחפש מרפאה
+            - link [ref=e271] [cursor=pointer]:
+              - /url: /general/services/sheba-customer-service
+              - img [ref=e273]
+              - generic [ref=e274]: לקבל שירות
+        - generic [ref=e277]:
+          - heading [level=2] [ref=e280]: שירותי הבריאות שלנו
+          - tablist [ref=e281]:
+            - tab [selected] [ref=e282] [cursor=pointer]:
+              - generic [ref=e283]: יולדות
+            - tab [ref=e284] [cursor=pointer]:
+              - generic [ref=e285]: ילדים
+            - tab [ref=e286] [cursor=pointer]:
+              - generic [ref=e287]: לב
+            - tab [ref=e288] [cursor=pointer]:
+              - generic [ref=e289]: בריאות המוח
+            - tab [ref=e290] [cursor=pointer]:
+              - generic [ref=e291]: סרטן
+            - tab [ref=e292] [cursor=pointer]:
+              - generic [ref=e293]: נשים
+            - tab [ref=e294] [cursor=pointer]:
+              - generic [ref=e295]: שיקום
+            - tab [ref=e296] [cursor=pointer]:
+              - generic [ref=e297]: כירורגיה
+            - tab [ref=e298] [cursor=pointer]:
+              - generic [ref=e299]: פסיכיאטריה
+            - tab [ref=e300] [cursor=pointer]:
+              - generic [ref=e301]: רפואה פנימית
+            - tab [ref=e302] [cursor=pointer]:
+              - generic [ref=e303]: דימות
+            - tab [ref=e304] [cursor=pointer]:
+              - generic [ref=e305]: מניעה ואורח חיים בריא
+          - generic [ref=e306]:
+            - link [ref=e307] [cursor=pointer]:
+              - /url: /pregnancy/clinics/maternity-triage-er
+              - generic [ref=e310]: מיון יולדות
+              - img [ref=e312]
+            - link [ref=e314] [cursor=pointer]:
+              - /url: /pregnancy/fertility/fertility-page-concentration-content
+              - generic [ref=e317]: פוריות
+              - img [ref=e319]
+            - link [ref=e321] [cursor=pointer]:
+              - /url: https://www.sheba.co.il/lobbies/doctor-sheba?first=be888b38-a89f-4d11-860b-2274f6643836&second=dd044006-2822-4334-8d76-b039476b6093,a30b5456-d217-46a5-8b1d-059302dde523,98a4dc1c-56d3-485b-ae70-a7eb28064527,244b743f-e8e8-4cf1-8d83-88f2a7574225,7bb5af3b-7037-4906-bc22-a93e24d1b7f1,4454cf82-1660-4cff-92d8-f1482985b7fa,4fde97fc-ffc0-4639-b661-0f04976fc15c,9ab3b2a1-b58e-4721-95be-d5110673e52f,c396eef3-ec4b-4c90-b2b7-1a8ff392051e
+              - generic [ref=e324]: הריון
+              - img [ref=e326]
+            - link [ref=e328] [cursor=pointer]:
+              - /url: https://www.sheba.co.il/lobbies/doctor-sheba?first=be888b38-a89f-4d11-860b-2274f6643836&second=03da6871-996b-4d93-ad6d-f20226ddd2e6,8a2f8526-6b9b-4ebe-bafa-3199f4453fc2
+              - generic [ref=e331]: לידה
+              - img [ref=e333]
+            - link [ref=e335] [cursor=pointer]:
+              - /url: https://www.sheba.co.il/lobbies/doctor-sheba?first=be888b38-a89f-4d11-860b-2274f6643836&second=780cee86-6a3a-4ad7-a536-56b3ecf40eb5,7bb5af3b-7037-4906-bc22-a93e24d1b7f1,87c610a5-a1bc-43f4-b7aa-d0cf063c3181
+              - generic [ref=e338]: אחרי לידה
+              - img [ref=e340]
+            - link [ref=e342] [cursor=pointer]:
+              - /url: /pregnancy/clinics/natural-birth-center
+              - generic [ref=e345]: מרכז לידה טבעית
+              - img [ref=e347]
+            - link [ref=e349] [cursor=pointer]:
+              - /url: /pregnancy/sheba-baby/sheba-baby
+              - generic [ref=e352]: מלון יולדות
+              - img [ref=e354]
+            - link [ref=e356] [cursor=pointer]:
+              - /url: /pregnancy
+              - generic [ref=e359]: לכל השירותים בפריון, הריון ולידה
+              - img [ref=e361]
+        - link [ref=e364] [cursor=pointer]:
+          - /url: /lobbies/doctor-sheba
+          - generic [ref=e366]:
+            - generic [ref=e367]:
+              - heading [level=2] [ref=e368]: "ד\"ר שיבא: מידע רפואי שקל להבין"
+              - generic [ref=e369]: מאסתמה ועד ניתוח מעקפים – מאמרים, סרטונים ופודקאסטים במגוון נושאים, מהמומחים שלנו בשיבא
+              - button [ref=e370]:
+                - generic [ref=e371]: זה מעניין אותי
+                - img [ref=e373]
+            - img [ref=e377]
+        - generic [ref=e382]:
+          - heading [level=2] [ref=e383]: פורצים גבולות ברפואה ובמדע
+          - generic [ref=e384]:
+            - tablist [ref=e385]:
+              - tab [selected] [ref=e386] [cursor=pointer]: חדשנות
+              - tab [ref=e387] [cursor=pointer]: מחקר
+              - tab [ref=e388] [cursor=pointer]: אקדמיה
+            - generic [ref=e389]:
+              - generic [ref=e390]:
+                - link [ref=e391] [cursor=pointer]:
+                  - /url: /en/city-of-health
+                  - heading [level=3] [ref=e392]: ARC מרכז החדשנות
+                - link [ref=e393] [cursor=pointer]:
+                  - /url: /en/city-of-health
+                  - text: קידום תהליכי פיתוח שישנו את פני הרפואה בעתיד, תוך שיתוף פעולה עם כלל השחקנים בתחום הרפואה – רופאים, חוקרים, סטרטאפים, חברות תעשייה גדולות ואקדמיה. ARC הוקם בסביבה ייחודית ופורצת דרך המקדמת אווירה של חדשנות, יצירתיות ושיתוף פעולה
+              - link [ref=e394] [cursor=pointer]:
+                - /url: /en/city-of-health
+                - text: לעולם החדשנות
+                - img [ref=e396]
+        - generic [ref=e401]:
+          - generic:
+            - generic:
+              - generic:
+                - img
+              - generic:
+                - img
+          - generic [ref=e402]:
+            - heading [level=2] [ref=e403]: רפואה שקופה היא רפואה טובה
+            - generic [ref=e404]: כשיש את כל המידע, קל לעשות את הבחירה הנכונה
+          - generic [ref=e409]:
+            - group [ref=e410]:
+              - heading [level=3] [ref=e412]: 90% שביעות רצון מיחס הצוות המטפל במיון הראשי
+            - group [disabled] [ref=e413]:
+              - heading [level=3] [ref=e415]: 91% עוברים צנתור תוך 90 דקות מההגעה למיון
+            - group [disabled] [ref=e416]:
+              - heading [level=3] [ref=e418]: 94% העידו שהם בידיים טובות במרפאות האונקולוגיות
+            - group [disabled] [ref=e419]:
+              - heading [level=3] [ref=e421]: 95% מהמאושפזים פגשו צוות סיעודי בכיר תוך 72 שעות
+            - group [disabled] [ref=e422]:
+              - heading [level=3] [ref=e424]: ב-95% מהאשפוזים המטופלים דיווח שקיבלו טיפול יעיל בכאב
+          - link [ref=e434] [cursor=pointer]:
+            - /url: /transparency
+            - text: לכל הנתונים
+            - img [ref=e436]
+        - generic [ref=e439]:
+          - heading [level=2] [ref=e442]: מידע שמוסיף בריאות
+          - generic [ref=e446]:
+            - button [ref=e448] [cursor=pointer]:
+              - generic [ref=e449]: החלק הקודם
+              - img [ref=e451]
+            - generic [ref=e456]:
+              - group [ref=e457]:
+                - link [ref=e459] [cursor=pointer]:
+                  - /url: /surgery/info/sun-protection-eyes
+                  - img [ref=e460]
+                  - generic [ref=e461]:
+                    - img [ref=e462]
+                    - generic [ref=e463]: מצב רפואי
+                  - generic [ref=e464]:
+                    - heading [level=3] [ref=e465]: כוויית שמש בעין? כן, זה יכול לקרות
+                    - generic [ref=e466]: מה קורה לעיניים בשמש? ואיך נגן עליהן?
+              - group [disabled] [ref=e467]:
+                - link [disabled] [ref=e469] [cursor=pointer]:
+                  - /url: /pediatrics/diseases/food-allergy-children-care
+                  - img [ref=e470]
+                  - generic [ref=e471]:
+                    - img [ref=e472]
+                    - generic [ref=e473]: מצב רפואי
+                  - generic [ref=e474]:
+                    - heading [level=3] [ref=e475]: "כשהאוכל מסוכן: מהי אלרגיה למזון"
+                    - generic [ref=e476]: חלב, ביצים, שומשום, אגוזים, בוטנים, דגים ועוד - יכולים לסכן חיים
+              - group [disabled] [ref=e477]:
+                - link [disabled] [ref=e479] [cursor=pointer]:
+                  - /url: /general/news/phi-test-in-sheba
+                  - img [ref=e480]
+                  - generic [ref=e481]:
+                    - img [ref=e482]
+                    - generic [ref=e483]: חדשות
+                  - generic [ref=e484]:
+                    - heading [level=3] [ref=e485]: "חדש בשיבא: בדיקת PHI לזיהוי גידול סרטני משמעותי בערמונית"
+                    - generic [ref=e486]: הבדיקה מסייעת בזיהוי גידולים סרטניים משמעותיים בערמונית ומספקת הערכה מדויקת יותר לגבי הצורך בביופסיה
+              - group [disabled] [ref=e487]:
+                - link [disabled] [ref=e489] [cursor=pointer]:
+                  - /url: /gynecology/info/endometriosis-fertility-preservation
+                  - img [ref=e490]
+                  - generic [ref=e491]:
+                    - img [ref=e492]
+                    - generic [ref=e493]: טיפול
+                  - generic [ref=e494]:
+                    - heading [level=3] [ref=e495]: שימור פוריות בנשים עם אנדומטריוזיס
+                    - generic [ref=e496]: מאיזה גיל מומלץ לשקול הקפאת ביציות ואיך מתבצע התהליך?
+              - group [disabled] [ref=e497]:
+                - link [disabled] [ref=e499] [cursor=pointer]:
+                  - /url: /rehabilitation/info/therapy-dogs-in-rehabilitation
+                  - img [ref=e500]
+                  - generic [ref=e501]:
+                    - img [ref=e502]
+                    - generic [ref=e503]: טיפול
+                  - generic [ref=e504]:
+                    - heading [level=3] [ref=e505]: מטפלים עם 4 רגליים וכרטיס עובד
+                    - generic [ref=e506]: "הכירו: שיבא וצ'רציל, עובדים עם כל הלב"
+            - button [ref=e508] [cursor=pointer]:
+              - generic [ref=e509]: החלק הבא
+              - img [ref=e511]
+          - link [ref=e515] [cursor=pointer]:
+            - /url: /lobbies/doctor-sheba/
+            - generic [ref=e516]: לכתבות בכל תחומי הרפואה
+            - img [ref=e518]
+        - generic [ref=e521]:
+          - heading [level=2] [ref=e523]: כנסים רפואיים
+          - generic [ref=e526]:
+            - button [ref=e528] [cursor=pointer]:
+              - generic [ref=e529]: החלק הקודם
+              - img [ref=e531]
+            - generic [ref=e537]:
+              - group [ref=e538]:
+                - generic [ref=e539]:
+                  - generic [ref=e540]:
+                    - generic [ref=e541]:
+                      - generic [ref=e542]:
+                        - generic [ref=e543]:
+                          - img [ref=e545]
+                          - generic [ref=e547]: 08/10/26
+                        - generic [ref=e548]:
+                          - img [ref=e550]
+                          - generic [ref=e552]: 08:30
+                      - generic [ref=e553]:
+                        - img [ref=e555]
+                        - generic [ref=e559]: האודיטוריום האוטואימוני
+                    - heading [level=3] [ref=e561]: כנס אפילפסיה למטופלים ובני משפחותיהם
+                    - generic [ref=e562]: כנס אפילפסיה למטופלים ובני משפחותיהם
+                    - generic [ref=e563]:
+                      - generic [ref=e564]: פרונטלי
+                      - generic [ref=e565]: קהל רחב
+                    - link [ref=e567] [cursor=pointer]:
+                      - /url: /events/epilepsy-conference-for-patients-and-their-families
+                      - text: לפרטים נוספים והרשמה
+                  - img [ref=e569]
+              - group [disabled] [ref=e570]:
+                - generic [ref=e571]:
+                  - generic [ref=e572]:
+                    - generic [ref=e574]:
+                      - generic [ref=e575]:
+                        - img [ref=e577]
+                        - generic [ref=e579]: 17/07/26
+                      - generic [ref=e580]:
+                        - img [ref=e582]
+                        - generic [ref=e584]: 08:30
+                    - heading [level=3] [ref=e586]: כנס ניהול שמרני בשליה נעוצה
+                    - generic [ref=e587]: ניהול שמרני בשלייה נעוצה- מהניסיון הקליני לשינוי פרדיגמה יום עיון קליני לצוותים רב תחומיים
+                    - generic [ref=e588]:
+                      - generic [ref=e589]: פרונטלי
+                      - generic [ref=e590]: קהל מקצועי
+                      - generic [ref=e591]: קהל מקצועי
+                      - generic [ref=e592]: סטודנטים לרפואה
+                    - link [disabled] [ref=e594] [cursor=pointer]:
+                      - /url: /events/conservative-management-of-placenta-accreta-convention
+                      - text: לפרטים נוספים והרשמה
+                  - img [ref=e596]
+              - group [disabled] [ref=e597]:
+                - generic [ref=e598]:
+                  - generic [ref=e599]:
+                    - generic [ref=e600]:
+                      - generic [ref=e601]:
+                        - generic [ref=e602]:
+                          - img [ref=e604]
+                          - generic [ref=e606]: 19/05/26
+                        - generic [ref=e607]:
+                          - img [ref=e609]
+                          - generic [ref=e611]: 08:30
+                      - generic [ref=e612]:
+                        - img [ref=e614]
+                        - generic [ref=e618]: האודיטוריום האוטואימוני
+                    - heading [level=3] [ref=e620]: פרוטאומיקה קלינית באבחון עמילואידוזיס
+                    - generic [ref=e621]: כנס מקצועי בנושא פרוטאומיקה קלינית באבחון עמילואידוזיס
+                    - generic [ref=e622]:
+                      - generic [ref=e623]: פרונטלי
+                      - generic [ref=e624]: קהל מקצועי
+                      - generic [ref=e625]: קהל מקצועי
+                      - generic [ref=e626]: סטודנטים לרפואה
+                    - link [disabled] [ref=e627] [cursor=pointer]:
+                      - /url: /events/clinical-proteomics-in-the-diagnosis-of-amyloidosis
+                      - text: לפרטים נוספים והרשמה
+                  - img [ref=e629]
+            - button [ref=e631] [cursor=pointer]:
+              - generic [ref=e632]: החלק הבא
+              - img [ref=e634]
+          - link [ref=e644] [cursor=pointer]:
+            - /url: /lobbies/events-lobby
+            - text: לכל הכנסים
+    - contentinfo [ref=e646]:
+      - generic [ref=e648]:
+        - img [ref=e651]
+        - generic [ref=e660]:
+          - generic [ref=e661]: שיבא במקום ה-7 בבתי החולים הטובים בעולם
+          - generic [ref=e662]: שנה שמינית ברציפות ב-TOP העולמי!
+      - generic [ref=e663]:
+        - generic [ref=e666]:
+          - generic [ref=e668]:
+            - generic [ref=e669]: תחומים רפואיים
+            - list [ref=e670]:
+              - listitem [ref=e671]:
+                - link [ref=e672] [cursor=pointer]:
+                  - /url: /pediatrics
+                  - text: רפואת ילדים
+              - listitem [ref=e673]:
+                - link [ref=e674] [cursor=pointer]:
+                  - /url: /pregnancy
+                  - text: פריון, הריון ולידה
+              - listitem [ref=e675]:
+                - link [ref=e676] [cursor=pointer]:
+                  - /url: /gynecology
+                  - text: גינקולוגיה
+              - listitem [ref=e677]:
+                - link [ref=e678] [cursor=pointer]:
+                  - /url: /cardiovascular
+                  - text: לב, חזה וכלי דם
+              - listitem [ref=e679]:
+                - link [ref=e680] [cursor=pointer]:
+                  - /url: /cancer
+                  - text: רפואת הסרטן
+              - listitem [ref=e681]:
+                - link [ref=e682] [cursor=pointer]:
+                  - /url: /surgery
+                  - text: כירורגיה
+              - listitem [ref=e683]:
+                - link [ref=e684] [cursor=pointer]:
+                  - /url: /internal-medicine
+                  - text: רפואה פנימית
+              - listitem [ref=e685]:
+                - link [ref=e686] [cursor=pointer]:
+                  - /url: /neuroscience
+                  - text: בריאות המוח ומערכת העצבים
+              - listitem [ref=e687]:
+                - link [ref=e688] [cursor=pointer]:
+                  - /url: /rehabilitation
+                  - text: רפואה שיקומית
+              - listitem [ref=e689]:
+                - link [ref=e690] [cursor=pointer]:
+                  - /url: /psychiatry
+                  - text: רפואת הנפש
+              - listitem [ref=e691]:
+                - link [ref=e692] [cursor=pointer]:
+                  - /url: /geriatrics/departments/geriatrics-division
+                  - text: הגיל השלישי
+              - listitem [ref=e693]:
+                - link [ref=e694] [cursor=pointer]:
+                  - /url: /imaging
+                  - text: דימות
+          - generic [ref=e696]:
+            - generic [ref=e697]: יצירת קשר
+            - list [ref=e698]:
+              - listitem [ref=e699]:
+                - link [ref=e700] [cursor=pointer]:
+                  - /url: /general/services/sheba-customer-service
+                  - text: שירות לקוחות
+              - listitem [ref=e701]:
+                - link [ref=e702] [cursor=pointer]:
+                  - /url: /general/services/booking-appointments-in-sheba
+                  - text: קביעת תור
+              - listitem [ref=e703]:
+                - link [ref=e704] [cursor=pointer]:
+                  - /url: /general/guides/career
+                  - text: קריירה
+              - listitem [ref=e705]:
+                - link [ref=e706] [cursor=pointer]:
+                  - /url: /locations
+                  - text: הגעה, התמצאות וחנייה
+              - listitem [ref=e707]:
+                - link [ref=e708] [cursor=pointer]:
+                  - /url: /general/services/public-inquiries
+                  - text: פניות הציבור
+              - listitem [ref=e709]:
+                - link [ref=e710] [cursor=pointer]:
+                  - /url: /general/about/medical-tourism
+                  - text: תיירות מרפא
+              - listitem [ref=e711]:
+                - link [ref=e712] [cursor=pointer]:
+                  - /url: https://mishmarot.sheba.co.il/?_gl=1*1p02w51*_gcl_au*MTMxOTM1MDk0My4xNzY5NTg3NzEx*_ga*MTUzNDk1ODEzMy4xNzY5NTg3NzEy*_ga_3SMFS3CFHM*czE3Njk2MDg2MzEkbzUkZzAkdDE3Njk2MDg2MzEkajYwJGwwJGgw*_ga_JQ1B50306V*czE3Njk2MDg2MzEkbzUkZzAkdDE3Njk2MDg2MzIkajU5JGwwJGgw
+                  - text: משמרות עובדים
+          - generic [ref=e714]:
+            - generic [ref=e715]: מדיניות ונהלים
+            - list [ref=e716]:
+              - listitem [ref=e717]:
+                - link [ref=e718] [cursor=pointer]:
+                  - /url: /general/guides/privacy-policy
+                  - text: מדיניות הפרטיות
+              - listitem [ref=e719]:
+                - link [ref=e720] [cursor=pointer]:
+                  - /url: /general/guides/freedom-information
+                  - text: קבלת מידע לפי חוק חופש המידע
+              - listitem [ref=e721]:
+                - link [ref=e722] [cursor=pointer]:
+                  - /url: /general/about/accessibility-statement
+                  - text: הצהרת נגישות
+              - listitem [ref=e723]:
+                - link [ref=e724] [cursor=pointer]:
+                  - /url: https://www.sheba.co.il/cms-media/media/rxelw13f/מדיניות-זכויות-אדם.pdf
+                  - text: מדיניות זכויות האדם
+              - listitem [ref=e725]:
+                - link [ref=e726] [cursor=pointer]:
+                  - /url: /general/about/sustainability-at-sheba
+                  - text: קיימות
+              - listitem [ref=e727]:
+                - link [ref=e728] [cursor=pointer]:
+                  - /url: /general/about/gender-equality
+                  - text: קידום שוויון מגדרי ומניעת הטרדות
+              - listitem [ref=e729]:
+                - link [ref=e730] [cursor=pointer]:
+                  - /url: https://www.sheba.co.il/cms-media/media/mjeogglk/ethical-code-1.pdf
+                  - text: הקוד האתי
+        - generic [ref=e731]:
+          - generic [ref=e732]:
+            - generic [ref=e733]:
+              - generic [ref=e734]: רוצה להיות עם אצבע על הדופק?
+              - textbox [ref=e735]:
+                - /placeholder: example@here.com
+            - button [disabled] [ref=e736]:
+              - text: תרשמו אותי
+              - img [ref=e738]
+          - generic [ref=e740]:
+            - generic [ref=e741]:
+              - link [ref=e742] [cursor=pointer]:
+                - /url: https://www.facebook.com/SHEBA.MEDICAL/?locale=he_IL
+                - img [ref=e743]
+              - link [ref=e744] [cursor=pointer]:
+                - /url: https://www.instagram.com/sheba.medical/
+                - img [ref=e745]
+            - generic [ref=e746]:
+              - link [ref=e747] [cursor=pointer]:
+                - /url: https://apps.apple.com/us/app/%D7%A9%D7%99%D7%91%D7%90/id1480155903
+                - img [ref=e749]
+              - link [ref=e755] [cursor=pointer]:
+                - /url: https://play.google.com/store/apps/details?id=com.shebapp&hl=en_US
+                - img [ref=e757]
+      - generic [ref=e768]:
+        - link [ref=e770] [cursor=pointer]:
+          - /url: ""
+          - img [ref=e771]
+        - generic [ref=e773]:
+          - link [ref=e774] [cursor=pointer]:
+            - /url: /
+            - text: כל הזכויות שמורות
+          - link [ref=e775] [cursor=pointer]:
+            - /url: /general/about/terms-of-use
+            - text: תנאי השימוש באתר
+          - link [ref=e776] [cursor=pointer]:
+            - /url: /general/about/accessibility-statement
+            - text: נגישות
+        - generic [ref=e777]:
+          - link [ref=e778] [cursor=pointer]:
+            - /url: /general/about/accreditation
+            - img [ref=e779]
+          - link [ref=e780] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e781]
+  - generic:
+    - button [ref=e783] [cursor=pointer]:
+      - generic [ref=e784]:
+        - generic [ref=e787]:
+          - img [ref=e791]
+          - img [ref=e801]
+        - generic [ref=e813]:
+          - paragraph [ref=e815]: שיבא AI
+          - paragraph [ref=e817]: צ'אט שירות וקביעת תור
+    - generic:
+      - generic:
+        - generic:
+          - button:
+            - img
+          - button:
+            - img
+        - generic:
+          - generic:
+            - generic:
+              - paragraph:
+                - text: היי, אני שיבא AI המלווה הדיגיטלית בנושאי שירות בשיבא :) חשוב לדעת שאני לא מספקת תשובות לשאלות על מצבים רפואיים או מידע אישי, אז מומלץ לא לכתוב לי פרטים מזהים. חוץ מזה, אני עדיין בסטאז' ומדייקת את עצמי כל הזמן ! אלה
+                - link:
+                  - /url: https://www.sheba.co.il/general/about/terms-of-chat-ai-use
+                  - text: תנאי שימוש
+                - text: והתחלת השיחה היא אישור שלכם. אז במה אוכל לעזור לך היום?
+            - generic:
+              - button:
+                - paragraph: רוצה לקבוע תור
+              - button:
+                - paragraph: דברו איתי
+            - generic:
+              - paragraph:
+                - text: אתר זה מספק מידע בלבד, ואינו מחליף ייעוץ רפואי, לפרטים נוספים
+                - link:
+                  - /url: https://www.sheba.co.il/general/about/terms-of-chat-ai-use
+                  - text: לחצו כאן
+  - dialog [active] [ref=e821]:
+    - generic [ref=e824]:
+      - generic [ref=e825]:
+        - img "cookie" [ref=e826]
+        - generic [ref=e827]: עוגיות באתר שיבא
+      - generic [ref=e829]: אנו משתמשים בקובצי cookies כדי לשפר את חוויית הגלישה שלך, לנתח את נתוני הכניסות לאתר ולהתאים תוכן שיווקי למדיניות הפרטיות
+      - generic [ref=e831]:
+        - generic [ref=e833] [cursor=pointer]: יש אישור
+        - generic [ref=e835] [cursor=pointer]: עדיף שלא

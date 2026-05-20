@@ -1,0 +1,189 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - combobox [ref=e7]:
+      - option "Metzer Israel (HE)"
+      - option "Metzer Mexico (ES)"
+      - option "Skipper Metzer - India (EN)"
+      - option "Irrigator - Ukraine (UK)"
+      - option "Metzer ATC - SE Asia (TH)"
+      - option "Metzer Argentina (ES)"
+      - option "Metzer Kazakhstan (RU)"
+    - navigation [ref=e8]:
+      - generic [ref=e9]:
+        - link "Metzer Israel" [ref=e10] [cursor=pointer]:
+          - /url: https://www.metzer-group.co.il/
+          - img "Metzer Israel" [ref=e11]
+        - list [ref=e13]:
+          - listitem [ref=e14]:
+            - button "מוצרים" [ref=e15] [cursor=pointer]
+          - listitem [ref=e16]:
+            - button "פתרונות" [ref=e17] [cursor=pointer]
+          - listitem [ref=e18]:
+            - button "גידולים" [ref=e19] [cursor=pointer]
+          - listitem [ref=e20]:
+            - button "פרוייקטים" [ref=e21] [cursor=pointer]
+          - listitem [ref=e22]:
+            - button "צנרת תשתיות" [ref=e23] [cursor=pointer]
+          - listitem [ref=e24]:
+            - link "אודות" [ref=e25] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e26] [cursor=pointer]:
+            - button "צור קשר" [ref=e27]
+          - listitem [ref=e28]:
+            - button "אירימצר Icon" [ref=e29] [cursor=pointer]:
+              - img "אירימצר Icon" [ref=e30]
+          - listitem [ref=e31]:
+            - button "Search Icon" [ref=e32] [cursor=pointer]:
+              - img "Search Icon" [ref=e33]
+  - main [ref=e34]:
+    - generic [ref=e35]:
+      - generic [ref=e36]:
+        - generic [ref=e40]:
+          - generic [ref=e41]: מצר, מחוייבים לך
+          - heading "פתרונות השקיה מתקדמים" [level=1] [ref=e42]
+          - button "קרא עוד" [ref=e44] [cursor=pointer]
+        - generic [ref=e47]: Your browser does not support the video tag.
+      - generic [ref=e51]:
+        - generic [ref=e52]:
+          - generic [ref=e53]: מבינים את אתגרי ההשקיה שלך לעומק
+          - heading "פרויקטי השקיה חקלאית" [level=2] [ref=e55]:
+            - heading "פרויקטי" [level=2] [ref=e56]
+            - text: השקיה חקלאית
+          - heading "מלווים אותכם מהתכנון עד הפעלת מערכת השקיה" [level=3] [ref=e57]
+        - generic [ref=e58]:
+          - generic [ref=e59]:
+            - img "Layer_1 (1)" [ref=e61]
+            - generic [ref=e62]: פתרון השקיה מותאם
+          - img "dots" [ref=e63]
+          - generic [ref=e64]:
+            - img "Layer_1 (2)" [ref=e66]
+            - generic [ref=e67]: התקנה והפעלה בשטח
+          - img "dots" [ref=e68]
+          - generic [ref=e69]:
+            - img "Layer_1 (3)" [ref=e71]
+            - generic [ref=e72]: תמיכה וליווי לאורך שנים
+        - img "שיפור תנובת מטע קפה באתיופיה" [ref=e76]
+        - generic [ref=e79]:
+          - button "התחילו את הפרויקט שלכם איתנו" [ref=e80] [cursor=pointer]
+          - button "לכל הפרויקטים" [ref=e81] [cursor=pointer]: לכל הפרויקטים
+      - generic [ref=e84]:
+        - generic [ref=e85]:
+          - generic [ref=e86]: הגדילו את תנובת היבולים שלכם עם
+          - heading "מוצרי השקיה מתקדמים" [level=2] [ref=e87]
+        - button "לקטלוג המלא" [ref=e91] [cursor=pointer]: לקטלוג המלא
+      - generic [ref=e93]:
+        - generic [ref=e94]:
+          - heading "הכר את הגידול שלך" [level=2] [ref=e95]
+          - heading "ידע אגרונומי המשפר את ההשקיה ומגדיל את תנובת הגידול" [level=2] [ref=e96]
+          - heading "פתרונות ההשקיה שלנו משקים בהצלחה את הגידולים האלו:" [level=3] [ref=e97]
+        - generic [ref=e99]:
+          - button "Previous slide" [ref=e101] [cursor=pointer]
+          - button "Next slide" [ref=e103] [cursor=pointer]
+        - button "לכל הגידולים" [ref=e107] [cursor=pointer]
+      - generic [ref=e111]:
+        - generic [ref=e112]:
+          - heading "פתרונות השקיה ייחודיים" [level=2] [ref=e113]
+          - generic [ref=e114]: מיישמים חדשנות – הלכה למעשה
+          - generic [ref=e116]:
+            - button "Previous slide" [ref=e118] [cursor=pointer]
+            - button "Next slide" [ref=e120] [cursor=pointer]
+        - button "הכר את פתרונות ההשקיה שלנו" [ref=e123] [cursor=pointer]: הכר את פתרונות ההשקיה שלנו
+      - generic [ref=e125]:
+        - generic [ref=e126]:
+          - generic [ref=e128]:
+            - generic [ref=e129]:
+              - generic: מצר מקדמת
+              - heading "חקלאות בת־קיימא" [level=2]
+            - generic [ref=e130]:
+              - generic [ref=e132]:
+                - img "bio 2" [ref=e134]
+                - heading "יעלות אנרגטית בייצור ותכנון מערכות השקיה" [level=3] [ref=e135]
+              - generic [ref=e137]:
+                - img "water-drops 1" [ref=e139]
+                - heading "פתרונות חדשניים לשימוש במים מושבים" [level=3] [ref=e140]
+              - generic [ref=e142]:
+                - img "bio 2 (1)" [ref=e144]
+                - heading "ניצול חסכוני ויעיל של מים וחומרי דישון" [level=3] [ref=e145]
+              - generic [ref=e147]:
+                - img "environment 1" [ref=e149]
+                - heading "שימוש יעיל בחומרים ממוחזרים" [level=3] [ref=e150]
+          - generic [ref=e152]:
+            - generic:
+              - img "Group 88 (1)"
+        - button "למידע נוסף" [ref=e157] [cursor=pointer]
+      - generic [ref=e158]:
+        - generic [ref=e159]:
+          - img "Group 81" [ref=e162]
+          - generic [ref=e164]: מחשבון Irrimetzer נועד לתכנון השקיה מדויקת ויעילה ומאפשר לחקלאי, למתכנן ולמפיץ לחשב את אורכי שלוחות הטפטוף, וצנרת הולכת המים . החישובים מתבססים על נתוני ותכונות הטפטפות והצנרת המיוצרים על ידי מצר.
+        - button "התחל תכנון" [ref=e168] [cursor=pointer]
+      - generic [ref=e172]:
+        - heading [level=2]
+        - generic [ref=e173]: אירוע קרוב
+        - generic [ref=e176]:
+          - button "Previous slide" [ref=e178] [cursor=pointer]
+          - button "Next slide" [ref=e180] [cursor=pointer]
+      - paragraph
+  - contentinfo:
+    - generic [ref=e184]:
+      - link "Metzer Israel white" [ref=e186] [cursor=pointer]:
+        - /url: https://www.metzer-group.co.il
+        - img "Metzer Israel white" [ref=e187]
+      - navigation [ref=e189]:
+        - list [ref=e190]:
+          - listitem [ref=e191]:
+            - button "מוצרים" [ref=e192] [cursor=pointer]
+          - listitem [ref=e193]:
+            - button "פתרונות" [ref=e194] [cursor=pointer]
+          - listitem [ref=e195]:
+            - button "גידולים" [ref=e196] [cursor=pointer]
+          - listitem [ref=e197]:
+            - button "פרוייקטים" [ref=e198] [cursor=pointer]
+          - listitem [ref=e199]:
+            - button "אודות" [ref=e200] [cursor=pointer]
+          - listitem [ref=e201]:
+            - button "Irrimetzer Icon" [ref=e202] [cursor=pointer]:
+              - img "Irrimetzer Icon" [ref=e203]
+          - listitem [ref=e204]:
+            - button "Events" [ref=e205] [cursor=pointer]
+      - generic [ref=e207]:
+        - link "Social-Instagram--Streamline-Streamline--3.0.svg" [ref=e208] [cursor=pointer]:
+          - /url: https://www.instagram.com/metzergroup/
+          - img "Social-Instagram--Streamline-Streamline--3.0.svg" [ref=e209]
+        - link "Social-Media-Facebook--Streamline-Streamline--3.0.svg" [ref=e210] [cursor=pointer]:
+          - /url: https://www.facebook.com/metzerplas/
+          - img "Social-Media-Facebook--Streamline-Streamline--3.0.svg" [ref=e211]
+        - link "Social-Video-Youtube-Clip--Streamline-Streamline--3.0.svg" [ref=e212] [cursor=pointer]:
+          - /url: https://www.youtube.com/channel/UCGJuozjSf2EbJkUMLqBKbaA
+          - img "Social-Video-Youtube-Clip--Streamline-Streamline--3.0.svg" [ref=e213]
+        - link "LinkedIn (3)" [ref=e214] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/metzer/
+          - img "LinkedIn (3)" [ref=e215]
+      - list [ref=e217]:
+        - listitem [ref=e218]:
+          - link "תנאי שימוש" [ref=e219] [cursor=pointer]:
+            - /url: https://www.metzer-group.co.il/terms-conditions/
+        - listitem [ref=e220]: "|"
+        - listitem [ref=e221]:
+          - link "מדיניות הפרטיות" [ref=e222] [cursor=pointer]:
+            - /url: https://www.metzer-group.co.il/privacy-policy/
+        - listitem [ref=e223]: "|"
+        - listitem [ref=e224]:
+          - link "הצהרת נגישות" [ref=e225] [cursor=pointer]:
+            - /url: https://www.metzer-group.co.il/accessibility-statement/
+        - listitem [ref=e226]: "|"
+        - listitem [ref=e227]:
+          - generic [ref=e228]:
+            - generic [ref=e229]: פיתוח ועיצוב
+            - link "White Web Worx (opens in a new tab)" [ref=e230] [cursor=pointer]:
+              - /url: https://www.whiteweb.co.il
+              - generic [ref=e231]:
+                - text: W
+                - generic [ref=e232]: hite
+              - generic [ref=e233]:
+                - text: W
+                - generic [ref=e234]: eb
+              - generic [ref=e235]:
+                - text: W
+                - generic [ref=e236]: orx
+  - iframe [ref=e237]:
+    

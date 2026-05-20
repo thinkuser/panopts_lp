@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panoptes — AI Brand Visibility Intelligence</title>
+  <meta name="description" content="Track your brand across ChatGPT, Claude, Gemini, Perplexity, Grok, and AI Overview. See where you appear, where competitors beat you, and what to do about it.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=14">
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════════ NAV -->
+  <nav>
+    <div class="nav-inner">
+      <div class="nav-logo">
+        <svg width="30" height="30" viewBox="0 0 32 32" fill="none" aria-hidden="true">
+          <circle cx="16" cy="16" r="14" stroke="#00C896" stroke-width="2"/>
+          <ellipse cx="16" cy="16" rx="9" ry="5" stroke="#00C896" stroke-width="1.5" opacity="0.5"/>
+          <circle cx="16" cy="16" r="4" fill="#00C896"/>
+          <circle cx="17.5" cy="14.5" r="1.5" fill="white" opacity="0.9"/>
+        </svg>
+        <span class="logo-text">PANOPTES</span>
+      </div>
+      <div class="nav-links">
+        <a href="#pain" class="nav-link">Why Now</a>
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#gallery" class="nav-link">See It</a>
+        <a href="#how-it-works" class="nav-link">How It Works</a>
+      </div>
+      <div class="nav-actions">
+        <a href="https://calendly.com/erezlouzon" target="_blank" rel="noopener" class="btn btn-outline">Book a Demo</a>
+        <a href="#free-trial" class="btn btn-primary">Scan My Brand Free →</a>
+      </div>
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <!-- Mobile menu -->
+    <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+      <a href="#pain" class="mobile-link">Why Now</a>
+      <a href="#features" class="mobile-link">Features</a>
+      <a href="#gallery" class="mobile-link">See It</a>
+      <a href="#how-it-works" class="mobile-link">How It Works</a>
+      <div class="mobile-menu-actions">
+        <a href="https://calendly.com/erezlouzon" target="_blank" rel="noopener" class="btn btn-outline" style="width:100%;justify-content:center">Book a Demo</a>
+        <a href="#free-trial" class="btn btn-primary" style="width:100%;justify-content:center">Scan My Brand Free →</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════════════════════ HERO -->
+  <section id="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <p class="eyebrow">AI VISIBILITY INTELLIGENCE</p>
+        <h1>
+          Millions of people ask AI about your niche every day.<br>
+          <span class="highlight">Does AI recommend your brand?</span>
+        </h1>
+        <p class="subheadline">
+          Panoptes tracks your brand across ChatGPT, Claude, Gemini, Perplexity, Grok, and AI Overview — showing you exactly where you appear, where your competitors outrank you, and what to do about it.
+        </p>
+        <div class="cta-group" id="hero-cta">
+          <a href="#free-trial" class="btn btn-primary">Scan My Brand Free →</a>
+          <a href="https://calendly.com/erezlouzon" target="_blank" rel="noopener" class="btn btn-outline">Book a Demo</a>
+        </div>
+        <p class="micro-copy">We scan the AI engines for your brand over 72 hours. You get 48h of full dashboard access. No credit card required.</p>
+      </div>
+      <div class="hero-visual">
+        <div class="dashboard-mockup">
+          <img src="app-screenshot.png" alt="Panoptes dashboard showing AI visibility metrics" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+          <div class="screenshot-placeholder">
+            <div class="placeholder-inner">
+              <div class="placeholder-metric"><span class="metric-val">54.8%</span><span class="metric-lbl">Visibility Rate</span></div>
+              <div class="placeholder-metric"><span class="metric-val">5,521</span><span class="metric-lbl">Brand Mentions</span></div>
+              <div class="placeholder-metric"><span class="metric-val">16.9%</span><span class="metric-lbl">Share of Voice</span></div>
+              <div class="placeholder-metric"><span class="metric-val">2.7</span><span class="metric-lbl">Avg. Position</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════ PROOF BAR -->
+  <section id="proof-bar">
+    <div class="container">
+      <p class="proof-text">Tracking brands across 6 AI engines · Thousands of prompts monitored · Trusted by leading brands</p>
+      <div class="engine-logos">
+        <div class="engine-logo-item">
+          <img src="logos/openai.svg" alt="OpenAI" width="28" height="28">
+          <span>ChatGPT</span>
+        </div>
+        <div class="engine-logo-item">
+          <img src="https://cdn.simpleicons.org/anthropic/ffffff" alt="Claude" width="28" height="28">
+          <span>Claude</span>
+        </div>
+        <div class="engine-logo-item">
+          <img src="https://cdn.simpleicons.org/googlegemini/ffffff" alt="Gemini" width="28" height="28">
+          <span>Gemini</span>
+        </div>
+        <div class="engine-logo-item">
+          <img src="https://cdn.simpleicons.org/perplexity/ffffff" alt="Perplexity" width="28" height="28">
+          <span>Perplexity</span>
+        </div>
+        <div class="engine-logo-item">
+          <img src="https://cdn.simpleicons.org/x/ffffff" alt="Grok" width="28" height="28">
+          <span>Grok</span>
+        </div>
+        <div class="engine-logo-item">
+          <img src="https://cdn.simpleicons.org/google/ffffff" alt="AI Overview" width="28" height="28">
+          <span>AI Overview</span>
+        </div>
+      </div>
+      <div class="stat-chips">
+        <div class="stat-chip"><span class="stat-num">6</span><span class="stat-label">AI Engines</span></div>
+        <div class="stat-chip"><span class="stat-num">10,000+</span><span class="stat-label">Prompts Tracked</span></div>
+        <div class="stat-chip"><span class="stat-num">Real-time</span><span class="stat-label">Monitoring</span></div>
+      </div>
+      <p class="clients-label">Trusted by leading organizations</p>
+      <div class="clients-carousel">
+        <div class="clients-track">
+          <img src="logos/sheba-logo.png"   alt="בית חולים שיבא"   class="client-logo">
+          <img src="logos/colman-logo.png"  alt="המכללה למינהל"     class="client-logo">
+          <img src="logos/bermad-logo.png"  alt="BERMAD"            class="client-logo">
+          <img src="logos/metzer.svg"       alt="קבוצת מצר"         class="client-logo">
+          <img src="logos/meitav-logo.png"  alt="מיטב בית השקעות"   class="client-logo">
+          <!-- duplicated for seamless loop -->
+          <img src="logos/sheba-logo.png"   alt="בית חולים שיבא"   class="client-logo">
+          <img src="logos/colman-logo.png"  alt="המכללה למינהל"     class="client-logo">
+          <img src="logos/bermad-logo.png"  alt="BERMAD"            class="client-logo">
+          <img src="logos/metzer.svg"       alt="קבוצת מצר"         class="client-logo">
+          <img src="logos/meitav-logo.png"  alt="מיטב בית השקעות"   class="client-logo">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════ PAIN -->
+  <section id="pain">
+    <div class="container">
+      <p class="section-label">THE PROBLEM</p>
+      <h2>The search engine changed.<br>Your visibility dashboard didn't.</h2>
+      <p class="section-body">
+        SEO tools tell you where you rank on Google. But when someone asks ChatGPT <em>"what's the best [your product category]?"</em> — that data is invisible to you.<br><br>
+        AI is now the first stop for buying decisions, brand comparisons, and product research. And most brands have no idea if they're part of that conversation — or completely absent from it.
+      </p>
+      <div class="contrast-table">
+        <div class="contrast-col old-world">
+          <h4>The old world</h4>
+          <ul>
+            <li>Google rankings you can track</li>
+            <li>Backlinks and keywords</li>
+            <li>SEO reports</li>
+            <li>"We rank #1 on Google"</li>
+          </ul>
+        </div>
+        <div class="contrast-arrow">→</div>
+        <div class="contrast-col new-reality">
+          <h4>The new reality</h4>
+          <ul>
+            <li>AI recommendations you can't see</li>
+            <li>Citations and prompt coverage</li>
+            <li>AI visibility scores</li>
+            <li>"Does AI even know we exist?"</li>
+          </ul>
+        </div>
+      </div>
+      <div class="callout-block">
+        <h4>The hidden influence problem</h4>
+        <p>When someone asks AI "what motorcycle should I buy for long rides?" and Yamaha gets recommended — that person may walk into a dealership without ever visiting yamaha.com. It never appears in your analytics. You never knew it happened.</p>
+        <p>AI is shaping purchase decisions in a channel you have zero visibility into. Panoptes starts by making that visible. <em>Connecting it to revenue impact is where we're headed.</em></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════ SOLUTION -->
+  <section id="solution">
+    <div class="container">
+      <p class="section-label">THE SOLUTION</p>
+      <h2>Finally, a dashboard for<br>the channel you couldn't see.</h2>
+      <p class="section-body">
+        Panoptes gives you real-time visibility into how AI models talk about your brand — across every major engine, every prompt type, every competitor. Built not by engineers chasing a trend, but by SEOs and data analysts who were living this blind spot themselves.<br><br>
+        We don't just scan AI. We translate what we find into actions you can actually take.
+      </p>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════ FEATURES -->
+  <section id="features">
+    <div class="container">
+      <p class="section-label">WHAT YOU GET</p>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="3" width="8" height="8" rx="1.5"/>
+              <rect x="13" y="3" width="8" height="5" rx="1.5"/>
+              <rect x="13" y="10" width="8" height="11" rx="1.5"/>
+              <rect x="3" y="13" width="8" height="8" rx="1.5"/>
+            </svg>
+          </div>
+          <h3>Your AI visibility at a glance</h3>
+          <p>Visibility rate, brand mentions, share of voice, and average position — across all 6 engines in one view.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 19V9"/>
+              <path d="M10 19V5"/>
+              <path d="M16 19v-7"/>
+              <path d="M22 19V11"/>
+              <path d="M2 21h20"/>
+            </svg>
+          </div>
+          <h3>See exactly which questions AI answers with your brand</h3>
+          <p>Track 48+ prompts by category. Know where you appear, where you don't, and what's driving the gap.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="12" cy="12" r="9"/>
+              <circle cx="12" cy="12" r="5.5"/>
+              <circle cx="12" cy="12" r="2"/>
+              <line x1="12" y1="3" x2="12" y2="21"/>
+              <line x1="3" y1="12" x2="21" y2="12"/>
+            </svg>
+          </div>
+          <h3>Benchmark against every rival, not just Google</h3>
+          <p>See who's winning AI share in your category and where the competitive gaps are.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M9 12.5l2 2 4-4"/>
+              <path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/>
+              <path d="M14 3v5h5"/>
+            </svg>
+          </div>
+          <h3>Which URLs is AI citing about you?</h3>
+          <p>Deep citation analysis across branded and neutral content — 33,000+ citations tracked.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M3 17l5-6 4 4 5-7 4 5"/>
+              <path d="M3 21h18"/>
+              <circle cx="8" cy="11" r="1.4" fill="currentColor"/>
+              <circle cx="17" cy="8" r="1.4" fill="currentColor"/>
+            </svg>
+          </div>
+          <h3>Is AI saying the right things about you?</h3>
+          <p>Track how AI describes your brand — positive, neutral, or a reputational risk.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="4" width="18" height="16" rx="2"/>
+              <line x1="3" y1="9" x2="21" y2="9"/>
+              <circle cx="6.5" cy="6.5" r="0.4" fill="currentColor"/>
+              <circle cx="9" cy="6.5" r="0.4" fill="currentColor"/>
+              <circle cx="11.5" cy="6.5" r="0.4" fill="currentColor"/>
+              <path d="M10 14.5l2 2 4-4"/>
+            </svg>
+          </div>
+          <h3>Test any page against AI visibility</h3>
+          <p>Paste a URL and see how it performs across engines and prompt types.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════ DIFFERENTIATOR -->
+  <section id="differentiator">
+    <div class="container">
+      <p class="section-label">WHY PANOPTES</p>
+      <h2>Built by SEOs. Powered by data analysts.<br>Not the other way around.</h2>
+      <p class="section-body">
+        Most AI visibility tools were built by engineers who saw a market opportunity. Panoptes was built by a team that was already living this problem — running SEO strategies, watching Google's influence erode, and trying to answer client questions with no data.<br><br>
+        That means our recommendations aren't generated by AI. They're written by humans who understand what the data actually means for your marketing strategy.
+      </p>
+      <div class="proof-points">
+        <div class="proof-point">
+          <h4>6 AI Engines</h4>
+          <p>ChatGPT, Claude, Gemini, Perplexity, Grok, AI Overview — all in one dashboard.</p>
+        </div>
+        <div class="proof-point">
+          <h4>Human-layer recommendations</h4>
+          <p>Our team interprets what the data means, not just what it shows.</p>
+        </div>
+        <div class="proof-point">
+          <h4>Action-oriented, not just metrics</h4>
+          <p>Every report tells you what to do next, not just where you stand.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════ HOW IT WORKS -->
+  <section id="how-it-works">
+    <div class="container">
+      <p class="section-label">HOW IT WORKS</p>
+      <h2>See your AI visibility in 3 steps</h2>
+      <div class="steps">
+        <div class="step">
+          <div class="step-num">01</div>
+          <h3>Sign up &amp; enter your brand</h3>
+          <p>Tell us your brand name, domain, and category. Takes 2 minutes.</p>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step">
+          <div class="step-num">02</div>
+          <h3>We scan the AI engines for you</h3>
+          <p>Over 72 hours, we run thousands of prompts across 6 AI models and collect every mention, citation, and recommendation related to your brand and competitors.</p>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step">
+          <div class="step-num">03</div>
+          <h3>Explore your full dashboard</h3>
+          <p>You get 48 hours of complete access. See your visibility score, competitor gaps, prompt analytics, and citation breakdown — with clear next steps.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════ APP GALLERY -->
+  <section id="gallery">
+    <div class="container">
+      <p class="section-label" style="text-align:center">SEE IT IN ACTION</p>
+      <h2 style="text-align:center">See It In <span class="highlight">Action</span></h2>
+      <p class="section-body" style="text-align:center; margin: 0 auto 48px;">Every view is built for a different question. Together they give you the full picture.</p>
+
+      <div class="gallery-layout">
+        <!-- Tab sidebar -->
+        <div class="gallery-tabs" role="tablist">
+          <button class="gallery-tab active" data-tab="overview" role="tab">
+            <span class="tab-icon">📊</span>Overview
+          </button>
+          <button class="gallery-tab" data-tab="sentiment" role="tab">
+            <span class="tab-icon">❤️</span>Sentiment
+          </button>
+          <button class="gallery-tab" data-tab="competitors" role="tab">
+            <span class="tab-icon">🏆</span>Competitors
+          </button>
+          <button class="gallery-tab" data-tab="prompt-analytics" role="tab">
+            <span class="tab-icon">💬</span>Prompt Analytics
+          </button>
+          <button class="gallery-tab" data-tab="prompt-analysis" role="tab">
+            <span class="tab-icon">🔎</span>Prompt Analysis
+          </button>
+          <button class="gallery-tab" data-tab="citations" role="tab">
+            <span class="tab-icon">🔗</span>Citations
+          </button>
+          <button class="gallery-tab" data-tab="citation-list" role="tab">
+            <span class="tab-icon">📋</span>Citation List
+          </button>
+          <button class="gallery-tab" data-tab="business-impact" role="tab">
+            <span class="tab-icon">📈</span>Business Impact
+          </button>
+          <button class="gallery-tab" data-tab="brand-lift" role="tab">
+            <span class="tab-icon">🚀</span>Brand Lift
+          </button>
+        </div>
+
+        <!-- Screenshot panel -->
+        <div class="gallery-panel">
+          <div class="gallery-screen" id="gallery-screen">
+
+            <div class="gallery-slide active" data-slide="overview">
+              <img src="screenshots/overview.png?v=2" alt="Overview dashboard" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+              <div class="slide-placeholder">
+                <p class="slide-placeholder-title">Overview</p>
+                <p class="slide-placeholder-sub">Visibility rate, brand mentions, share of voice &amp; position across all 6 engines</p>
+              </div>
+            </div>
+
+            <div class="gallery-slide" data-slide="sentiment">
+              <img src="screenshots/sentiment.png?v=2" alt="Sentiment analysis" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+              <div class="slide-placeholder">
+                <p class="slide-placeholder-title">Sentiment</p>
+                <p class="slide-placeholder-sub">How AI models describe your brand — positive, neutral, or at risk</p>
+              </div>
+            </div>
+
+            <div class="gallery-slide" data-slide="competitors">
+              <img src="screenshots/competitors.png?v=2" alt="Competitors benchmark" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+              <div class="slide-placeholder">
+                <p class="slide-placeholder-title">Competitors</p>
+                <p class="slide-placeholder-sub">Who's winning AI share in your category and where the gaps are</p>
+              </div>
+            </div>
+
+            <div class="gallery-slide" data-slide="prompt-analytics">
+              <img src="screenshots/prompt-analytics.png?v=2" alt="Prompt Analytics" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+              <div class="slide-placeholder">
+                <p class="slide-placeholder-title">Prompt Analytics</p>
+                <p class="slide-placeholder-sub">Track 48+ prompts by category — where you appear and what's driving the gap</p>
+              </div>
+            </div>
+
+            <div class="gallery-slide" data-slide="prompt-analysis">
+              <img src="screenshots/prompt-analysis.png?v=2" alt="Prompt Analysis" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+              <div class="slide-placeholder">
+                <p class="slide-placeholder-title">Prompt Analysis</p>
+                <p class="slide-placeholder-sub">Deep-dive into individual prompt outputs across every AI engine</p>
+              </div>
+            </div>
+
+            <div class="gallery-slide" data-slide="citations">
+              <img src="screenshots/citations.png?v=2" alt="Citations" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+              <div class="slide-placeholder">
+                <p class="slide-placeholder-title">Citations</p>
+                <p class="slide-placeholder-sub">Which URLs AI cites about you — branded vs. neutral content</p>
+              </div>
+            </div>
+
+            <div class="gallery-slide" data-slide="citation-list">
+              <img src="screenshots/citation-list.png?v=2" alt="Citation List" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+              <div class="slide-placeholder">
+                <p class="slide-placeholder-title">Citation List</p>
+                <p class="slide-placeholder-sub">Full breakdown of every cited page with engine distribution and category</p>
+              </div>
+            </div>
+
+            <div class="gallery-slide" data-slide="business-impact">
+              <div class="slide-coming-soon">
+                <div class="coming-soon-badge">Coming Soon</div>
+                <p class="coming-soon-title">Business Impact</p>
+                <p class="coming-soon-sub">Connect AI visibility to real business outcomes — understand how AI recommendations translate into traffic, leads, and revenue.</p>
+              </div>
+            </div>
+
+            <div class="gallery-slide" data-slide="brand-lift">
+              <div class="slide-coming-soon">
+                <div class="coming-soon-badge">Coming Soon</div>
+                <p class="coming-soon-title">Brand Lift</p>
+                <p class="coming-soon-sub">Measure how AI visibility is shifting brand perception over time across every engine and category.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════ FREE TRIAL FORM -->
+  <section id="free-trial">
+    <div class="container form-section-wrap">
+      <p class="section-label" style="text-align:center">GET STARTED FREE</p>
+      <h2 style="text-align:center">Your brand is being talked about by AI right now.<br>Find out what it's saying.</h2>
+      <p class="section-body" style="text-align:center; margin:0 auto 48px;">No credit card. No setup. Just your brand name and 72 hours.</p>
+
+      <div class="form-card" id="form-container">
+        <form id="demo-form" novalidate>
+
+          <div class="form-block-header">
+            <span class="form-block-icon">🏢</span>
+            <span>CLIENT INFO</span>
+          </div>
+          <div class="form-row-2">
+            <input type="text" id="client_name" placeholder="Company Name *" required autocomplete="organization">
+            <input type="url" id="client_homepage" placeholder="Company Homepage *" required autocomplete="url">
+          </div>
+          <div class="form-row-1">
+            <input type="text" id="ai_overview_location" placeholder="AI Overview Location (country code)">
+          </div>
+
+          <div class="form-block-header">
+            <span class="form-block-icon">🏷️</span>
+            <span>CATEGORIES</span>
+          </div>
+          <div id="categories-list">
+            <div class="dynamic-row cat-row">
+              <input type="text" placeholder="Category 1 (e.g. sportbikes)">
+              <button type="button" class="btn-remove" title="Remove">🗑</button>
+            </div>
+            <div class="dynamic-row cat-row">
+              <input type="text" placeholder="Category 2">
+              <button type="button" class="btn-remove" title="Remove">🗑</button>
+            </div>
+            <div class="dynamic-row cat-row">
+              <input type="text" placeholder="Category 3">
+              <button type="button" class="btn-remove" title="Remove">🗑</button>
+            </div>
+          </div>
+          <button type="button" class="btn-add" id="add-category-btn">+ Add category</button>
+
+          <div class="form-block-header">
+            <span class="form-block-icon">👥</span>
+            <span>COMPETITORS</span>
+          </div>
+          <div id="competitors-list">
+            <div class="dynamic-row">
+              <input type="url" placeholder="https://www.competitor.com/" class="comp-url">
+              <button type="button" class="btn-remove" title="Remove">🗑</button>
+            </div>
+            <div class="dynamic-row">
+              <input type="url" placeholder="https://www.competitor.com/" class="comp-url">
+              <button type="button" class="btn-remove" title="Remove">🗑</button>
+            </div>
+            <div class="dynamic-row">
+              <input type="url" placeholder="https://www.competitor.com/" class="comp-url">
+              <button type="button" class="btn-remove" title="Remove">🗑</button>
+            </div>
+          </div>
+          <button type="button" class="btn-add" id="add-competitor-btn">+ Add competitor</button>
+
+          <div id="form-error" class="form-error" style="display:none"></div>
+
+          <button type="submit" class="btn-submit" id="submit-btn">
+            <span id="submit-text">✨ Initialize Demo</span>
+          </button>
+        </form>
+      </div>
+
+      <div class="thankyou-card" id="thankyou" style="display:none">
+        <div class="thankyou-icon">✅</div>
+        <h3>You're in the queue!</h3>
+        <p>We're scanning the AI engines for your brand. You'll receive access to your full Panoptes dashboard within <strong>72 hours</strong>.</p>
+        <p style="margin-top:8px">In the meantime, want to see a live demo with real data?</p>
+        <a href="https://calendly.com/erezlouzon" target="_blank" rel="noopener" class="btn btn-primary" style="margin-top:8px">Book a Demo →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════════ FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-text">PANOPTES</span>
+        <p>AI Visibility Intelligence</p>
+      </div>
+      <div class="footer-links">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms</a>
+        <a href="mailto:erez@thinkuser.co.il">Contact</a>
+      </div>
+      <p class="footer-attr">Built by <a href="https://www.thinkuser.co.il" target="_blank" rel="noopener">ThinkUser</a></p>
+    </div>
+  </footer>
+
+  <script>
+    // ── Dynamic rows ──────────────────────────────────────────
+    let catCount = 3;
+    let compCount = 3;
+
+    document.getElementById('add-category-btn').addEventListener('click', function () {
+      catCount++;
+      const row = document.createElement('div');
+      row.className = 'dynamic-row cat-row';
+      row.innerHTML = `<input type="text" placeholder="Category ${catCount}"><button type="button" class="btn-remove" title="Remove">🗑</button>`;
+      document.getElementById('categories-list').appendChild(row);
+    });
+
+    document.getElementById('add-competitor-btn').addEventListener('click', function () {
+      const row = document.createElement('div');
+      row.className = 'dynamic-row';
+      row.innerHTML = `<input type="url" placeholder="https://www.competitor.com/" class="comp-url"><button type="button" class="btn-remove" title="Remove">🗑</button>`;
+      document.getElementById('competitors-list').appendChild(row);
+    });
+
+    document.addEventListener('click', function (e) {
+      if (e.target.classList.contains('btn-remove')) {
+        e.target.closest('.dynamic-row').remove();
+      }
+    });
+
+    // ── Form submission ───────────────────────────────────────
+    document.getElementById('demo-form').addEventListener('submit', async function (e) {
+      e.preventDefault();
+
+      const clientName = document.getElementById('client_name').value.trim();
+      const clientHomepage = document.getElementById('client_homepage').value.trim();
+      const errorEl = document.getElementById('form-error');
+
+      if (!clientName || !clientHomepage) {
+        errorEl.textContent = 'Please fill in your Company Name and Homepage.';
+        errorEl.style.display = 'block';
+        return;
+      }
+      errorEl.style.display = 'none';
+
+      const submitBtn = document.getElementById('submit-btn');
+      const submitText = document.getElementById('submit-text');
+      submitBtn.disabled = true;
+      submitText.textContent = 'Initializing...';
+
+      const categories = Array.from(document.querySelectorAll('#categories-list input'))
+        .map(i => i.value.trim())
+        .filter(Boolean);
+
+      const competitors = Array.from(document.querySelectorAll('#competitors-list .comp-url'))
+        .map(input => {
+          const url = input.value.trim();
+          if (!url) return null;
+          let key;
+          try {
+            key = new URL(url).hostname.replace(/^www\./, '').split('.')[0];
+          } catch (e) {
+            key = url;
+          }
+          return { [key]: url };
+        })
+        .filter(Boolean);
+
+      const payload = {
+        client_name: clientName,
+        client_homepage: clientHomepage,
+        google_ads_account_name: '',
+        search_console_location: '',
+        ai_overview_location: document.getElementById('ai_overview_location').value.trim(),
+        categories_manual_insertion: true,
+        categories,
+        package_type: 'demo',
+        package_manual: false,
+        is_demo: true,
+        package_info: {
+          max_prompts: '40',
+          frequency: 'daily',
+          openai_model_access: true,
+          perplexity_model_access: true,
+          google_ai_overview_model_access: true,
+          anthropic_model_access: true,
+          gemini_model_access: true,
+          grok_model_access: true
+        },
+        competitors_manual_insertion: true,
+        competitors
+      };
+
+      // Build the row that will be sent to Google Sheets — flat key/value pairs
+      const sheetsPayload = {
+        timestamp: new Date().toISOString(),
+        client_name: clientName,
+        client_homepage: clientHomepage,
+        ai_overview_location: payload.ai_overview_location,
+        categories: categories.join(', '),
+        competitors: competitors.map(c => Object.values(c)[0]).join(', '),
+        package_type: payload.package_type,
+        is_demo: payload.is_demo,
+        max_prompts: payload.package_info.max_prompts,
+        frequency: payload.package_info.frequency,
+        full_payload_json: JSON.stringify(payload),
+        source: 'panoptes_landing_page',
+        user_agent: navigator.userAgent,
+        referrer: document.referrer || 'direct'
+      };
+
+      const SHEETS_WEBHOOK_URL = 'https://script.google.com/macros/s/AKfycbwAC1TQpFht7jk8oW80SLNZJbgX17gCPDI_cjA0EJItyuuo7Q641-sq621XqT1Gfqt1/exec';
+
+      // Send to n8n via fetch
+      fetch('https://n8n.collabs.thinkuser.co.il/webhook/api/initialize-external-demo', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      }).catch(err => console.error('n8n webhook error:', err));
+
+      // Send to Google Sheets via hidden iframe + form POST.
+      // fetch() with no-cors silently fails against Apps Script because Google
+      // redirects /exec and the browser blocks cross-origin redirects under no-cors.
+      // A plain HTML form POST is not subject to CORS, so it always gets through.
+      if (SHEETS_WEBHOOK_URL.startsWith('http')) {
+        const iframe = document.createElement('iframe');
+        iframe.name = 'sheets-iframe';
+        iframe.style.display = 'none';
+        document.body.appendChild(iframe);
+
+        const form = document.createElement('form');
+        form.method = 'POST';
+        form.action = SHEETS_WEBHOOK_URL;
+        form.target = 'sheets-iframe';
+        form.style.display = 'none';
+
+        const input = document.createElement('input');
+        input.type = 'hidden';
+        input.name = 'payload';
+        input.value = JSON.stringify(sheetsPayload);
+        form.appendChild(input);
+        document.body.appendChild(form);
+        form.submit();
+
+        setTimeout(function () {
+          if (form.parentNode) document.body.removeChild(form);
+          if (iframe.parentNode) document.body.removeChild(iframe);
+        }, 8000);
+      }
+
+      document.getElementById('form-container').style.display = 'none';
+      document.getElementById('thankyou').style.display = 'flex';
+      document.getElementById('thankyou').scrollIntoView({ behavior: 'smooth', block: 'center' });
+    });
+
+    // ── Hamburger menu ────────────────────────────────────────
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobile-menu');
+
+    hamburger.addEventListener('click', function () {
+      const open = mobileMenu.classList.toggle('open');
+      hamburger.classList.toggle('open', open);
+      hamburger.setAttribute('aria-expanded', open);
+      mobileMenu.setAttribute('aria-hidden', !open);
+    });
+
+    // Close on any mobile link click
+    mobileMenu.querySelectorAll('a').forEach(a => {
+      a.addEventListener('click', () => {
+        mobileMenu.classList.remove('open');
+        hamburger.classList.remove('open');
+        hamburger.setAttribute('aria-expanded', false);
+        mobileMenu.setAttribute('aria-hidden', true);
+      });
+    });
+
+    // ── Gallery tab switching ─────────────────────────────────
+    document.querySelectorAll('.gallery-tab').forEach(tab => {
+      tab.addEventListener('click', function () {
+        const target = this.dataset.tab;
+        document.querySelectorAll('.gallery-tab').forEach(t => t.classList.remove('active'));
+        document.querySelectorAll('.gallery-slide').forEach(s => s.classList.remove('active'));
+        this.classList.add('active');
+        document.querySelector(`.gallery-slide[data-slide="${target}"]`).classList.add('active');
+      });
+    });
+
+    // ── Smooth scroll for CTA anchors ─────────────────────────
+    document.querySelectorAll('a[href="#free-trial"]').forEach(a => {
+      a.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.getElementById('free-trial').scrollIntoView({ behavior: 'smooth' });
+      });
+    });
+  </script>
+
+  <!-- ═══════════════════════════════════════════════ STICKY CTA -->
+  <a href="#free-trial" id="sticky-cta" class="sticky-cta">
+    Scan My Brand Free →
+  </a>
+
+  <script>
+    // ── Sticky CTA: show when hero CTA leaves viewport ──
+    (function () {
+      const heroCta = document.getElementById('hero-cta');
+      const stickyCta = document.getElementById('sticky-cta');
+      if (!heroCta || !stickyCta) return;
+      const io = new IntersectionObserver(function (entries) {
+        entries.forEach(function (e) {
+          stickyCta.classList.toggle('visible', !e.isIntersecting);
+        });
+      }, { threshold: 0 });
+      io.observe(heroCta);
+    })();
+  </script>
+</body>
+</html>

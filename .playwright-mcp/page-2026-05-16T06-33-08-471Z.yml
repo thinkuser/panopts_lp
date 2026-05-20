@@ -1,0 +1,403 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic "פגישה עם מנהל תיקים מעל 300 אלף שח לחצו כאן" [ref=e4]:
+      - paragraph [ref=e8] [cursor=pointer]:
+        - strong [ref=e9]: מגיעה לך פגישה עם מנהל השקעות>>
+        - strong [ref=e10]: החל מ-300 אלף ₪
+    - generic [ref=e11]:
+      - banner [ref=e12]:
+        - generic [ref=e13]:
+          - link "מיטב בית השקעות" [ref=e15] [cursor=pointer]:
+            - /url: /
+            - img "מיטב בית השקעות" [ref=e17]
+          - navigation [ref=e18]:
+            - generic:
+              - generic:
+                - link:
+                  - /url: /
+            - generic [ref=e20]:
+              - link "פנסיה גמל והשתלמות" [ref=e22] [cursor=pointer]:
+                - /url: ""
+              - link "קרנות נאמנות" [ref=e24] [cursor=pointer]:
+                - /url: ""
+              - link "מסחר עצמאי" [ref=e26] [cursor=pointer]:
+                - /url: ""
+              - link "ניהול תיקים" [ref=e28] [cursor=pointer]:
+                - /url: ""
+              - link "מוצרים נוספים" [ref=e30] [cursor=pointer]:
+                - /url: ""
+              - link "שירות" [ref=e32] [cursor=pointer]:
+                - /url: ""
+              - link "קשרי משקיעים" [ref=e34] [cursor=pointer]:
+                - /url: ""
+              - link "דף מוצרים" [ref=e36] [cursor=pointer]:
+                - /url: https://www.meitav.co.il/store/
+                - img [ref=e38]
+        - generic [ref=e39]:
+          - button [ref=e47] [cursor=pointer]
+          - generic [ref=e48]:
+            - button "איזור אישי" [ref=e49] [cursor=pointer]:
+              - img [ref=e50]
+              - text: איזור אישי
+            - button "למסחר" [ref=e51] [cursor=pointer]:
+              - img [ref=e52]
+              - text: למסחר
+          - generic [ref=e54]:
+            - button "הגדל/הקטן גודל גופן" [ref=e56] [cursor=pointer]:
+              - img [ref=e57]
+            - button "הפעל/כבה ניגודיות" [ref=e59] [cursor=pointer]:
+              - img [ref=e60]
+      - main [ref=e61]:
+        - article [ref=e62]:
+          - generic [ref=e64]:
+            - generic [ref=e66]:
+              - generic [ref=e67]:
+                - heading "מיטב בית השקעות" [level=1] [ref=e68]
+                - heading "מיטב ניהול ההשקעות הטוב בישראל" [level=2] [ref=e69]
+                - generic [ref=e70]: בגמל, בפנסיה, בהשתלמות ובגמל להשקעה על פי מגזין Forbes ישראל
+              - link "לפרטים נוספים>>" [ref=e71] [cursor=pointer]:
+                - /url: https://www.meitav.co.il/provident_pension/gemel/
+                - generic [ref=e72]: לפרטים נוספים>>
+            - img "פורבס קבע. מיטב ניהול ההשקעות הטוב בישראל. בגמל ופנסיה בהשתלמות ובגמל להשקעה. בשקלול כל התשואות(שנה אחרוה 3 שנים ו5 שנים) ובשקלול פרמטים של סיכון ויעילות, ישנו מנצח ברור אחדף בית השקעות מיטב. פורבס ישראל 03.26" [ref=e78]
+          - paragraph [ref=e83]: האמור הינו בהתאם לדירוג שערך מגזין FORBES ISRAEL בגין מנהלי קרנות הפנסיה, קרנות ההשתלמות, קופות גמל וקופות גמל להשקעה הטובים לשנת 2025 שפורסם במרץ 2026. אין בנתונים משום ייעוץ/שיווק פנסיוני המתחשב בנתונים של כל אדם ואין באמור משום הבטחת תשואה או רווח
+          - generic [ref=e87]:
+            - generic [ref=e88]:
+              - heading "הכסף שוכב בעו\"ש?" [level=2] [ref=e89]
+              - heading "ניהול תיקי השקעות עם מיטב ניהול תיקים" [level=3] [ref=e90]
+            - generic [ref=e91]:
+              - heading "החל מ-300,000 ₪" [level=4] [ref=e92]:
+                - strong [ref=e93]: החל מ-300,000 ₪
+              - paragraph [ref=e94]
+              - paragraph [ref=e95]:
+                - emphasis [ref=e96]: "\"בניהול תיקי השקעות אין תחליף למקצועיות, ניסיון ושקיפות מול הלקוח. אנו מזמינים אותך להצטרף אלינו וליהנות מניהול אישי של תיק השקעות, המותאם לצרכיך הפיננסיים\""
+              - paragraph [ref=e97]:
+                - emphasis [ref=e98]: אודי תייר מנכ''ל מיטב ניהול תיקים.
+              - paragraph [ref=e99]: "צלם: רועי מזרחי"
+            - button "לקביעת פגישה ללא עלות>>" [ref=e100] [cursor=pointer]
+          - generic [ref=e107]:
+            - generic [ref=e109]:
+              - generic [ref=e110]:
+                - generic [ref=e111]: מיטב בית השקעות
+                - heading "לקוחות מיטב, עדיין לא הורדתם את האפליקציה שלנו?" [level=2] [ref=e112]
+              - paragraph [ref=e114]: מנהלים את כל החסכונות במקום אחד - במיטב
+              - link "להורדת האפליקציה >>" [ref=e115] [cursor=pointer]:
+                - /url: https://www.meitav.co.il/application/
+                - generic [ref=e116]: להורדת האפליקציה >>
+            - img "יש לנו אפליקציה חדשה!" [ref=e122]
+          - generic [ref=e126]:
+            - heading "על מיטב בית השקעות" [level=2] [ref=e128]
+            - paragraph [ref=e130]: מיטב בית השקעות היא חברה ציבורית בשליטתם של BRM פיננסים ומר אבנר סטפק, המתמחה בניהול השקעות משנת 1979. מיטב היא בית ההשקעות מהגדולים והמובילים בישראל, עם עשרות שנות ניסיון, ומועסקים בו כ-1,000 עובדים מיומנים ומסורים, בראשותו של מר אילן רביב. מיטב מנהלת נכסים בהיקף של כ-407 מיליארד ₪ (נכון ל-31.12.2025) עבור למעלה ממיליון לקוחות. כל אחד מלקוחותינו נהנה ממעטפת מלאה של מוצרים ושירותים בהתאמה אישית.
+            - link "קראו עוד>>" [ref=e131] [cursor=pointer]:
+              - /url: https://www.meitav.co.il/about/
+              - generic [ref=e132]: קראו עוד>>
+          - generic [ref=e139]:
+            - generic [ref=e140]:
+              - heading "האנשים שלנו" [level=2] [ref=e142]
+              - generic [ref=e143]:
+                - link "כל האנשים" [ref=e144] [cursor=pointer]:
+                  - /url: https://www.meitav.co.il/our_team/
+                  - generic [ref=e145]: כל האנשים
+                - generic [ref=e146]:
+                  - button "move left"
+                  - button "move right" [ref=e147] [cursor=pointer]
+            - generic [ref=e149]:
+              - generic [ref=e151]:
+                - generic [ref=e154]:
+                  - generic [ref=e155]:
+                    - heading "אילן רביב" [level=3] [ref=e156]
+                    - generic [ref=e157]: מנכ''ל, מיטב בית השקעות בע"מ
+                  - paragraph [ref=e159]: בעל ניסיון רב בתחומי הפיננסים וההשקעות. בתפקידיו הקודמים כיהן, בין השאר, כמנכ"ל יובנק, כמנהל בבנק ג'ייקוב ספרא בשוויץ, מנהל אגף עסקאות פיננסיות בבנק דיסקונט, דילר בכיר בצוות ניהול הרזרבות במט"ח בבנק ישראל, נשיא ארגון הפורקס הישראלי ודילר בכיר בבריטיש פטרוליום.
+                - generic [ref=e161]:
+                  - link "ilan-raviv-67b64b228" [ref=e162] [cursor=pointer]:
+                    - /url: https://linkedin.com/in/ilan-raviv-67b64b228/
+                    - generic [ref=e163]: ilan-raviv-67b64b228
+                  - link "CEO@meitav.co.il" [ref=e164] [cursor=pointer]:
+                    - /url: mailto:CEO@meitav.co.il
+                    - generic [ref=e165]: CEO@meitav.co.il
+                  - link "03-7903000" [ref=e166] [cursor=pointer]:
+                    - /url: tel:03-7903000
+                    - generic [ref=e167]: 03-7903000
+              - generic [ref=e169]:
+                - generic [ref=e172]:
+                  - generic [ref=e173]:
+                    - heading "אושר טובול" [level=3] [ref=e174]
+                    - generic [ref=e175]: מנכ"ל, מיטב טרייד
+                  - paragraph [ref=e177]:
+                    - text: בעל ותק של 23 שנה בשוק ההון והפיננסים.
+                    - text: יו"ר איגוד הברוקרים. דירקטור בחברות שונות בקבוצת מיטב.
+                    - text: דירקטור לשעבר בבורסה לניירות ערך ובמסלקת הבורסה.
+                    - text: תואר ראשון בכלכלה וניהול (BA) ותואר שני במנהל עסקים( MBA), התמחות במימון, המכללה למנהל.
+                - generic [ref=e179]:
+                  - link "Osher.Tubul@meitav.co.il" [ref=e180] [cursor=pointer]:
+                    - /url: mailto:Osher.Tubul@meitav.co.il
+                    - generic [ref=e181]: Osher.Tubul@meitav.co.il
+                  - link "03-7903580" [ref=e182] [cursor=pointer]:
+                    - /url: tel:03-7903580
+                    - generic [ref=e183]: 03-7903580
+              - generic [ref=e185]:
+                - generic [ref=e188]:
+                  - generic [ref=e189]:
+                    - heading "חגי אורן" [level=3] [ref=e190]
+                    - generic [ref=e191]: מנכ"ל, מיטב גמל ופנסיה בע"מ
+                  - paragraph [ref=e193]: בעל ניסיון של למעלה מ-16 שנה בשוק ההון ובתחום החיסכון ארוך הטווח. במסגרת תפקידיו הקודמים, עבד במשרד חיים סאמט, שטיינמץ, הרינג ושות' כעורך דין בתחום שוק ההון, כיהן כיועץ המשפטי של אקסלנס נשואה גמל ופנסיה בע"מ ושל חטיבת ההשקעות באקסלנס השקעות בע"מ. החל משנת 2012 כיהן במגוון תפקידים בקבוצת מיטב ובכלל כך כממונה על האכיפה הפנימית, סמנכ"ל אכיפה וניהול סיכונים, מנהל יחידת תפעול ההשקעות והאשראי ומנהל תחום אבטחת המידע והסייבר. בוגר תואר ראשון במשפטים ובמנהל עסקים מאוניברסיטת רייכמן (בהצטיינות) ותואר שני במנהל עסקים EMBA מאוניברסיטת בר-אילן (בהצטיינות). בעל רישיון לעריכת דין בישראל.
+                - generic [ref=e195]:
+                  - link "hagai-oren-488988bb" [ref=e196] [cursor=pointer]:
+                    - /url: https://linkedin.com/in/hagai-oren-488988bb/
+                    - generic [ref=e197]: hagai-oren-488988bb
+                  - link "Hagai.Oren@meitav.co.il" [ref=e198] [cursor=pointer]:
+                    - /url: mailto:Hagai.Oren@meitav.co.il
+                    - generic [ref=e199]: Hagai.Oren@meitav.co.il
+              - generic [ref=e201]:
+                - generic [ref=e204]:
+                  - generic [ref=e205]:
+                    - heading "אסף עזרא" [level=3] [ref=e206]
+                    - generic [ref=e207]: מנכ"ל, מיטב הלוואות בע"מ
+                  - paragraph [ref=e209]: בעל רישיון לייעוץ השקעות מטעם רשות ניירות ערך ותואר שני במנהל עסקים, עם ניסיון של 20 שנים בשוק הפיננסי. בעבר כיהן כראש אגף לקוחות בהראל בית השקעות וכסמנכ"ל שיווק ומכירות בתכלית בית השקעות וקבוצת תכלית תעודות סל. בנוסף, אסף כיהן כסמנכ"ל שיווק ומכירות פיננסיות במיטב השקעות בע"מ.
+                - link "assaf-ezra-95824711" [ref=e212] [cursor=pointer]:
+                  - /url: https://linkedin.com/in/assaf-ezra-95824711/
+                  - generic [ref=e213]: assaf-ezra-95824711
+              - generic [ref=e215]:
+                - generic [ref=e218]:
+                  - generic [ref=e219]:
+                    - heading "ליאור כגן" [level=3] [ref=e220]
+                    - generic [ref=e221]: מנכ"ל, מיטב תכלית קרנות נאמנות בע"מ
+                  - paragraph [ref=e223]:
+                    - text: בעל ניסיון עשיר של כ-23 שנים בשוק ההון. החל את דרכו ככתב כלכלי ב-TheMarker ולאחר מכן היה מחלוצי שוק תעודות הסל בישראל, כאשר כיהן בתפקיד מנכ"ל מבט תעודות סל, מקבוצת כלל פיננסים.
+                    - text: בשנים 2011-2013, שימש כמנכ"ל חברת תעודות הסל בקבוצת מיטב.
+                    - text: בשנת 2014 יזם והקים את קבוצת קרנות ה-"Smart Beta", העוסקת בתחום המדדים החכמים, בשותפות עם אלטשולר שחם, ושימש כמנכ"ל ושותף. טרם לכך, יעץ לגופים ומוסדות פיננסיים מובילים בתחום תעודות הסל.
+                    - text: בעל תואר ראשון בניהול וכלכלה ותואר שני במנהל עסקים באוניברסיטה הפתוחה.
+                - generic [ref=e225]:
+                  - link "lior-kagan-1aa39626" [ref=e226] [cursor=pointer]:
+                    - /url: https://linkedin.com/in/lior-kagan-1aa39626/
+                    - generic [ref=e227]: lior-kagan-1aa39626
+                  - link "Lior.Kagan@meitav.co.il" [ref=e228] [cursor=pointer]:
+                    - /url: mailto:Lior.Kagan@meitav.co.il
+                    - generic [ref=e229]: Lior.Kagan@meitav.co.il
+              - generic [ref=e231]:
+                - generic [ref=e232]:
+                  - img "אודי תייר" [ref=e234]
+                  - generic [ref=e235]:
+                    - generic [ref=e236]:
+                      - heading "אודי תייר" [level=3] [ref=e237]
+                      - generic [ref=e238]: מנכ"ל, מיטב ניהול תיקים בע"מ
+                    - paragraph [ref=e240]:
+                      - text: בעל רישיון לשיווק פנסיוני מטעם משרד האוצר, ותואר ראשון במנהל עסקים עם התמחות במימון.
+                      - text: עובד במיטב כ-14 שנים. צמח והתפתח במגוון של תפקידים, החל מתפקיד של נציג במערך השירות ועד לשורה ארוכה של תפקידי ניהול.
+                      - text: בתפקידו האחרון ניהל את ערוצי ההפצה בחטיבת הלקוחות.
+                - generic [ref=e242]:
+                  - link "https://www.linkedin.com/in/udi-tayar-42a384210" [ref=e243] [cursor=pointer]:
+                    - /url: https://linkedin.com/in/ https://www.linkedin.com/in/udi-tayar-42a384210/
+                    - generic [ref=e244]: https://www.linkedin.com/in/udi-tayar-42a384210
+                  - link "Udi.Tayar@meitav.co.il" [ref=e245] [cursor=pointer]:
+                    - /url: mailto:Udi.Tayar@meitav.co.il
+                    - generic [ref=e246]: Udi.Tayar@meitav.co.il
+                  - link "03-7903602" [ref=e247] [cursor=pointer]:
+                    - /url: tel:03-7903602
+                    - generic [ref=e248]: 03-7903602
+          - generic [ref=e254]:
+            - generic [ref=e256]:
+              - heading "הישארו מעודכנים" [level=4] [ref=e258]
+              - link "https://www.youtube.com/@meitav_investments" [ref=e259] [cursor=pointer]:
+                - /url: https://www.youtube.com/@meitav_investments
+              - link "https://www.facebook.com/meitav.invest" [ref=e260] [cursor=pointer]:
+                - /url: https://www.facebook.com/meitav.invest
+              - link "https://instagram.com/meitav" [ref=e261] [cursor=pointer]:
+                - /url: https://instagram.com/meitav
+              - link "https://www.linkedin.com/company/meitav/" [ref=e262] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/meitav/
+            - generic [ref=e263]:
+              - img "מיטב בית השקעות" [ref=e266]
+              - generic [ref=e267]:
+                - generic [ref=e268]:
+                  - button "פנסיה, גמל והשתלמות" [ref=e270]
+                  - navigation [ref=e271]:
+                    - link "קרן פנסיה עצמאים" [ref=e273] [cursor=pointer]:
+                      - /url: https://www.meitav.co.il/provident_pension/pension-fund-for-self-employed/?ref=mtds-footer
+                      - generic [ref=e274]: קרן פנסיה עצמאים
+                    - link "קרן פנסיה שכירים" [ref=e276] [cursor=pointer]:
+                      - /url: https://www.meitav.co.il/provident_pension/pension/?ref=mtds-footer
+                      - generic [ref=e277]: קרן פנסיה שכירים
+                    - link "קופת גמל להשקעה" [ref=e279] [cursor=pointer]:
+                      - /url: https://www.meitav.co.il/provident_pension/provident_invest/?ref=mtds-footer
+                      - generic [ref=e280]: קופת גמל להשקעה
+                    - link "קרן השתלמות שכירים" [ref=e282] [cursor=pointer]:
+                      - /url: https://www.meitav.co.il/provident_pension/hishtalmut/?ref=mtds-footer
+                      - generic [ref=e283]: קרן השתלמות שכירים
+                    - link "קרן השתלמות עצמאים" [ref=e285] [cursor=pointer]:
+                      - /url: https://www.meitav.co.il/provident_pension/study_fund_for_self_employed/?ref=mtds-footer
+                      - generic [ref=e286]: קרן השתלמות עצמאים
+                    - link "חיסכון לכל ילד" [ref=e288] [cursor=pointer]:
+                      - /url: https://www.meitav.co.il/provident_pension/saving_for_every_kid/?ref=mtds-footer
+                      - generic [ref=e289]: חיסכון לכל ילד
+                    - link "קופת גמל לילדים" [ref=e291] [cursor=pointer]:
+                      - /url: https://www.meitav.co.il/provident_pension/saving_kids/?ref=mtds-footer
+                      - generic [ref=e292]: קופת גמל לילדים
+                    - link "קופת גמל" [ref=e294] [cursor=pointer]:
+                      - /url: https://www.meitav.co.il/provident_pension/gemel/?ref=mtds-footer
+                      - generic [ref=e295]: קופת גמל
+                    - link "תיקון 190" [ref=e297] [cursor=pointer]:
+                      - /url: https://www.meitav.co.il/provident_pension/amendment_190/?ref=mtds-footer
+                      - generic [ref=e298]: תיקון 190
+                    - link "IRA - ניהול אישי" [ref=e300] [cursor=pointer]:
+                      - /url: https://www.meitav.co.il/provident_pension/ira/?ref=mtds-footer
+                      - generic [ref=e301]: IRA - ניהול אישי
+                - generic [ref=e302]:
+                  - link "מסחר עצמאי בבורסה" [ref=e304] [cursor=pointer]:
+                    - /url: https://www.meitav.co.il/trade/independent_trading/
+                    - generic [ref=e305]: מסחר עצמאי בבורסה
+                  - navigation [ref=e306]:
+                    - link "מיטב טרייד" [ref=e308] [cursor=pointer]:
+                      - /url: https://www.meitav.co.il/trade/
+                      - generic [ref=e309]: מיטב טרייד
+                    - link "מסחר בבורסה" [ref=e311] [cursor=pointer]:
+                      - /url: https://www.meitav.co.il/trade/independent_trading/
+                      - generic [ref=e312]: מסחר בבורסה
+                    - link "התחברות למערכות מסחר" [ref=e314] [cursor=pointer]:
+                      - /url: https://customers.meitav.co.il/v2/login/loginTrade
+                      - generic [ref=e315]: התחברות למערכות מסחר
+                    - link "טפסים" [ref=e317] [cursor=pointer]:
+                      - /url: https://www.meitav.co.il/trade/forms_trade/
+                      - generic [ref=e318]: טפסים
+                    - link "המרת מט\"ח" [ref=e320] [cursor=pointer]:
+                      - /url: https://www.meitav.co.il/trade/exchange/
+                      - generic [ref=e321]: המרת מט"ח
+                    - link "קניית מניות" [ref=e323] [cursor=pointer]:
+                      - /url: /trade/stocks-and-options/
+                      - generic [ref=e324]: קניית מניות
+                    - link "תקנון מיטב טרייד" [ref=e326] [cursor=pointer]:
+                      - /url: https://www.meitav.co.il/trade/customer-service/meitav_terms/
+                      - generic [ref=e327]: תקנון מיטב טרייד
+                    - link "מיטב טרייד השקעות" [ref=e329] [cursor=pointer]:
+                      - /url: https://www.meitav.co.il/trade/massages_for_shareholders/
+                      - generic [ref=e330]: מיטב טרייד השקעות
+                    - link "אודות" [ref=e332] [cursor=pointer]:
+                      - /url: https://www.meitav.co.il/trade/about/
+                      - generic [ref=e333]: אודות
+                    - link "הצהרת נגישות מיטב טרייד" [ref=e335] [cursor=pointer]:
+                      - /url: https://www.meitav.co.il/trade/accessibility_trade/
+                      - generic [ref=e336]: הצהרת נגישות מיטב טרייד
+                - generic [ref=e337]:
+                  - link "ניהול תיקי השקעות" [ref=e339] [cursor=pointer]:
+                    - /url: /portfolio_management/
+                    - generic [ref=e340]: ניהול תיקי השקעות
+                  - navigation [ref=e341]:
+                    - link "פתיחת תיק השקעות" [ref=e343] [cursor=pointer]:
+                      - /url: /portfolio_management/
+                      - generic [ref=e344]: פתיחת תיק השקעות
+                    - link "תיק השקעות דיגיטלי - מיטב מנג'ר" [ref=e346] [cursor=pointer]:
+                      - /url: https://www.meitav.co.il/portfolio_management/manager/
+                      - generic [ref=e347]: תיק השקעות דיגיטלי - מיטב מנג'ר
+                    - link "תיק השקעות מנוהל ללקוחות פרטיים" [ref=e349] [cursor=pointer]:
+                      - /url: https://www.meitav.co.il/portfolio_management/private_clients/
+                      - generic [ref=e350]: תיק השקעות מנוהל ללקוחות פרטיים
+                    - link "ניהול תיקי השקעות לתאגידים" [ref=e352] [cursor=pointer]:
+                      - /url: https://www.meitav.co.il/portfolio_management/tikei_taagidim/
+                      - generic [ref=e353]: ניהול תיקי השקעות לתאגידים
+                    - link "מחלקת פלטינום" [ref=e355] [cursor=pointer]:
+                      - /url: https://www.meitav.co.il/portfolio_management/platinum/
+                      - generic [ref=e356]: מחלקת פלטינום
+                - generic [ref=e357]:
+                  - button "מוצרים נוספים" [ref=e359]
+                  - navigation [ref=e360]:
+                    - link "קרנות נאמנות" [ref=e362] [cursor=pointer]:
+                      - /url: https://www.meitav.co.il/mutual_funds/
+                      - generic [ref=e363]: קרנות נאמנות
+                    - link "פתרונות ביטוח" [ref=e365] [cursor=pointer]:
+                      - /url: https://www.meitav.co.il/insurance_solutions/
+                      - generic [ref=e366]: פתרונות ביטוח
+                    - link "מיטב מימון" [ref=e368] [cursor=pointer]:
+                      - /url: https://www.meitav.co.il/loans/
+                      - generic [ref=e369]: מיטב מימון
+                    - link "ברוקראז'" [ref=e371] [cursor=pointer]:
+                      - /url: https://www.meitav.co.il/brokarage/
+                      - generic [ref=e372]: ברוקראז'
+                    - link "קרנות נאמנות - פניות הציבור" [ref=e374] [cursor=pointer]:
+                      - /url: https://www.meitav.co.il/the_public_affairs_representative/
+                      - generic [ref=e375]: קרנות נאמנות - פניות הציבור
+                    - link "החזרי מס - Finupp" [ref=e377] [cursor=pointer]:
+                      - /url: https://www.meitav.co.il/finupp/
+                      - generic [ref=e378]: החזרי מס - Finupp
+                    - link "פנינסולה" [ref=e380] [cursor=pointer]:
+                      - /url: https://www.peninsula.co.il/
+                      - generic [ref=e381]: פנינסולה
+                    - link "השקעות אלטרנטיביות" [ref=e383] [cursor=pointer]:
+                      - /url: https://www.meitav.co.il/alternative_investments/
+                      - generic [ref=e384]: השקעות אלטרנטיביות
+                - generic [ref=e385]:
+                  - button "שירות" [ref=e387]
+                  - navigation [ref=e388]:
+                    - link "אפליקציית מיטב" [ref=e390] [cursor=pointer]:
+                      - /url: https://www.meitav.co.il/application/
+                      - generic [ref=e391]: אפליקציית מיטב
+                    - link "קריירה" [ref=e393] [cursor=pointer]:
+                      - /url: https://www.meitav.co.il/jobs/
+                      - generic [ref=e394]: קריירה
+                    - link "סקירות פיננסיות" [ref=e396] [cursor=pointer]:
+                      - /url: https://www.meitav.co.il/economic_reviews/
+                      - generic [ref=e397]: סקירות פיננסיות
+                    - link "פניות הציבור מיטב" [ref=e399] [cursor=pointer]:
+                      - /url: https://www.meitav.co.il/provident_pension/charge_of_public_inquiries/
+                      - generic [ref=e400]: פניות הציבור מיטב
+                    - link "כניסה למעסיקים" [ref=e402] [cursor=pointer]:
+                      - /url: https://www.meitav.co.il/employers_home_page/
+                      - generic [ref=e403]: כניסה למעסיקים
+                    - link "דיווחים מידיים והודעות לציבור" [ref=e405] [cursor=pointer]:
+                      - /url: https://www.meitav.co.il/provident_pension/immediate_reports_and_announcement_to_the_public/
+                      - generic [ref=e406]: דיווחים מידיים והודעות לציבור
+                - generic [ref=e407]:
+                  - button "מיטב" [ref=e409]
+                  - navigation [ref=e410]:
+                    - link "אודות מיטב" [ref=e412] [cursor=pointer]:
+                      - /url: https://www.meitav.co.il/about/
+                      - generic [ref=e413]: אודות מיטב
+                    - link "הסדר פשרה-גרינברג ולוינרד" [ref=e415] [cursor=pointer]:
+                      - /url: https://www.meitav.co.il/provident_pension/ca-lawsuite/
+                      - generic [ref=e416]: הסדר פשרה-גרינברג ולוינרד
+                    - link "English" [ref=e418] [cursor=pointer]:
+                      - /url: https://www.meitav.co.il/en/
+                      - generic [ref=e419]: English
+                    - link "הצהרת נגישות" [ref=e421] [cursor=pointer]:
+                      - /url: https://www.meitav.co.il/accessibility/
+                      - generic [ref=e422]: הצהרת נגישות
+                    - link "הבהרה משפטית" [ref=e424] [cursor=pointer]:
+                      - /url: https://www.meitav.co.il/legal-clarification/
+                      - generic [ref=e425]: הבהרה משפטית
+                    - link "תנאי שימוש" [ref=e427] [cursor=pointer]:
+                      - /url: https://www.meitav.co.il/terms_of_use/
+                      - generic [ref=e428]: תנאי שימוש
+                    - link "מדיניות פרטיות" [ref=e430] [cursor=pointer]:
+                      - /url: https://www.meitav.co.il/privacy_policy/
+                      - generic [ref=e431]: מדיניות פרטיות
+                    - link "מפת האתר" [ref=e433] [cursor=pointer]:
+                      - /url: https://www.meitav.co.il/sitemap/
+                      - generic [ref=e434]: מפת האתר
+                    - link "גילוי נאות" [ref=e436] [cursor=pointer]:
+                      - /url: https://www.meitav.co.il/proper_disclosure/
+                      - generic [ref=e437]: גילוי נאות
+                    - link "פורטל מפתחים - בנקאות פתוחה" [ref=e439] [cursor=pointer]:
+                      - /url: https://portal.openhub-sbx.meitav.co.il/landing
+                      - generic [ref=e440]: פורטל מפתחים - בנקאות פתוחה
+                    - link "הצהרה על מדיניות השקעה" [ref=e442] [cursor=pointer]:
+                      - /url: https://www.meitav.co.il/provident_pension/statement_investment_policy/
+                      - generic [ref=e443]: הצהרה על מדיניות השקעה
+                    - button "מיטב בית השקעות - כל הזכויות שמורות" [ref=e445]
+                    - link "קשרי משקיעים" [ref=e447] [cursor=pointer]:
+                      - /url: https://www.meitav.co.il/investor_relations/
+                      - generic [ref=e448]: קשרי משקיעים
+  - dialog "קונפטי" [ref=e450]
+  - region "אישור שימוש בקוקיז" [ref=e452]:
+    - generic "Powered by Zoom Engage" [ref=e453]:
+      - img "Zoom Engage" [ref=e454]
+    - generic [ref=e455]:
+      - link "במיטב שומרים על הפרטיות.עדכנו את מדיניות הפרטיות שלנו בהתאם לדרישות החדשות בחוק הגנת הפרטיות." [ref=e456] [cursor=pointer]:
+        - paragraph [ref=e457]:
+          - strong [ref=e458]: במיטב שומרים על הפרטיות.
+        - paragraph [ref=e459]:
+          - strong [ref=e460]: עדכנו את מדיניות הפרטיות שלנו בהתאם לדרישות החדשות בחוק הגנת הפרטיות.
+        - paragraph [ref=e461]:
+          - strong
+      - link "באתר זה נעשה שימוש בקבצי cookies. המשך גלישתך באתר מהווה הסכמה לתנאי השימוה באתר" [ref=e462] [cursor=pointer]:
+        - paragraph [ref=e463]:
+          - strong [ref=e464]: באתר זה נעשה שימוש בקבצי cookies. המשך גלישתך באתר מהווה הסכמה לתנאי השימוה באתר
+      - link "הבנתי" [ref=e466] [cursor=pointer]:
+        - paragraph [ref=e467]: הבנתי

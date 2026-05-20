@@ -1,0 +1,341 @@
+- generic [active] [ref=e1]:
+  - dialog "This website uses cookies" [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e5]:
+        - img "logo" [ref=e7]
+        - link "Cookiebot by Usercentrics - opens in a new window" [ref=e8] [cursor=pointer]:
+          - /url: https://www.cookiebot.com/en/what-is-behind-powered-by-cookiebot/?utm_source=banner_cb&utm_medium=referral&utm_content=v2
+          - img [ref=e9]
+      - tablist [ref=e36]:
+        - tab "Consent" [selected] [ref=e37] [cursor=pointer]
+        - tab "Details" [ref=e38] [cursor=pointer]
+        - tab "About" [ref=e39] [cursor=pointer]
+      - tabpanel "Consent" [ref=e41]:
+        - generic [ref=e43]:
+          - heading "This website uses cookies" [level=2] [ref=e44]
+          - generic [ref=e45]: We use cookies to personalise content and ads, to provide social media features and to analyse our traffic. We also share information about your use of our site with our social media, advertising and analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services.
+      - generic [ref=e49]:
+        - button "Customize" [ref=e50] [cursor=pointer]: Customize
+        - button "Allow all cookies" [ref=e52] [cursor=pointer]
+  - generic [ref=e54]:
+    - link "Skip to main content" [ref=e55] [cursor=pointer]:
+      - /url: "#banner_cont"
+    - generic [ref=e56]:
+      - paragraph [ref=e59]:
+        - text: Did You Update
+        - strong [ref=e60]: BERMAD Connect
+        - text: Already?
+        - button "Check It Out" [ref=e61] [cursor=pointer]
+      - generic [ref=e62]:
+        - link "BERMAD Portal" [ref=e64] [cursor=pointer]:
+          - /url: https://portal.bermad.com/?_gl=1*zw4b26*_ga*Mjc4ODUyNzEuMTc1NjAzNjA5OQ..*_ga_WB72NLMX0D*czE3NzAyNzM5NDckbzEyNCRnMSR0MTc3MDI3Mzk1NiRqNTEkbDAkaDQ4NDUzNjc0OQ..*_gcl_au*ODk5MzQ5MzU3LjE3Njk5MzA0OTMuNDc0OTIwOTIwLjE3NzAyMTQ4MTQuMTc3MDIxNDgxNA..*FPAU*ODk5MzQ5MzU3LjE3Njk5MzA0OTM.
+        - generic [ref=e65]:
+          - img "global" [ref=e66]
+          - combobox "Choose a Bermad region" [ref=e67]:
+            - option "BERMAD Global" [selected]
+            - option "BERMAD South East Asia"
+            - option "BERMAD Europe"
+        - button "English arrow" [ref=e69] [cursor=pointer]:
+          - text: English
+          - img "arrow" [ref=e71]
+  - banner [ref=e72]:
+    - generic [ref=e73]:
+      - link "Visit Home Page of Bermad" [ref=e76] [cursor=pointer]:
+        - /url: https://www.bermad.com/
+        - paragraph [ref=e77]: Water Control Solutions
+      - navigation "Primary Navigation" [ref=e79]:
+        - list [ref=e81]:
+          - listitem [ref=e82]:
+            - link "Products" [ref=e83] [cursor=pointer]:
+              - /url: https://www.bermad.com/products/
+              - text: Products
+          - listitem [ref=e85]:
+            - link "Applications" [ref=e86] [cursor=pointer]:
+              - /url: https://www.bermad.com/applications/
+              - text: Applications
+          - listitem [ref=e88]:
+            - link "Solutions" [ref=e89] [cursor=pointer]:
+              - /url: https://www.bermad.com/solutions/
+              - text: Solutions
+          - listitem [ref=e91]:
+            - link "Resources" [ref=e92] [cursor=pointer]:
+              - /url: https://www.bermad.com/resources/
+              - text: Resources
+          - listitem [ref=e94]:
+            - link "About" [ref=e95] [cursor=pointer]:
+              - /url: https://www.bermad.com/about/
+              - text: About
+          - listitem [ref=e97]:
+            - link "Contact Us" [ref=e98] [cursor=pointer]:
+              - /url: https://www.bermad.com/contact-us/
+  - main [ref=e99]:
+    - generic [ref=e102]:
+      - generic [ref=e103]:
+        - heading "Value Your Water" [level=1] [ref=e104]
+        - paragraph [ref=e105]:
+          - text: We enable access to water worldwide through sustainable, efficient solutions
+          - text: that conserve this valuable resource.
+      - generic [ref=e106]:
+        - link "Learn more about Irrigation" [ref=e109] [cursor=pointer]:
+          - /url: https://www.bermad.com/irrigation/
+          - img "Irrigation" [ref=e110]
+          - heading "Irrigation" [level=2] [ref=e111]: Irrigation
+          - paragraph [ref=e113]: Advanced hydraulic systems for agricultural irrigation.
+        - link "Learn more about Fire Protection" [ref=e116] [cursor=pointer]:
+          - /url: https://www.bermad.com/fire-protection/
+          - img "Fire Protection" [ref=e117]
+          - heading "Fire Protection" [level=2] [ref=e118]: Fire Protection
+          - paragraph [ref=e120]: Durable fire protection solutions, minimal upkeep.
+    - generic [ref=e126]:
+      - img "YEARS OF EXPERIENCE" [ref=e127]
+      - generic [ref=e128]:
+        - heading "YEARS OF EXPERIENCE" [level=2] [ref=e129]
+        - paragraph [ref=e130]: Designing, developing, and manufacturing advanced water flow management solutions since 1965, we take pride in over 40M successful installations worldwide.
+    - generic [ref=e134]:
+      - heading "Digital Solutions Digital Solutions" [level=2] [ref=e135]:
+        - img "Digital Solutions" [ref=e136]
+        - text: Digital Solutions
+      - paragraph [ref=e137]: Bringing IoT to your water flow system, keeping you updated in real-time with minimal effort. BERMADIZE solutions let you stay focused on your business.
+      - generic [ref=e138]:
+        - link "BERMAD Cloud" [ref=e140] [cursor=pointer]:
+          - /url: https://www.bermad.com/waterworks/bermad-cloud/
+          - img "BERMAD Cloud" [ref=e141]
+          - generic [ref=e143]: BERMAD Cloud
+        - link "Digital Meters" [ref=e145] [cursor=pointer]:
+          - /url: https://www.bermad.com/waterworks/moving-from-mechanical-into-digital-meters/
+          - img "Digital Meters" [ref=e146]
+          - generic [ref=e148]: Digital Meters
+        - 'link "NRW: Unlock the Hidden Potential" [ref=e150] [cursor=pointer]':
+          - /url: https://www.bermad.com/waterworks/nrw-unlock-the-hidden-potential/
+          - 'img "NRW: Unlock the Hidden Potential" [ref=e151]'
+          - generic [ref=e153]: "NRW: Unlock the Hidden Potential"
+        - link "Smart Metering" [ref=e156] [cursor=pointer]:
+          - /url: https://www.bermad.com/waterworks/smart-metering/
+          - img "Smart Metering" [ref=e157]
+          - generic [ref=e159]: Smart Metering
+        - link "Micro Irrigation" [ref=e161] [cursor=pointer]:
+          - /url: https://www.bermad.com/irrigation/micro-irrigation/
+          - img "Micro Irrigation" [ref=e162]
+          - generic [ref=e164]: Micro Irrigation
+        - link "Time-Based Irrigation" [ref=e166] [cursor=pointer]:
+          - /url: https://www.bermad.com/irrigation/time-based-irrigation/
+          - img "Time-Based Irrigation" [ref=e167]
+          - generic [ref=e169]: Time-Based Irrigation
+        - img "A single bubble image with no embedded text, used as a decorative element" [ref=e171]
+        - link "Pressure Management" [ref=e174] [cursor=pointer]:
+          - /url: https://www.bermad.com/applications/pressure-management/
+          - img "Pressure Management" [ref=e175]
+          - generic [ref=e177]: Pressure Management
+        - link "BERMAD Connect" [ref=e179] [cursor=pointer]:
+          - /url: https://www.bermad.com/bermad-connect/
+          - img "BERMAD Connect" [ref=e180]
+          - generic [ref=e182]: BERMAD Connect
+        - link "Integrated Management Solutions" [ref=e184] [cursor=pointer]:
+          - /url: https://www.bermad.com/waterworks/integrated-management/
+          - img "Integrated Management Solutions" [ref=e185]
+          - generic [ref=e187]: Integrated Management Solutions
+      - link "BERMADIZE Your Water Flow System" [ref=e188] [cursor=pointer]:
+        - /url: https://www.bermad.com/digital-solutions/
+      - img "A single bubble image with no embedded text, used as a decorative element" [ref=e189]
+    - generic [ref=e193]:
+      - heading "Control The Flow" [level=2] [ref=e194]
+      - paragraph [ref=e195]: Explore our catalog by selecting your market and product type to find options for precise water flow and pressure.
+      - generic [ref=e196]:
+        - tablist "Tab Navigation for Product Catalog" [ref=e197]:
+          - generic [ref=e198]:
+            - tab "Irrigation" [selected] [ref=e200] [cursor=pointer]:
+              - img "Irrigation" [ref=e201]
+              - generic [ref=e202]: Irrigation
+            - tab "Waterworks" [ref=e203] [cursor=pointer]:
+              - img "Waterworks" [ref=e204]
+              - generic [ref=e205]: Waterworks
+            - tab "Buildings & Construction" [ref=e206] [cursor=pointer]:
+              - img "Buildings & Construction" [ref=e207]
+              - generic [ref=e208]: Buildings & Construction
+            - tab "Fire Protection" [ref=e209] [cursor=pointer]:
+              - img "Fire Protection" [ref=e210]
+              - generic [ref=e211]: Fire Protection
+        - tabpanel "Irrigation" [ref=e212]:
+          - link "Surge & Pressure Relief Valves" [ref=e213] [cursor=pointer]:
+            - /url: https://www.bermad.com/products/control-valves/surge-pressure-relief/
+          - link "Pilots & Accessories" [ref=e214] [cursor=pointer]:
+            - /url: https://www.bermad.com/products/pilots-accessories/
+          - link "Control & Monitoring" [ref=e215] [cursor=pointer]:
+            - /url: https://www.bermad.com/products/controllers/control-monitoring/
+          - link "Electromagnetic Flow Meters" [ref=e216] [cursor=pointer]:
+            - /url: https://www.bermad.com/products/metering/electromagnetic-flow-meters/
+          - link "Level Control Valves" [ref=e217] [cursor=pointer]:
+            - /url: https://www.bermad.com/products/control-valves/level-control/
+          - link "Metering" [ref=e218] [cursor=pointer]:
+            - /url: https://www.bermad.com/products/metering/
+          - link "Air Valves" [ref=e219] [cursor=pointer]:
+            - /url: https://www.bermad.com/products/air-valves/
+          - link "Flow Control Valves" [ref=e220] [cursor=pointer]:
+            - /url: https://www.bermad.com/products/control-valves/flow-control-valves/
+          - link "On/Off Valves" [ref=e221] [cursor=pointer]:
+            - /url: https://www.bermad.com/products/control-valves/on-off/
+      - link "Browse The Full Catalog" [ref=e222] [cursor=pointer]:
+        - /url: https://www.bermad.com/products/
+    - generic [ref=e226]:
+      - heading "Knowledge Center" [level=2] [ref=e227]
+      - link "Visit Our Knowledge Center" [ref=e229] [cursor=pointer]:
+        - /url: https://www.bermad.com/kc/
+  - contentinfo [ref=e230]:
+    - generic [ref=e231]:
+      - generic [ref=e232]:
+        - link "Product Types" [ref=e234] [cursor=pointer]:
+          - /url: /products/
+        - navigation "Footer Product Types" [ref=e235]:
+          - list [ref=e236]:
+            - listitem [ref=e237]:
+              - link "Surge & Pressure Relief Valves" [ref=e238] [cursor=pointer]:
+                - /url: https://www.bermad.com/products/control-valves/surge-pressure-relief/
+            - listitem [ref=e239]:
+              - link "Deluge Valves" [ref=e240] [cursor=pointer]:
+                - /url: https://www.bermad.com/products/deluge-valves/
+            - listitem [ref=e241]:
+              - link "Pressure Reducing Valves" [ref=e242] [cursor=pointer]:
+                - /url: https://www.bermad.com/products/pressure-reducing/
+            - listitem [ref=e243]:
+              - link "Flow Control Valves" [ref=e244] [cursor=pointer]:
+                - /url: https://www.bermad.com/products/control-valves/flow-control-valves/
+            - listitem [ref=e245]:
+              - link "Air Valves" [ref=e246] [cursor=pointer]:
+                - /url: https://www.bermad.com/products/air-valves/
+      - generic [ref=e247]:
+        - link "Knowledge Center" [ref=e249] [cursor=pointer]:
+          - /url: /kc/
+        - navigation "Knowledge Center Footer" [ref=e250]:
+          - list [ref=e251]:
+            - listitem [ref=e252]:
+              - link "Blog" [ref=e253] [cursor=pointer]:
+                - /url: https://www.bermad.com/kc/blog/
+            - listitem [ref=e254]:
+              - link "Webinars" [ref=e255] [cursor=pointer]:
+                - /url: https://www.bermad.com/kc/webinar/
+            - listitem [ref=e256]:
+              - link "How To Guides" [ref=e257] [cursor=pointer]:
+                - /url: https://www.bermad.com/kc/how-tos/
+            - listitem [ref=e258]:
+              - link "Glossary" [ref=e259] [cursor=pointer]:
+                - /url: https://www.bermad.com/glossary/
+            - listitem [ref=e260]:
+              - link "Training Center" [ref=e261] [cursor=pointer]:
+                - /url: https://www.bermad.com/training-center/
+      - generic [ref=e262]:
+        - link "About BERMAD" [ref=e264] [cursor=pointer]:
+          - /url: /about/
+        - navigation "About BERMAD Footer" [ref=e265]:
+          - list [ref=e266]:
+            - listitem [ref=e267]:
+              - link "Our History" [ref=e268] [cursor=pointer]:
+                - /url: https://www.bermad.com/about/history/
+            - listitem [ref=e269]:
+              - link "Sustainability" [ref=e270] [cursor=pointer]:
+                - /url: https://www.bermad.com/sustainability/
+            - listitem [ref=e271]:
+              - link "Careers" [ref=e272] [cursor=pointer]:
+                - /url: https://www.bermad.com/careers/
+      - generic [ref=e273]:
+        - link "Solutions" [ref=e275] [cursor=pointer]:
+          - /url: /solutions/
+        - navigation "Solutions Footer" [ref=e276]:
+          - list [ref=e277]:
+            - listitem [ref=e278]:
+              - link "Irrigation" [ref=e279] [cursor=pointer]:
+                - /url: https://www.bermad.com/irrigation/
+            - listitem [ref=e280]:
+              - link "Fire Protection" [ref=e281] [cursor=pointer]:
+                - /url: https://www.bermad.com/fire-protection/
+            - listitem [ref=e282]:
+              - link "Buildings & Construction" [ref=e283] [cursor=pointer]:
+                - /url: https://www.bermad.com/buildings-construction/
+            - listitem [ref=e284]:
+              - link "Waterworks" [ref=e285] [cursor=pointer]:
+                - /url: https://www.bermad.com/waterworks/
+      - generic [ref=e286]:
+        - link "Resources" [ref=e288] [cursor=pointer]:
+          - /url: /resources/
+        - navigation "Resources Footer" [ref=e289]:
+          - list [ref=e290]:
+            - listitem [ref=e291]:
+              - link "Case Studies" [ref=e292] [cursor=pointer]:
+                - /url: https://www.bermad.com/kc/case-studies/
+            - listitem [ref=e293]:
+              - link "Documentation" [ref=e294] [cursor=pointer]:
+                - /url: https://www.bermad.com/resources/#documentation
+            - listitem [ref=e295]:
+              - link "Tools" [ref=e296] [cursor=pointer]:
+                - /url: https://www.bermad.com/resources/#tools
+            - listitem [ref=e297]:
+              - link "Certificates" [ref=e298] [cursor=pointer]:
+                - /url: https://www.bermad.com/resources/#certificates
+            - listitem [ref=e299]:
+              - link "Apps" [ref=e300] [cursor=pointer]:
+                - /url: https://www.bermad.com/resources/#apps
+      - generic [ref=e302]:
+        - link "Contact Us" [ref=e303] [cursor=pointer]:
+          - /url: https://www.bermad.com/contact-us/
+        - link "Find a Distributor" [ref=e304] [cursor=pointer]:
+          - /url: https://www.bermad.com/contact-us/#find_experts_block
+      - generic [ref=e305]:
+        - link "Visit Home Page of Bermad" [ref=e306] [cursor=pointer]:
+          - /url: https://www.bermad.com/
+          - img "Bermad - Water Control Solutions" [ref=e307]
+        - generic [ref=e308]:
+          - link "Terms & Conditions" [ref=e309] [cursor=pointer]:
+            - /url: https://www.bermad.com/terms-conditions/
+          - text: "|"
+          - link "Privacy Policy" [ref=e310] [cursor=pointer]:
+            - /url: https://www.bermad.com/privacy-policy/
+          - text: "|"
+          - link "Accessibility Statement" [ref=e311] [cursor=pointer]:
+            - /url: https://www.bermad.com/accessibility-statement/
+          - paragraph [ref=e312]: ©2026 BERMAD CS Ltd. All Rights Reserved.
+    - generic [ref=e313]:
+      - generic [ref=e314]:
+        - link "Follow Us on https://www.linkedin.com/company/bermadglobal" [ref=e315] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/bermadglobal
+          - img "Follow Us on Social Media" [ref=e316]
+        - link "Follow Us on https://www.youtube.com/c/BERMADWaterControlSolutions" [ref=e317] [cursor=pointer]:
+          - /url: https://www.youtube.com/c/BERMADWaterControlSolutions
+          - img "Follow Us on Social Media" [ref=e318]
+        - link "Follow Us on https://www.instagram.com/BERMAD.Global/" [ref=e319] [cursor=pointer]:
+          - /url: https://www.instagram.com/BERMAD.Global/
+          - img "Follow Us on Social Media" [ref=e320]
+        - link "Follow Us on https://www.facebook.com/bermadglobal/" [ref=e321] [cursor=pointer]:
+          - /url: https://www.facebook.com/bermadglobal/
+          - img "Follow Us on Social Media" [ref=e322]
+      - generic [ref=e323]:
+        - text: Be First To Know
+        - paragraph [ref=e324]: Stay connected with new innovations, product updates, technical guides, and important messages!
+        - generic [ref=e326]:
+          - generic [ref=e327]:
+            - generic: "* Email"
+            - textbox "* Email * Email*" [ref=e329]:
+              - /placeholder: Email
+          - paragraph [ref=e332]:
+            - text: We use your contact information to keep you updated on the latest news about BERMAD's products and services.
+            - strong [ref=e333]: You can unsubscribe from these communications at any time
+            - text: . For details on how to unsubscribe, as well as information about our privacy practices and commitment to safeguarding your privacy, please read our
+            - link "Privacy Policy" [ref=e334] [cursor=pointer]:
+              - /url: https://www.bermad.com/privacy-policy/
+            - text: .
+          - button "Subscribe" [ref=e337] [cursor=pointer]
+      - generic [ref=e338]:
+        - generic [ref=e339]:
+          - link "ISO 9001" [ref=e340] [cursor=pointer]:
+            - /url: https://www.bermad.com/resources/#certificates
+            - img "ISO 9001" [ref=e341]
+          - link "ISO 45001" [ref=e342] [cursor=pointer]:
+            - /url: https://www.bermad.com/resources/#certificates
+            - img "ISO 45001" [ref=e343]
+          - link "ISO 14001" [ref=e344] [cursor=pointer]:
+            - /url: https://www.bermad.com/resources/#certificates
+            - img "ISO 14001" [ref=e345]
+        - generic [ref=e347] [cursor=pointer]:
+          - text: Site By
+          - link "W W W" [ref=e348]:
+            - /url: https://www.whiteweb.co.il/
+  - iframe [ref=e349]:
+    

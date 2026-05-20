@@ -1,0 +1,17 @@
+[     770ms] [WARNING] jQuery.Deferred exception: Cannot read properties of null (reading 'addEventListener') TypeError: Cannot read properties of null (reading 'addEventListener')
+    at template_home (https://www.colman.ac.il/Content/js/global.min.js:1:12379)
+    at templates_render (https://www.colman.ac.il/Content/js/global.min.js:1:334)
+    at HTMLDocument.<anonymous> (https://www.colman.ac.il/Content/js/global.min.js:1:28017)
+    at e (https://www.colman.ac.il/Content/js/plugins/plugins.min.js:2:32925)
+    at t (https://www.colman.ac.il/Content/js/plugins/plugins.min.js:2:33301) undefined @ https://www.colman.ac.il/Content/js/plugins/plugins.min.js:1
+[     821ms] TypeError: Cannot read properties of null (reading 'addEventListener')
+    at template_home (https://www.colman.ac.il/Content/js/global.min.js:1:12379)
+    at templates_render (https://www.colman.ac.il/Content/js/global.min.js:1:334)
+    at HTMLDocument.<anonymous> (https://www.colman.ac.il/Content/js/global.min.js:1:28017)
+    at e (https://www.colman.ac.il/Content/js/plugins/plugins.min.js:2:32925)
+    at t (https://www.colman.ac.il/Content/js/plugins/plugins.min.js:2:33301)
+[     925ms] [LOG] runPoptinNow @ https://cdn.popt.in/pixel.js?id=21879ce5d229d:14
+[     925ms] [LOG] poptinInit loading @ https://cdn.popt.in/pixel.js?id=21879ce5d229d:3
+[    1027ms] [LOG] initiatePullPoptinsRequest() @ https://cdn.popt.in/pixel.js?id=21879ce5d229d:3
+[    1970ms] [LOG] [BuildButtonsOpeningBotAreaColman] Button area found , show it @ https://bot.colman.ac.il/ColmanChatBot/dist/bundle.js:1
+[    2357ms] [LOG] #sendNewVisit success @ https://center.icreate-campaign.com/scripts/external/Tracking/v0/script.min.js?v=22:1

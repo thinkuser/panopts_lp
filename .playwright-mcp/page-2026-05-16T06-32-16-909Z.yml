@@ -1,0 +1,571 @@
+- generic [active] [ref=e1]:
+  - link "סרגל נגישות" [ref=e2] [cursor=pointer]:
+    - /url: javascript:;
+  - banner [ref=e3]:
+    - generic [ref=e6]:
+      - link "המכללה למנהל" [ref=e7] [cursor=pointer]:
+        - /url: https://www.colman.ac.il
+      - generic [ref=e8]:
+        - generic [ref=e9]:
+          - text: אתר זה משתמש בקבצי Cookies לשיפור חווית הגלישה. המשך השימוש באתר או סגירת ההודעה מהווה הסכמה
+          - link "לתנאי שימוש" [ref=e10] [cursor=pointer]:
+            - /url: /privacy-policy
+        - button "X" [ref=e11] [cursor=pointer]
+      - list [ref=e12]:
+        - text:   
+        - listitem [ref=e13]:
+          - link "" [ref=e14] [cursor=pointer]:
+            - /url: tel:0737761127
+            - generic [ref=e17]: 
+          - link "English" [ref=e18] [cursor=pointer]:
+            - /url: javascript:;
+            - text: ENG
+      - button "פתיחת תפריט ראשי" [ref=e19] [cursor=pointer]
+    - text: 
+  - dialog:
+    - generic:
+      - generic:
+        - generic:
+          - list:
+            - listitem:
+              - link "חיפוש":
+                - /url: javascript:;
+                - generic: 
+                - text: חפש כל דבר
+            - listitem:
+              - link "רישום ומידע":
+                - /url: /registration-and-information/
+            - listitem:
+              - link "אזור אישי ":
+                - /url: /umbraco/surface/login/login/?RedirectUrl=/privatearea/
+                - generic:
+                  - text: אזור אישי
+                  - generic: 
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - link "אודות":
+                  - /url: javascript:;
+              - generic:
+                - link:
+                  - /url: javascript:;
+                  - text: תוכניות הלימוד
+              - generic:
+                - link:
+                  - /url: /academics/school/dimona/
+                  - text: קמפוס דימונה
+              - generic:
+                - link:
+                  - /url: javascript:;
+                  - text: חיי קמפוס וקהילה
+              - generic:
+                - link:
+                  - /url: javascript:;
+                  - text: מרצים ומחקר
+              - generic:
+                - link:
+                  - /url: /teaching-authority/
+                  - text: הוראה
+              - generic:
+                - link:
+                  - /url: /registration-and-information/unique/my-work/
+                  - text: קריירה
+              - generic:
+                - link:
+                  - /url: /library/
+                  - text: הספרייה
+              - generic:
+                - link:
+                  - /url: /alumni/
+                  - text: בוגרים
+              - generic:
+                - link:
+                  - /url: javascript:;
+                  - text: מידע שימושי
+          - button "הקודם" [disabled]
+          - button "הבא"
+  - generic [ref=e22]:
+    - main [ref=e23]:
+      - generic [ref=e24]:
+        - heading "המכללה למנהל" [level=1]
+        - banner [ref=e26]:
+          - generic [ref=e27]:
+            - switch "נגן" [checked] [ref=e28] [cursor=pointer]:
+              - generic [ref=e29]: 
+            - text: 
+            - generic [ref=e30]:
+              - group "1 / 6" [ref=e31] [cursor=pointer]
+              - group "2 / 6"
+              - group "3 / 6"
+              - group "4 / 6"
+              - group "5 / 6"
+              - group "6 / 6"
+            - generic [ref=e32]:
+              - button "Go to slide 1" [ref=e33] [cursor=pointer]
+              - button "Go to slide 2" [ref=e34] [cursor=pointer]
+              - button "Go to slide 3" [ref=e35] [cursor=pointer]
+              - button "Go to slide 4" [ref=e36] [cursor=pointer]
+              - button "Go to slide 5" [ref=e37] [cursor=pointer]
+              - button "Go to slide 6" [ref=e38] [cursor=pointer]
+        - generic [ref=e42]:
+          - generic [ref=e43]:
+            - generic [ref=e44]: השאירו פרטים ונחזור אליכם
+            - generic [ref=e45]: 50% הנחה בדמי הרישום
+          - generic [ref=e46]: שדות המסומנים ב* הינם שדות חובה
+          - form "טופס יצירת קשר" [ref=e47]:
+            - generic [ref=e48]:
+              - generic [ref=e49]:
+                - generic [ref=e50]:
+                  - textbox "שם מלא" [ref=e51]
+                  - generic [ref=e52]: שם מלא
+                  - text: "*"
+                - generic [ref=e53]:
+                  - textbox "טלפון" [ref=e54]
+                  - generic [ref=e55]: טלפון
+                  - text: "*"
+                - generic [ref=e56]:
+                  - textbox "כתובת מייל" [ref=e57]
+                  - generic [ref=e58]: כתובת מייל
+                  - text: "*"
+                - generic [ref=e59]:
+                  - combobox "תחום הלימודים" [ref=e60] [cursor=pointer]:
+                    - option "תחום הלימודים" [selected]
+                    - option "תואר ראשון במנהל עסקים"
+                    - option "תואר ראשון בניהול מערכות מידע"
+                    - option "תואר ראשון בכלכלה וניהול"
+                    - option "תואר ראשון בחשבונאות"
+                    - option "תואר ראשון בתקשורת וניהול"
+                    - option "תואר ראשון בתקשורת"
+                    - option "תואר ראשון במדעי המחשב"
+                    - option "תואר ראשון במדע הנתונים"
+                    - option "תואר ראשון בעיצוב פנים"
+                    - option "תואר ראשון בעיצוב פנים במסלול תקשורת חזותית במרחב"
+                    - option "תואר ראשון במשפטים"
+                    - option "תואר ראשון כפול במשפטים וכלכלה"
+                    - option "תואר ראשון במדעי ההתנהגות"
+                    - option "תואר ראשון בפסיכולוגיה"
+                    - option "תואר ראשון בחינוך"
+                    - option "תכנית אקדמיה לנוער"
+                    - option "תואר ראשון דו חוגי בכלכלה ופסיכולוגיה"
+                    - option "אקדמיה לפני צבא"
+                    - option "תואר ראשון במדעי ההתנהגות - נשים - בני ברק"
+                    - option "תואר ראשון בכלכלה - גברים - בני ברק"
+                    - option "תואר ראשון בכלכלה - נשים - בני ברק"
+                    - option "תואר ראשון במדעי המחשב - גברים - בני ברק"
+                    - option "תואר ראשון במדעי המחשב - נשים - בני ברק"
+                    - option "תואר ראשון"
+                    - option "תואר שני במנהל עסקים"
+                    - option "תואר שני במיסים בעסקים"
+                    - option "תואר שני בעיצוב חדשנות ויזמות"
+                    - option "תואר שני בכלכלה יישומית"
+                    - option "תואר שני בייעוץ ופיתוח ארגוני"
+                    - option "תואר שני בלימודי משפחה"
+                    - option "תואר שני בפסיכולוגיה של הספורט"
+                    - option "תואר שני בפסיכולוגיה קלינית"
+                    - option "תואר שני במשפטים"
+                    - option "תואר שני במשפט ללא משפטנים"
+                    - option "תואר שני בייעוץ חינוכי"
+                    - option "תואר שני"
+                    - option "תואר ראשון במדעי המחשב ובמדע הנתונים"
+                    - option "תואר שני במנהל עסקים - תוכנית רב תחומית"
+                    - option "תואר שני במשפטים .LL.M עם התמחות בעולם העבודה"
+                    - option "תואר שני במשפט ללא משפטנים עם התמחות בעולם העבודה"
+                    - option "תואר ראשון במדעי המחשב ובמדע הנתונים"
+                    - option "קמפוס דימונה- תואר ראשון במנהל עסקים"
+                    - option "קמפוס דימונה- תואר ראשון במדעי המחשב"
+                    - option "קמפוס דימונה- מכינה במדעי המחשב"
+                    - option "קמפוס דימונה- מכינה במנהל עסקים"
+                    - option "מכינות"
+                    - option "מכינה אקדמית לעיצוב"
+                  - generic [ref=e61]: 
+              - generic [ref=e62]:
+                - generic [ref=e63]:
+                  - checkbox "רוצה לשמוע פרטים על מעונות הסטודנטים בקמפוס ראשון לציון" [ref=e64]
+                  - generic [ref=e65]: רוצה לשמוע פרטים על מעונות הסטודנטים בקמפוס ראשון לציון
+                - generic [ref=e67]: אני מאשר/ת ומסכים/ה לרישום פרטיי במאגרי המידע של המסלול האקדמי המכללה למינהל, לרבות לצורך דיוור ישיר של כל דבר פרסומת ועדכונים באמצעי ההתקשרות השונים.
+            - button "לחץ על כפתור כדי להרשם" [ref=e69] [cursor=pointer]:
+              - generic [ref=e70]: תרשמו אותי
+        - generic [ref=e73]:
+          - heading "תואר פורץ גבולות. בדיוק כמוכם" [level=2] [ref=e75]:
+            - generic [ref=e77]: תואר פורץ גבולות. בדיוק כמוכם
+          - generic [ref=e78]:
+            - list:
+              - listitem [ref=e79]:
+                - link "המרכז לפיתוח קריירה" [ref=e80] [cursor=pointer]:
+                  - /url: /registration-and-information/unique/my-work/
+                  - generic [ref=e84]:
+                    - text: המרכז לפיתוח קריירה
+                    - generic [ref=e85]: 
+              - listitem [ref=e86]:
+                - link "מרכז העצמה - חיבוק עוטף" [ref=e87] [cursor=pointer]:
+                  - /url: /empowerment_center/
+                  - generic [ref=e91]:
+                    - text: מרכז העצמה - חיבוק עוטף
+                    - generic [ref=e92]: 
+              - listitem [ref=e93]:
+                - link "התמחות בחברות מובילות INTERNSHIP" [ref=e94] [cursor=pointer]:
+                  - /url: /registration-and-information/unique/my-work/mywork-students/mywork-internship/
+                  - generic [ref=e96]:
+                    - generic [ref=e98]: INTERNSHIP
+                    - generic [ref=e100]:
+                      - text: התמחות בחברות מובילות
+                      - generic [ref=e101]: 
+              - listitem [ref=e102]:
+                - link "הסמכות מקצועיות Edge-Ucation" [ref=e103] [cursor=pointer]:
+                  - /url: /registration-and-information/unique/edgeucation/
+                  - generic [ref=e105]:
+                    - generic [ref=e107]: Edge-Ucation
+                    - generic [ref=e109]:
+                      - text: הסמכות מקצועיות
+                      - generic [ref=e110]: 
+              - listitem [ref=e111]:
+                - link "חיי קמפוס וקהילה" [ref=e112] [cursor=pointer]:
+                  - /url: /registration-and-information/campus/
+                  - generic [ref=e116]:
+                    - text: חיי קמפוס וקהילה
+                    - generic [ref=e117]: 
+              - listitem [ref=e118]:
+                - link "מעטפת תמיכה אקדמית ואישית" [ref=e119] [cursor=pointer]:
+                  - /url: /registration-and-information/academic_support/
+                  - generic [ref=e123]:
+                    - text: מעטפת תמיכה אקדמית ואישית
+                    - generic [ref=e124]: 
+        - generic [ref=e128]:
+          - generic [ref=e129]:
+            - heading "על העתיד שלכם אין פשרות!" [level=2] [ref=e130]:
+              - generic [ref=e131]: על העתיד שלכם אין פשרות!
+            - paragraph [ref=e134]:
+              - text: בעולם טכנולוגי שלא מפסיק לאתגר ולהשתנות, אתם חייבים להגיע מוכנים ולדעת להסתגל. הוכחתם שעם הכלים הנכונים אין גבול לאן שתוכלו להגיע. אנחנו במכללה למינהל מבינים שעל העתיד שלכם, אין פשרות. כדי לנצח בעולם האמיתי אתם צריכים לקבל את הכלים המתקדמים והאפקטיביים ביותר במהלך הלימודים.
+              - strong [ref=e135]: הגיע הזמן לגלות איך התואר שלכם יכול להיות פורץ גבולות. בדיוק כמוכם.
+          - generic [ref=e137]:
+            - link "נגן סרטון" [ref=e140] [cursor=pointer]:
+              - /url: javascript:;
+              - generic [ref=e141]: 
+            - iframe [ref=e143]:
+              - generic [active] [ref=f15e1]:
+                - generic "YouTube Video Player" [ref=f15e3]
+                - generic [ref=f15e5]:
+                  - generic:
+                    - generic:
+                      - button "Play video" [ref=f15e10] [cursor=pointer]
+                      - button "Hide player controls" [ref=f15e12] [cursor=pointer]
+                      - generic [ref=f15e14]:
+                        - generic [ref=f15e19]:
+                          - generic [ref=f15e20]:
+                            - link "המסלול האקדמי המכללה למינהל – תואר פורץ גבולות. בדיוק כמוכם." [ref=f15e21] [cursor=pointer]:
+                              - /url: https://www.youtube.com/watch?v=JNp9CpPGb44
+                            - link "המסלול האקדמי המכללה למינהל (College of Management Academic Studies)" [ref=f15e22] [cursor=pointer]:
+                              - /url: /channel/UCEmuzhB1H5mjXDcWeL6E96w
+                              - generic [ref=f15e23]: המסלול האקדמי המכללה למינהל (College of Management Academic Studies)
+                          - generic [ref=f15e24]:
+                            - button [ref=f15e25] [cursor=pointer]
+                            - generic [ref=f15e27]:
+                              - generic: המסלול האקדמי המכללה למינהל (College of Management Academic Studies)
+                              - generic: 3.24k subscribers
+                        - generic [ref=f15e28]:
+                          - button "Share" [ref=f15e31] [cursor=pointer]:
+                            - generic [ref=f15e35]:
+                              - img
+                          - link "Watch on YouTube" [ref=f15e42] [cursor=pointer]:
+                            - /url: https://www.youtube.com/watch?v=JNp9CpPGb44
+                            - generic [ref=f15e45]:
+                              - text: Watch on
+                              - img [ref=f15e47]:
+                                - generic [ref=f15e49]:
+                                  - img
+        - generic [ref=e146]:
+          - heading "עושים- כותרות" [level=2] [ref=e147]: עושים- כותרות
+          - generic [ref=e151]:
+            - link "מעבר לכתבה מחבקים אתכם כל הדרך" [ref=e153] [cursor=pointer]:
+              - /url: https://www.colman.ac.il/articles/digital_array/
+              - generic [ref=e156]:
+                - generic [ref=e157]: מחבקים אתכם כל הדרך
+                - generic [ref=e159]: מערך דיגיטלי ייעודי למשרתי המילואים
+            - generic [ref=e160]:
+              - link "מעבר לכתבה ליהנות מכל העולמות" [ref=e162] [cursor=pointer]:
+                - /url: https://www.colman.ac.il/articles/integrated_learning/
+                - generic [ref=e165]:
+                  - generic [ref=e166]: ליהנות מכל העולמות
+                  - generic [ref=e167]: למידה משולבת במכללה למינהל
+              - link "מעבר לכתבה מעטפת תמיכה אקדמית ואישית" [ref=e169] [cursor=pointer]:
+                - /url: https://www.colman.ac.il/articles/academic_support/
+                - generic [ref=e172]:
+                  - generic [ref=e173]: מעטפת תמיכה אקדמית ואישית
+                  - generic [ref=e174]: המלגות שיסייעו לכם לשדרג את עתידכם
+          - link "הצג את כל הכתבות" [ref=e176] [cursor=pointer]:
+            - /url: https://www.colman.ac.il/articles/
+            - text: הצג את כל הכתבות
+            - generic [ref=e177]: 
+        - generic [ref=e180]:
+          - heading "אירועים קרובים" [level=2] [ref=e181]: אירועים קרובים
+          - tablist [ref=e185]:
+            - generic [ref=e186]:
+              - 'tab "הצג אירוע משחק עולמי: ספורט בין גבולות, מסכים וכסף" [selected] [ref=e187] [cursor=pointer]':
+                - generic [ref=e188]:
+                  - generic [ref=e189]:
+                    - strong [ref=e190]: "20"
+                    - text: מאי
+                  - generic [ref=e191]: "משחק עולמי: ספורט בין גבולות, מסכים וכסף משחק עולמי: ספורט בין גבולות, מסכים וכסף"
+                  - list:
+                    - listitem [ref=e192]:
+                      - generic "זמן האירוע" [ref=e193]: 
+                      - text: 11:30 - 13:45
+                    - listitem [ref=e194]:
+                      - generic "מקום האירוע" [ref=e195]: 
+                      - text: בניין י"ג – תקשורת, אולם 10
+              - text:  
+          - link "לכל האירועים" [ref=e197] [cursor=pointer]:
+            - /url: https://www.colman.ac.il/events/
+            - text: לכל האירועים
+            - generic [ref=e198]: 
+        - generic [ref=e201]:
+          - heading "המכללה במספרים" [level=2] [ref=e202]:
+            - generic [ref=e204]: המכללה במספרים
+          - list [ref=e205]:
+            - listitem [ref=e206]:
+              - generic [ref=e208]: "0"
+              - generic [ref=e209]: בוגרים הנמצאים בתפקידי מפתח בתעשייה
+            - listitem [ref=e210]:
+              - generic [ref=e212]: "0"
+              - generic [ref=e213]: מרצים מהתעשייה ומהאקדמיה
+            - listitem [ref=e214]:
+              - generic [ref=e216]: "0"
+              - generic [ref=e217]: משרות פתוחות באתר בכל רגע נתון
+            - listitem [ref=e218]:
+              - generic [ref=e220]: "0"
+              - generic [ref=e221]: חברות משתתפות בתוכנית ה- Internship
+        - generic [ref=e225]:
+          - link "נגן סרטון" [ref=e228] [cursor=pointer]:
+            - /url: javascript:;
+            - generic [ref=e229]: 
+          - iframe [ref=e230]:
+            - generic [active] [ref=f14e1]:
+              - generic "YouTube Video Player" [ref=f14e3]
+              - generic [ref=f14e5]:
+                - generic:
+                  - generic:
+                    - button "Play video" [ref=f14e10] [cursor=pointer]
+                    - button "Hide player controls" [ref=f14e12] [cursor=pointer]
+                    - generic [ref=f14e14]:
+                      - generic [ref=f14e19]:
+                        - generic [ref=f14e20]:
+                          - link "בואו להכיר את המספרים מאחורי ההצלחה - המסלול האקדמי המכללה למינהל" [ref=f14e21] [cursor=pointer]:
+                            - /url: https://www.youtube.com/watch?v=7ePhQQqprTc
+                          - link "המסלול האקדמי המכללה למינהל (College of Management Academic Studies)" [ref=f14e22] [cursor=pointer]:
+                            - /url: /channel/UCEmuzhB1H5mjXDcWeL6E96w
+                            - generic [ref=f14e23]: המסלול האקדמי המכללה למינהל (College of Management Academic Studies)
+                        - generic [ref=f14e24]:
+                          - button [ref=f14e25] [cursor=pointer]
+                          - generic [ref=f14e27]:
+                            - generic: המסלול האקדמי המכללה למינהל (College of Management Academic Studies)
+                            - generic: 3.24k subscribers
+                      - generic [ref=f14e28]:
+                        - button "Share" [ref=f14e31] [cursor=pointer]:
+                          - generic [ref=f14e35]:
+                            - img
+                        - link "Watch on YouTube" [ref=f14e42] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=7ePhQQqprTc
+                          - generic [ref=f14e45]:
+                            - text: Watch on
+                            - img [ref=f14e47]:
+                              - generic [ref=f14e49]:
+                                - img
+    - contentinfo [ref=e231]:
+      - navigation [ref=e232]:
+        - generic [ref=e234]:
+          - generic [ref=e235]:
+            - link "תכניות לימודים לתואר ראשון" [ref=e236] [cursor=pointer]:
+              - /url: /academics/ba/
+              - heading "תכניות לימודים לתואר ראשון" [level=2] [ref=e237]: תכניות לימודים לתואר ראשון
+            - list [ref=e239]:
+              - listitem [ref=e240]:
+                - link "תואר ראשון במנהל עסקים" [ref=e241] [cursor=pointer]:
+                  - /url: /academics/ba/business-administration/
+              - listitem [ref=e242]:
+                - link "תואר ראשון בחשבונאות" [ref=e243] [cursor=pointer]:
+                  - /url: /academics/ba/accounting/
+              - listitem [ref=e244]:
+                - link "תואר ראשון בניהול מערכות מידע" [ref=e245] [cursor=pointer]:
+                  - /url: /academics/ba/management-information-systems/
+              - listitem [ref=e246]:
+                - link "תואר ראשון בתקשורת" [ref=e247] [cursor=pointer]:
+                  - /url: /academics/ba/communication-content-media/
+              - listitem [ref=e248]:
+                - link "תואר ראשון בתקשורת וניהול" [ref=e249] [cursor=pointer]:
+                  - /url: /academics/ba/communication-and-managment/
+              - listitem [ref=e250]:
+                - link "תואר ראשון בכלכלה וניהול" [ref=e251] [cursor=pointer]:
+                  - /url: /academics/ba/economy/
+              - listitem [ref=e252]:
+                - link "תואר ראשון במשפטים" [ref=e253] [cursor=pointer]:
+                  - /url: /academics/ba/law/
+              - listitem [ref=e254]:
+                - link "תואר ראשון בפסיכולוגיה" [ref=e255] [cursor=pointer]:
+                  - /url: /academics/ba/psychology/
+              - listitem [ref=e256]:
+                - link "תואר ראשון במדעי ההתנהגות" [ref=e257] [cursor=pointer]:
+                  - /url: /academics/ba/behavioral-science/
+              - listitem [ref=e258]:
+                - link "תואר ראשון בחינוך" [ref=e259] [cursor=pointer]:
+                  - /url: /academics/ba/education/
+              - listitem [ref=e260]:
+                - link "תואר ראשון במדעי המחשב" [ref=e261] [cursor=pointer]:
+                  - /url: /academics/ba/computer-science/
+              - listitem [ref=e262]:
+                - link "תואר ראשון במדע הנתונים" [ref=e263] [cursor=pointer]:
+                  - /url: /academics/ba/data-science/
+              - listitem [ref=e264]:
+                - link "תואר ראשון בעיצוב פנים" [ref=e265] [cursor=pointer]:
+                  - /url: /academics/ba/interior-design/
+              - listitem [ref=e266]:
+                - link "תואר ראשון בתקשורת חזותית במרחב" [ref=e267] [cursor=pointer]:
+                  - /url: /academics/ba/interior-design/visual-design/
+              - listitem [ref=e268]:
+                - link "תואר ראשון בפסיכולוגיה וכלכלה" [ref=e269] [cursor=pointer]:
+                  - /url: /academics/ba/economics-psychology-studies/
+              - listitem [ref=e270]:
+                - link "קמפוס בני ברק" [ref=e271] [cursor=pointer]:
+                  - /url: /academics/school/bnei-brak/
+              - listitem [ref=e272]:
+                - link "מכינות שחקים" [ref=e273] [cursor=pointer]:
+                  - /url: /registration-and-information/preperation-programs/
+          - generic [ref=e274]:
+            - link "תכניות לימודים לתואר שני" [ref=e275] [cursor=pointer]:
+              - /url: /academics/ma/
+              - heading "תכניות לימודים לתואר שני" [level=2] [ref=e276]: תכניות לימודים לתואר שני
+            - list [ref=e278]:
+              - listitem [ref=e279]:
+                - link "תואר שני במנהל עסקים" [ref=e280] [cursor=pointer]:
+                  - /url: /academics/ma/m-b-a-business-administration/
+              - listitem [ref=e281]:
+                - link "תואר שני במיסים בעסקים" [ref=e282] [cursor=pointer]:
+                  - /url: /academics/ma/m-b-t-bussiness-tax/
+              - listitem [ref=e283]:
+                - link "תואר שני בעיצוב חדשנות ויזמות" [ref=e284] [cursor=pointer]:
+                  - /url: /academics/ma/entrepreneurship/
+              - listitem [ref=e285]:
+                - link "תואר שני בכלכלה יישומית" [ref=e286] [cursor=pointer]:
+                  - /url: /academics/ma/useful-economics/
+              - listitem [ref=e287]:
+                - link "תואר שני בייעוץ ופיתוח ארגוני" [ref=e288] [cursor=pointer]:
+                  - /url: /academics/ma/organizational-consulting/
+              - listitem [ref=e289]:
+                - link "תואר שני בייעוץ חינוכי" [ref=e290] [cursor=pointer]:
+                  - /url: /academics/ma/educational-guidance/
+              - listitem [ref=e291]:
+                - link "תואר שני בלימודי משפחה" [ref=e292] [cursor=pointer]:
+                  - /url: /academics/ma/family-studies/
+              - listitem [ref=e293]:
+                - link "תואר שני בפסיכולוגיה של הספורט" [ref=e294] [cursor=pointer]:
+                  - /url: /academics/ma/sport-psychology/
+              - listitem [ref=e295]:
+                - link "תואר שני בפסיכולוגיה קלינית" [ref=e296] [cursor=pointer]:
+                  - /url: /academics/ma/clinical-psychology/
+              - listitem [ref=e297]:
+                - link "תואר שני במשפטים" [ref=e298] [cursor=pointer]:
+                  - /url: /academics/ma/l-l-m-law/
+              - listitem [ref=e299]:
+                - link "תואר שני במשפטים ללא משפטנים" [ref=e300] [cursor=pointer]:
+                  - /url: /academics/ma/law-for-non-lawyers/
+          - generic [ref=e301]:
+            - heading "מידע שימושי" [level=2] [ref=e302]: מידע שימושי
+            - list [ref=e304]:
+              - listitem [ref=e305]:
+                - link "רישום ומידע נוסף" [ref=e306] [cursor=pointer]:
+                  - /url: /registration-and-information/
+              - listitem [ref=e307]:
+                - link "מחשבון בגרויות" [ref=e308] [cursor=pointer]:
+                  - /url: https://wwwi.colman.ac.il/yedion/fireflyweb.aspx?prgname=Reg_Calc_1
+              - listitem [ref=e309]:
+                - link "מלגות והסדרי מימון" [ref=e310] [cursor=pointer]:
+                  - /url: /registration-and-information/scholarships/
+              - listitem [ref=e311]:
+                - link "מעונות סטודנטים" [ref=e312] [cursor=pointer]:
+                  - /url: /dorms/
+              - listitem [ref=e313]:
+                - link "יצירת קשר" [ref=e314] [cursor=pointer]:
+                  - /url: /about/phone-book/
+              - listitem [ref=e315]:
+                - link "דרכי הגעה" [ref=e316] [cursor=pointer]:
+                  - /url: /about/contact/
+              - listitem [ref=e317]:
+                - link "בואו לעבוד איתנו" [ref=e318] [cursor=pointer]:
+                  - /url: /about/jobs/
+              - listitem [ref=e319]:
+                - link "לוח שנה אקדמי" [ref=e320] [cursor=pointer]:
+                  - /url: /calendar/
+              - listitem [ref=e321]:
+                - link "חיי הקמפוס" [ref=e322] [cursor=pointer]:
+                  - /url: /registration-and-information/campus/
+              - listitem [ref=e323]:
+                - link "בינה מלאכותית" [ref=e324] [cursor=pointer]:
+                  - /url: /ai/
+              - listitem [ref=e325]:
+                - link "סיור וירטואלי בקמפוס" [ref=e326] [cursor=pointer]:
+                  - /url: https://web.colman.ac.il/tour/index.htm
+              - listitem [ref=e327]:
+                - link "הספרייה" [ref=e328] [cursor=pointer]:
+                  - /url: /library/
+              - listitem [ref=e329]:
+                - link "יחידות מנהלה" [ref=e330] [cursor=pointer]:
+                  - /url: /about/administrative-units/
+              - listitem [ref=e331]:
+                - link "קשרי חוץ" [ref=e332] [cursor=pointer]:
+                  - /url: /partners/academy-industry-relations/
+              - listitem [ref=e333]:
+                - link "היחידה הבינלאומית" [ref=e334] [cursor=pointer]:
+                  - /url: /international/
+              - listitem [ref=e335]:
+                - link "הצהרת נגישות" [ref=e336] [cursor=pointer]:
+                  - /url: /students/dikant/academic-accessibilty/accessibility-policy/
+              - listitem [ref=e337]:
+                - link "תקנון חניון המכללה" [ref=e338] [cursor=pointer]:
+                  - /url: /about/parking_regulations/
+              - listitem [ref=e339]:
+                - link "החנות שלנו" [ref=e340] [cursor=pointer]:
+                  - /url: https://thecolmanshop.colman.ac.il/
+              - listitem [ref=e341]:
+                - link "מכרזים" [ref=e342] [cursor=pointer]:
+                  - /url: /about/auctions/
+              - listitem [ref=e343]:
+                - link "כללי התנהגות בזמן חירום" [ref=e344] [cursor=pointer]:
+                  - /url: /rules-of-conduct-in-an-emergency/
+              - listitem [ref=e345]:
+                - link "השכרת מרחבים" [ref=e346] [cursor=pointer]:
+                  - /url: /about/rental-of-learning-spaces/
+              - listitem [ref=e347]:
+                - link "מדיניות פרטיות" [ref=e348] [cursor=pointer]:
+                  - /url: /privacy-policy/
+              - listitem [ref=e349]:
+                - link "בלוגים" [ref=e350] [cursor=pointer]:
+                  - /url: /blogs/
+      - generic [ref=e353]:
+        - list [ref=e354]:
+          - listitem [ref=e355]:
+            - link "facebook" [ref=e356] [cursor=pointer]:
+              - /url: https://www.facebook.com/colman.page
+              - generic [ref=e357]: 
+          - listitem [ref=e358]:
+            - link "instagram" [ref=e359] [cursor=pointer]:
+              - /url: https://www.instagram.com/colman_college/
+              - generic [ref=e360]: 
+          - listitem [ref=e361]:
+            - link "linkedin" [ref=e362] [cursor=pointer]:
+              - /url: https://www.linkedin.com/school/15095076
+              - generic [ref=e363]: 
+          - listitem [ref=e364]:
+            - link "YouTube" [ref=e365] [cursor=pointer]:
+              - /url: https://www.youtube.com/user/colmanCollege
+              - generic [ref=e366]: 
+          - listitem [ref=e367]:
+            - link "TikTok" [ref=e368] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@colman_college?lang=he-IL
+              - generic [ref=e369]: 
+        - contentinfo [ref=e370]: כל הזכויות שמורות למכללה למינהל 2021 ©
+        - link "Website by Tvuna" [ref=e372] [cursor=pointer]:
+          - /url: https://tvuna.co.il
+          - text: "Website by Tvuna:"
+  - region "chat bot":
+    - button "פתח חלון שיחה" [ref=e375] [cursor=pointer]:
+      - img [ref=e376]

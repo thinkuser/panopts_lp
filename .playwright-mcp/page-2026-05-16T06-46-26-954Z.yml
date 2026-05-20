@@ -1,0 +1,495 @@
+- generic [active] [ref=e1]:
+  - navigation:
+    - link "Click ESC to open the accessibility toolbar" [ref=e2] [cursor=pointer]:
+      - /url: "#vplugin"
+    - link "Skip to content" [ref=e3] [cursor=pointer]:
+      - /url: "#content"
+  - complementary:
+    - button "Accessibility Tools" [ref=e5] [cursor=pointer]:
+      - generic [ref=e6]: Accessibility Tools
+    - generic [ref=e8]:
+      - heading "Accessibility Tools Close" [level=2] [ref=e9]:
+        - text: Accessibility Tools
+        - link "Close" [ref=e10] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e11]: Close
+      - list [ref=e12]:
+        - listitem [ref=e13]:
+          - button "High Contrast" [ref=e14] [cursor=pointer]: High Contrast
+        - listitem [ref=e16]:
+          - button "Negative" [ref=e17] [cursor=pointer]: Negative
+        - listitem [ref=e19]:
+          - button "Grayscale" [ref=e20] [cursor=pointer]: Grayscale
+        - listitem [ref=e22]:
+          - button "Black & White" [ref=e23] [cursor=pointer]: Black & White
+        - listitem [ref=e25]:
+          - button "Higlight Links" [ref=e26] [cursor=pointer]: Higlight Links
+        - listitem [ref=e28]:
+          - button "Vee Screen Reader" [ref=e29] [cursor=pointer]: Vee Screen Reader
+      - heading "Adjust Text Size" [level=3] [ref=e31]
+      - list [ref=e32]:
+        - listitem [ref=e33]:
+          - button "Increase" [ref=e34] [cursor=pointer]: Increase
+        - listitem [ref=e36]:
+          - button "100% Reset" [ref=e37] [cursor=pointer]:
+            - generic [ref=e38]: 100%
+            - text: Reset
+        - listitem [ref=e39]:
+          - button "Decrease" [ref=e40] [cursor=pointer]: Decrease
+      - heading "Adjust Word Spacing" [level=3] [ref=e42]
+      - list [ref=e43]:
+        - listitem [ref=e44]:
+          - button "Increase" [ref=e45] [cursor=pointer]: Increase
+        - listitem [ref=e47]:
+          - button "0 Reset Spacing" [ref=e48] [cursor=pointer]:
+            - generic [ref=e49]: "0"
+            - text: Reset Spacing
+        - listitem [ref=e50]:
+          - button "Decrease" [ref=e51] [cursor=pointer]: Decrease
+      - heading "Adjust Letter Spacing" [level=3] [ref=e53]
+      - list [ref=e54]:
+        - listitem [ref=e55]:
+          - button "Increase" [ref=e56] [cursor=pointer]: Increase
+        - listitem [ref=e58]:
+          - button "0 Reset Spacing" [ref=e59] [cursor=pointer]:
+            - generic [ref=e60]: "0"
+            - text: Reset Spacing
+        - listitem [ref=e61]:
+          - button "Decrease" [ref=e62] [cursor=pointer]: Decrease
+      - list [ref=e64]:
+        - listitem [ref=e65]:
+          - button "Readable Font" [ref=e66] [cursor=pointer]: Readable Font
+        - listitem [ref=e68]:
+          - button "Hide Images" [ref=e69] [cursor=pointer]: Hide Images
+        - listitem [ref=e71]:
+          - button "Screen Reader Optimization" [ref=e72] [cursor=pointer]: Screen Reader Optimization
+        - listitem [ref=e74]:
+          - button "Dark Cursor" [ref=e75] [cursor=pointer]: Dark Cursor
+        - listitem [ref=e77]:
+          - button "Light Cursor" [ref=e78] [cursor=pointer]: Light Cursor
+        - listitem [ref=e80]:
+          - button "Reading Guide" [ref=e81] [cursor=pointer]: Reading Guide
+        - listitem [ref=e83]:
+          - button "Stop Animations" [ref=e84] [cursor=pointer]: Stop Animations
+        - listitem [ref=e86]:
+          - button "Highlight Headings" [ref=e87] [cursor=pointer]: Highlight Headings
+        - listitem [ref=e89]:
+          - button "Reset" [ref=e90] [cursor=pointer]: Reset
+      - generic [ref=e94]:
+        - generic [ref=e95]: Powered By
+        - link "Vee - Go to Vee website for more information Vee - Website Accessibility" [ref=e96] [cursor=pointer]:
+          - /url: https://vee.co.il/
+          - img "Vee - Go to Vee website for more information" [ref=e97]
+          - generic [ref=e98]: Vee - Website Accessibility
+  - banner [ref=e99]:
+    - navigation [ref=e100]:
+      - generic [ref=e101]:
+        - link "Thinkuser" [ref=e102] [cursor=pointer]:
+          - /url: https://www.thinkuser.co.il/
+          - img "Thinkuser" [ref=e103]
+        - list [ref=e105]:
+          - listitem [ref=e106]:
+            - link "Services" [ref=e107] [cursor=pointer]:
+              - /url: https://www.thinkuser.co.il/#services
+          - listitem [ref=e108]:
+            - link "ThinkHub" [ref=e109] [cursor=pointer]:
+              - /url: https://www.thinkuser.co.il/#lectures
+          - listitem [ref=e110]:
+            - link "About" [ref=e111] [cursor=pointer]:
+              - /url: https://www.thinkuser.co.il/#about
+          - listitem [ref=e112]:
+            - link "Contact" [ref=e113] [cursor=pointer]:
+              - /url: https://www.thinkuser.co.il/#contact-us
+  - main [ref=e114]:
+    - generic [ref=e120]:
+      - heading "The price of light is less than the cost of darkness" [level=1] [ref=e122]:
+        - text: The price of light is less than
+        - text: the cost of darkness
+      - paragraph [ref=e124]: Arthur Nielsen
+      - link "Enlighten me" [ref=e125] [cursor=pointer]:
+        - /url: "#contact-us"
+        - text: Enlighten me
+        - img [ref=e126]
+    - generic [ref=e129]:
+      - generic [ref=e130]: We empower brands to understand humans-deeply, instantly, and creatively-so they can make better decisions
+      - heading "Based on User Data" [level=2] [ref=e131]:
+        - text: Based on
+        - generic [ref=e132]: User
+        - text: Data
+    - generic [ref=e136]:
+      - heading "How we do it?" [level=2] [ref=e137]
+      - paragraph
+      - paragraph [ref=e138]:
+        - text: We believe that a good data project must start by asking great questions, these will drive great results, optimal reports and great analysis insights.
+        - text: Our unique thinking cycle (the cool image on the right) is the way we have been helping business owners improve their digital marketing and business process since 2014.
+        - text: We believe working with frameworks is the best way to achieve great results (take a look at some of them in the showcase below)
+        - text: If you know
+        - strong [ref=e140]: WHY
+        - text: you do it, then you know
+        - strong [ref=e142]: WHAT
+        - text: to do and the
+        - strong [ref=e144]: HOW
+        - text: won’t be a problem
+      - paragraph
+      - link "Sounds interesting" [ref=e145] [cursor=pointer]:
+        - /url: "#contact-us"
+    - generic [ref=e151]:
+      - generic [ref=e152]:
+        - heading "Data Collection & Automation" [level=5] [ref=e154]
+        - heading "Data Reporting & Pipelines" [level=5] [ref=e167]
+        - heading "Data Analysis & Activation" [level=5] [ref=e180]
+      - generic [ref=e192]:
+        - img "Brain Icon" [ref=e194]
+        - img [ref=e195]
+      - list [ref=e202]:
+        - listitem [ref=e203]: Client and Server side tracking
+        - listitem [ref=e204]: Holistic marketing & sales dashboards
+        - listitem [ref=e205]: Market and competitors research
+        - listitem [ref=e206]: Advanced analysis and CRO using ML & AI
+        - listitem [ref=e207]: RFM, Arules, XGBoost, Neural Networks, Decision Trees
+    - generic [ref=e209]:
+      - heading "Think Flow" [level=2] [ref=e210]
+      - generic [ref=e211]:
+        - generic [ref=e213]:
+          - generic [ref=e214]: "1"
+          - generic [ref=e215]: Plan
+          - generic [ref=e216]: Defining business questions
+        - generic [ref=e218]:
+          - generic [ref=e219]: "2"
+          - generic [ref=e220]: Audit
+          - generic [ref=e221]: Map measurement and content
+        - generic [ref=e223]:
+          - generic [ref=e224]: "3"
+          - generic [ref=e225]: Blueprint
+          - generic [ref=e226]: Detailed measurement specification
+        - generic [ref=e228]:
+          - generic [ref=e229]: "4"
+          - generic [ref=e230]: Scrutiny
+          - generic [ref=e231]: QA with tech teams
+        - generic [ref=e233]:
+          - generic [ref=e234]: "5"
+          - generic [ref=e235]: Empower
+          - generic [ref=e236]: Customized reports and dashboards
+        - generic [ref=e238]:
+          - generic [ref=e239]: "6"
+          - generic [ref=e240]: Optimization
+          - generic [ref=e241]:
+            - text: Analyze, test,
+            - text: optimize
+        - generic [ref=e243]:
+          - generic [ref=e244]: "7"
+          - generic [ref=e245]: Iterate
+          - generic [ref=e246]:
+            - text: Refine, realign,
+            - text: evolve
+    - generic [ref=e248]:
+      - generic [ref=e249]:
+        - heading "Frameworks, showcases & more" [level=2] [ref=e250]
+        - paragraph [ref=e251]: Using frameworks provides a structured approach that drives efficiency, consistency, and scalability. They act as a proven roadmap, predefined processes, best practices, and tools tailored to solve your challenges, whether in marketing or data analysis. our frameworks empower businesses to achieve their goals with clarity, agility, and confidence.
+      - list [ref=e253]:
+        - listitem [ref=e254]:
+          - button "Frameworks" [ref=e255] [cursor=pointer]
+        - listitem [ref=e256]:
+          - button "Showcases" [ref=e257] [cursor=pointer]
+      - generic [ref=e260]:
+        - list [ref=e262]:
+          - listitem [ref=e263]:
+            - button "Analysis Roadmap" [ref=e264] [cursor=pointer]
+          - listitem [ref=e265]:
+            - button "FIRBI" [ref=e266] [cursor=pointer]
+          - listitem [ref=e267]:
+            - button "Minimax" [ref=e268] [cursor=pointer]
+          - listitem [ref=e269]:
+            - button "ThinkVenn" [ref=e270] [cursor=pointer]
+          - listitem [ref=e271]:
+            - button "Optimization Priority" [ref=e272] [cursor=pointer]
+          - listitem [ref=e273]:
+            - button "Segmentation" [ref=e274] [cursor=pointer]
+        - generic [ref=e276]:
+          - generic [ref=e278]:
+            - paragraph
+            - paragraph [ref=e279]: We use the Analytics maturity framework to assess and progress data utilization to drive decisions and create value.
+            - paragraph [ref=e280]
+            - paragraph [ref=e281]
+            - paragraph [ref=e282]: The Descriptive Analysis stage is the first step in our roadmap.
+            - paragraph [ref=e283]: We help the organization focus on understanding what has happened during user interactions or visits, capturing historical data effectively.
+            - paragraph [ref=e284]: In the Diagnostic Analysis stage, we move forward with the organization to the first level of insight.
+            - paragraph [ref=e285]: into why specific outcomes occurred, uncovering underlying patterns and causes.
+            - paragraph [ref=e286]: The third step is Predictive Analysis, we now learn from the past and leverage models to forecast future interactions or behaviors, enabling proactive planning.
+            - paragraph [ref=e287]: Prescriptive Analysis empowers the organization to make data-driven decisions, optimize outcomes, and simulate scenarios based on user behaviors.
+            - paragraph [ref=e288]: Last but not least is the Prevention Analysis stage, the organization achieves the highest level of maturity, anticipating user needs, acting preemptively, and preparing strategies to meet demands before they arise, ensuring a seamless user experience.
+            - paragraph
+          - img "Scroll Indicator" [ref=e289] [cursor=pointer]
+      - generic [ref=e290]:
+        - paragraph [ref=e291]: See how our frameworks can accelerate your success.
+        - link "Let’s Talk" [ref=e292] [cursor=pointer]:
+          - /url: "#contact-us"
+    - generic [ref=e295]:
+      - heading "ThinkHub" [level=2] [ref=e296]: ThinkHub
+      - paragraph [ref=e297]: One of the things we believe in life is that “You will get all you want in life if you help enough other people get what they want.” – Zig Ziglar On top of the on-going data services we provide more services to help your business use data more efficiently and effectively. We love helping organizations and your team really understand data and how to extract insights from the data.
+      - generic [ref=e300]:
+        - link "Employee Placement Finding the right talent for your analytics needs can be challenging. We help you hire skilled digital analysts who are ready to dive into your data-driven environment. Whether you need full-time experts or temporary consultants, we connect you with professionals who fit seamlessly into your company culture. Next" [ref=e303] [cursor=pointer]:
+          - /url: "#contact-us"
+          - generic [ref=e305]:
+            - heading "Employee Placement" [level=3] [ref=e306]
+            - paragraph [ref=e307]: Finding the right talent for your analytics needs can be challenging. We help you hire skilled digital analysts who are ready to dive into your data-driven environment. Whether you need full-time experts or temporary consultants, we connect you with professionals who fit seamlessly into your company culture.
+            - img "Next" [ref=e309]
+        - link "Toolbox We develop custom tools for our partners and ourselves that act as true performance enhancers. It amplifies the power of automation, advanced analytics and helping teams move faster and smarter. From anomaly detection, GA4 Measurement Protocol integrations, data stitching, media models, and even AI-powered agents our tools turn insights into action and drive measurable impact. Next" [ref=e312] [cursor=pointer]:
+          - /url: "#contact-us"
+          - generic [ref=e314]:
+            - heading "Toolbox" [level=3] [ref=e315]
+            - paragraph [ref=e316]: We develop custom tools for our partners and ourselves that act as true performance enhancers. It amplifies the power of automation, advanced analytics and helping teams move faster and smarter. From anomaly detection, GA4 Measurement Protocol integrations, data stitching, media models, and even AI-powered agents our tools turn insights into action and drive measurable impact.
+            - img "Next" [ref=e318]
+        - link "Workshops and Training Sessions Empower your team with the skills needed to excel in digital analytics. We provide customized workshops designed to address your business challenges, covering tools like Google Analytics, BigQuery, and Looker Studio. Our training focuses on hands-on learning, ensuring your team can confidently apply techniques like campaign tracking, funnel analysis, and advanced data visualization. Next" [ref=e321] [cursor=pointer]:
+          - /url: "#contact-us"
+          - generic [ref=e323]:
+            - heading "Workshops and Training Sessions" [level=3] [ref=e324]
+            - paragraph [ref=e325]: Empower your team with the skills needed to excel in digital analytics. We provide customized workshops designed to address your business challenges, covering tools like Google Analytics, BigQuery, and Looker Studio. Our training focuses on hands-on learning, ensuring your team can confidently apply techniques like campaign tracking, funnel analysis, and advanced data visualization.
+            - img "Next" [ref=e327]
+        - link "Employee Placement Finding the right talent for your analytics needs can be challenging. We help you hire skilled digital analysts who are ready to dive into your data-driven environment. Whether you need full-time experts or temporary consultants, we connect you with professionals who fit seamlessly into your company culture. Next" [ref=e330] [cursor=pointer]:
+          - /url: "#contact-us"
+          - generic [ref=e332]:
+            - heading "Employee Placement" [level=3] [ref=e333]
+            - paragraph [ref=e334]: Finding the right talent for your analytics needs can be challenging. We help you hire skilled digital analysts who are ready to dive into your data-driven environment. Whether you need full-time experts or temporary consultants, we connect you with professionals who fit seamlessly into your company culture.
+            - img "Next" [ref=e336]
+        - link "Toolbox We develop custom tools for our partners and ourselves that act as true performance enhancers. It amplifies the power of automation, advanced analytics and helping teams move faster and smarter. From anomaly detection, GA4 Measurement Protocol integrations, data stitching, media models, and even AI-powered agents our tools turn insights into action and drive measurable impact. Next" [ref=e339] [cursor=pointer]:
+          - /url: "#contact-us"
+          - generic [ref=e341]:
+            - heading "Toolbox" [level=3] [ref=e342]
+            - paragraph [ref=e343]: We develop custom tools for our partners and ourselves that act as true performance enhancers. It amplifies the power of automation, advanced analytics and helping teams move faster and smarter. From anomaly detection, GA4 Measurement Protocol integrations, data stitching, media models, and even AI-powered agents our tools turn insights into action and drive measurable impact.
+            - img "Next" [ref=e345]
+        - link "Workshops and Training Sessions Empower your team with the skills needed to excel in digital analytics. We provide customized workshops designed to address your business challenges, covering tools like Google Analytics, BigQuery, and Looker Studio. Our training focuses on hands-on learning, ensuring your team can confidently apply techniques like campaign tracking, funnel analysis, and advanced data visualization. Next" [ref=e348] [cursor=pointer]:
+          - /url: "#contact-us"
+          - generic [ref=e350]:
+            - heading "Workshops and Training Sessions" [level=3] [ref=e351]
+            - paragraph [ref=e352]: Empower your team with the skills needed to excel in digital analytics. We provide customized workshops designed to address your business challenges, covering tools like Google Analytics, BigQuery, and Looker Studio. Our training focuses on hands-on learning, ensuring your team can confidently apply techniques like campaign tracking, funnel analysis, and advanced data visualization.
+            - img "Next" [ref=e354]
+        - link "Employee Placement Finding the right talent for your analytics needs can be challenging. We help you hire skilled digital analysts who are ready to dive into your data-driven environment. Whether you need full-time experts or temporary consultants, we connect you with professionals who fit seamlessly into your company culture. Next" [ref=e357] [cursor=pointer]:
+          - /url: "#contact-us"
+          - generic [ref=e359]:
+            - heading "Employee Placement" [level=3] [ref=e360]
+            - paragraph [ref=e361]: Finding the right talent for your analytics needs can be challenging. We help you hire skilled digital analysts who are ready to dive into your data-driven environment. Whether you need full-time experts or temporary consultants, we connect you with professionals who fit seamlessly into your company culture.
+            - img "Next" [ref=e363]
+    - generic [ref=e366]:
+      - heading "Happy partners, happy us." [level=2] [ref=e367]
+      - paragraph [ref=e368]: We love helping brands discover new ways to turn data into stories, strategies, and success. We are proud to collaborate with some of the most forward-thinking brands, helping them turn data into growth, innovation, and real business impact. Together, we transform data into better decisions, better experiences, and better results.
+      - generic [ref=e373]:
+        - generic [ref=e375]:
+          - img "Testimonial Image" [ref=e376]
+          - img "Company Logo" [ref=e378]
+        - generic [ref=e380]:
+          - generic [ref=e382]:
+            - heading "Golf Group" [level=3] [ref=e383]
+            - paragraph
+            - paragraph [ref=e384]:
+              - text: Golf Group is a household name, with almost every customer owning at least one item from its extensive range of fashion, lingerie, kids, and home brands.
+              - text: This product diversity gives us the perfect foundation to create holistic, behavior-driven customer journeys.
+            - paragraph [ref=e385]:
+              - text: We partner with Golf to analyze both online and offline user behavior, using a suite of custom-built tools and frameworks.
+              - text: From automated anomaly alerts to media performance dashboards and LTV cohort analysis, we help the team uncover insights that drive growth.
+            - paragraph
+          - link "See it in action" [ref=e386] [cursor=pointer]:
+            - /url: "#"
+      - generic:
+        - button "Previous" [ref=e387] [cursor=pointer]:
+          - img [ref=e388]
+          - generic [ref=e389]: Previous
+        - button "Next" [ref=e390] [cursor=pointer]:
+          - img [ref=e391]
+          - generic [ref=e392]: Next
+    - generic [ref=e395]:
+      - heading "Next level friends" [level=2] [ref=e398]:
+        - text: Next level
+        - text: friends
+      - generic [ref=e400]:
+        - generic [ref=e401]:
+          - status
+          - list
+        - form "Contact form" [ref=e402]:
+          - generic [ref=e403]:
+            - textbox "Full Name" [ref=e405]
+            - generic: Your Name
+          - generic [ref=e406]:
+            - textbox "Phone Number" [ref=e408]
+            - generic: Your Number
+          - generic [ref=e409]:
+            - textbox "E-mail" [ref=e411]
+            - generic: Your E-mail
+          - generic [ref=e412]:
+            - textbox "I'm interested in..." [ref=e414]
+            - generic: Count me in for…
+          - generic [ref=e416]:
+            - generic [ref=e419]:
+              - checkbox "Yup, I’ve read the terms of use and totally agree." [ref=e420]
+              - text: Yup,
+            - generic [ref=e421]:
+              - text: I’ve read the
+              - link "terms of use" [ref=e422] [cursor=pointer]:
+                - /url: https://www.thinkuser.co.il/terms-and-conditions/
+              - text: and totally agree.
+          - button "Send" [ref=e424] [cursor=pointer]
+    - generic [ref=e425]:
+      - heading "Partners we call friends" [level=3] [ref=e429]
+      - generic [ref=e434]:
+        - link "Office-depot-logo" [ref=e436] [cursor=pointer]:
+          - /url: https://www.officedepot.co.il/
+          - img "Office-depot-logo" [ref=e438]
+        - link "רשת 13" [ref=e440] [cursor=pointer]:
+          - /url: https://13tv.co.il/
+          - img "רשת 13" [ref=e442]
+        - link "Webpals" [ref=e444] [cursor=pointer]:
+          - /url: ""
+          - img "Webpals" [ref=e446]
+        - link "AVIS" [ref=e448] [cursor=pointer]:
+          - /url: https://www.avis.co.il/
+          - img "AVIS" [ref=e450]
+        - link "easygo" [ref=e452] [cursor=pointer]:
+          - /url: https://www.easygo.co.il/
+          - img "easygo" [ref=e454]
+        - link "Golf and Co" [ref=e456] [cursor=pointer]:
+          - /url: https://www.golfco.co.il/
+          - img "Golf and Co" [ref=e458]
+        - link "Golf kids" [ref=e460] [cursor=pointer]:
+          - /url: https://www.golfkids.co.il/
+          - img "Golf kids" [ref=e462]
+        - link "Intima" [ref=e464] [cursor=pointer]:
+          - /url: https://www.intima-il.co.il/
+          - img "Intima" [ref=e466]
+        - link "מיטב" [ref=e468] [cursor=pointer]:
+          - /url: https://www.meitav.co.il/
+          - img "מיטב" [ref=e470]
+        - link "Colman_logo_2023" [ref=e472] [cursor=pointer]:
+          - /url: https://www.colman.ac.il/
+          - img "Colman_logo_2023" [ref=e474]
+        - link "Mac" [ref=e476] [cursor=pointer]:
+          - /url: https://www.maccosmetics.co.il/
+          - img "Mac" [ref=e478]
+        - link "TytoCare" [ref=e480] [cursor=pointer]:
+          - /url: https://www.tytocare.com/
+          - img "TytoCare" [ref=e482]
+        - link "Clinique_logo" [ref=e484] [cursor=pointer]:
+          - /url: https://www.clinique.co.il/
+          - img "Clinique_logo" [ref=e486]
+        - link "Estee Lauder" [ref=e488] [cursor=pointer]:
+          - /url: https://www.esteelauder.co.il/
+          - img "Estee Lauder" [ref=e490]
+        - link "ebay" [ref=e492] [cursor=pointer]:
+          - /url: https://www.ebay.com/
+          - img "ebay" [ref=e494]
+        - link "walnut-logo" [ref=e496] [cursor=pointer]:
+          - /url: https://www.walnut.io/
+          - img "walnut-logo" [ref=e498]
+        - link "Yad2" [ref=e500] [cursor=pointer]:
+          - /url: https://www.yad2.co.il/
+          - img "Yad2" [ref=e502]
+        - link "שיבא חדש" [ref=e504] [cursor=pointer]:
+          - /url: https://www.sheba.co.il/
+          - img "שיבא חדש" [ref=e506]
+        - link "Globale" [ref=e508] [cursor=pointer]:
+          - /url: https://www.global-e.com/
+          - img "Globale" [ref=e510]
+        - link "Bermad" [ref=e512] [cursor=pointer]:
+          - /url: https://www.bermad.com/
+          - img "Bermad" [ref=e514]
+        - link "Duve" [ref=e516] [cursor=pointer]:
+          - /url: https://duve.com/
+          - img "Duve" [ref=e518]
+        - link "Office-depot-logo" [ref=e520] [cursor=pointer]:
+          - /url: https://www.officedepot.co.il/
+          - img "Office-depot-logo" [ref=e522]
+        - link "רשת 13" [ref=e524] [cursor=pointer]:
+          - /url: https://13tv.co.il/
+          - img "רשת 13" [ref=e526]
+        - link "Webpals" [ref=e528] [cursor=pointer]:
+          - /url: ""
+          - img "Webpals" [ref=e530]
+        - link "AVIS" [ref=e532] [cursor=pointer]:
+          - /url: https://www.avis.co.il/
+          - img "AVIS" [ref=e534]
+        - link "easygo" [ref=e536] [cursor=pointer]:
+          - /url: https://www.easygo.co.il/
+          - img "easygo" [ref=e538]
+        - link "Golf and Co" [ref=e540] [cursor=pointer]:
+          - /url: https://www.golfco.co.il/
+          - img "Golf and Co" [ref=e542]
+        - link "Golf kids" [ref=e544] [cursor=pointer]:
+          - /url: https://www.golfkids.co.il/
+          - img "Golf kids" [ref=e546]
+        - link "Intima" [ref=e548] [cursor=pointer]:
+          - /url: https://www.intima-il.co.il/
+          - img "Intima" [ref=e550]
+        - link "מיטב" [ref=e552] [cursor=pointer]:
+          - /url: https://www.meitav.co.il/
+          - img "מיטב" [ref=e554]
+        - link "Colman_logo_2023" [ref=e556] [cursor=pointer]:
+          - /url: https://www.colman.ac.il/
+          - img "Colman_logo_2023" [ref=e558]
+        - link "Mac" [ref=e560] [cursor=pointer]:
+          - /url: https://www.maccosmetics.co.il/
+          - img "Mac" [ref=e562]
+        - link "TytoCare" [ref=e564] [cursor=pointer]:
+          - /url: https://www.tytocare.com/
+          - img "TytoCare" [ref=e566]
+        - link "Clinique_logo" [ref=e568] [cursor=pointer]:
+          - /url: https://www.clinique.co.il/
+          - img "Clinique_logo" [ref=e570]
+        - link "Estee Lauder" [ref=e572] [cursor=pointer]:
+          - /url: https://www.esteelauder.co.il/
+          - img "Estee Lauder" [ref=e574]
+        - link "ebay" [ref=e576] [cursor=pointer]:
+          - /url: https://www.ebay.com/
+          - img "ebay" [ref=e578]
+        - link "walnut-logo" [ref=e580] [cursor=pointer]:
+          - /url: https://www.walnut.io/
+          - img "walnut-logo" [ref=e582]
+        - link "Yad2" [ref=e584] [cursor=pointer]:
+          - /url: https://www.yad2.co.il/
+          - img "Yad2" [ref=e586]
+        - link "שיבא חדש" [ref=e588] [cursor=pointer]:
+          - /url: https://www.sheba.co.il/
+          - img "שיבא חדש" [ref=e590]
+        - link "Globale" [ref=e592] [cursor=pointer]:
+          - /url: https://www.global-e.com/
+          - img "Globale" [ref=e594]
+        - link "Bermad" [ref=e596] [cursor=pointer]:
+          - /url: https://www.bermad.com/
+          - img "Bermad" [ref=e598]
+        - link "Duve" [ref=e600] [cursor=pointer]:
+          - /url: https://duve.com/
+          - img "Duve" [ref=e602]
+        - link "Office-depot-logo" [ref=e604] [cursor=pointer]:
+          - /url: https://www.officedepot.co.il/
+          - img "Office-depot-logo" [ref=e606]
+  - contentinfo [ref=e607]:
+    - generic [ref=e608]:
+      - generic [ref=e609]:
+        - paragraph [ref=e611]: You can find us here
+        - generic [ref=e612]:
+          - link [ref=e613] [cursor=pointer]:
+            - /url: https://www.linkedin.com/in/erez-louzon-6b575535/
+          - link [ref=e614] [cursor=pointer]:
+            - /url: https://medium.com/@erez_21860
+      - generic [ref=e615]:
+        - link "Terms & Conditions" [ref=e616] [cursor=pointer]:
+          - /url: https://thinkuser.co.il/terms-and-conditions/
+        - link "Privacy Policy" [ref=e617] [cursor=pointer]:
+          - /url: https://www.thinkuser.co.il/privacy/
+        - link "Accessibility Statement" [ref=e618] [cursor=pointer]:
+          - /url: https://www.thinkuser.co.il/accesibility-statement/
+        - link "Site by W hite W eb W orx" [ref=e619] [cursor=pointer]:
+          - /url: https://www.whiteweb.co.il/
+          - text: Site by
+          - generic [ref=e620]:
+            - text: W
+            - generic: hite
+            - text: W
+            - generic: eb
+            - text: W
+            - generic: orx
+  - link "Chat on WhatsApp" [ref=e621] [cursor=pointer]:
+    - /url: https://wa.me/972547369919
+    - img "WhatsApp" [ref=e622]
+  - iframe [ref=e625]:
+    - generic [ref=f40e6]:
+      - text: protected by
+      - strong [ref=f40e7]: reCAPTCHA
