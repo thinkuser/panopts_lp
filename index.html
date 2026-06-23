@@ -16,6 +16,26 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css?v=14">
+  <style>
+    .loc-wrapper { position: relative; width: 100%; }
+    .loc-search { width: 100%; box-sizing: border-box; }
+    .loc-dropdown {
+      position: absolute; top: calc(100% + 4px); left: 0; right: 0;
+      background: #141414; border: 1px solid #2a2a2a; border-radius: 8px;
+      max-height: 210px; overflow-y: auto; z-index: 200; display: none;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.5);
+    }
+    .loc-dropdown.open { display: block; }
+    .loc-option {
+      padding: 9px 14px; cursor: pointer; font-size: 13px; color: #d0d0d0;
+      display: flex; justify-content: space-between; align-items: center;
+      border-bottom: 1px solid #1e1e1e;
+    }
+    .loc-option:last-child { border-bottom: none; }
+    .loc-option:hover { background: #1e1e1e; }
+    .loc-code { color: #00C896; font-size: 11px; font-weight: 600; letter-spacing: 0.05em; }
+    .loc-empty { padding: 10px 14px; color: #555; font-size: 13px; }
+  </style>
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='14' fill='%23000' stroke='%2300C896' stroke-width='2'/><circle cx='16' cy='16' r='5' fill='%2300C896'/><circle cx='16' cy='16' r='2' fill='%23000'/></svg>">
 </head>
 <body>
@@ -462,7 +482,11 @@
             <input type="url" id="client_homepage" placeholder="Company Homepage *" required autocomplete="url">
           </div>
           <div class="form-row-1">
-            <input type="text" id="ai_overview_location" placeholder="AI Overview Location (country code)">
+            <div class="loc-wrapper" id="loc-wrapper">
+              <input type="text" id="loc-search" class="loc-search" placeholder="AI Overview Location (optional)" autocomplete="off">
+              <div class="loc-dropdown" id="loc-dropdown"></div>
+            </div>
+            <input type="hidden" id="ai_overview_location">
           </div>
 
           <div class="form-block-header">
@@ -735,6 +759,94 @@
         window.dataLayer.push({ 'event': 'gallery_clicks', 'click_text': this.textContent.trim() });
       });
     });
+
+    // ── Location searchable dropdown ──────────────────────────
+    const AI_LOCATIONS = [
+      { code: 'US', name: 'United States' },
+      { code: 'GB', name: 'United Kingdom' },
+      { code: 'IN', name: 'India' },
+      { code: 'AU', name: 'Australia' },
+      { code: 'CA', name: 'Canada' },
+      { code: 'IL', name: 'Israel' },
+      { code: 'JP', name: 'Japan' },
+      { code: 'DE', name: 'Germany' },
+      { code: 'FR', name: 'France' },
+      { code: 'IT', name: 'Italy' },
+      { code: 'ES', name: 'Spain' },
+      { code: 'NL', name: 'Netherlands' },
+      { code: 'BE', name: 'Belgium' },
+      { code: 'AT', name: 'Austria' },
+      { code: 'CH', name: 'Switzerland' },
+      { code: 'SE', name: 'Sweden' },
+      { code: 'NO', name: 'Norway' },
+      { code: 'DK', name: 'Denmark' },
+      { code: 'FI', name: 'Finland' },
+      { code: 'PL', name: 'Poland' },
+      { code: 'PT', name: 'Portugal' },
+      { code: 'IE', name: 'Ireland' },
+      { code: 'NZ', name: 'New Zealand' },
+      { code: 'SG', name: 'Singapore' },
+      { code: 'BR', name: 'Brazil' },
+      { code: 'MX', name: 'Mexico' },
+      { code: 'AR', name: 'Argentina' },
+      { code: 'CO', name: 'Colombia' },
+      { code: 'CL', name: 'Chile' },
+      { code: 'ID', name: 'Indonesia' },
+      { code: 'PH', name: 'Philippines' },
+      { code: 'MY', name: 'Malaysia' },
+      { code: 'TH', name: 'Thailand' },
+      { code: 'VN', name: 'Vietnam' },
+      { code: 'KR', name: 'South Korea' },
+      { code: 'TW', name: 'Taiwan' },
+      { code: 'HK', name: 'Hong Kong' },
+      { code: 'PK', name: 'Pakistan' },
+      { code: 'BD', name: 'Bangladesh' },
+      { code: 'TR', name: 'Turkey' },
+      { code: 'SA', name: 'Saudi Arabia' },
+      { code: 'AE', name: 'United Arab Emirates' },
+      { code: 'EG', name: 'Egypt' },
+      { code: 'MA', name: 'Morocco' },
+      { code: 'ZA', name: 'South Africa' },
+      { code: 'NG', name: 'Nigeria' },
+      { code: 'KE', name: 'Kenya' },
+      { code: 'GH', name: 'Ghana' },
+      { code: 'TZ', name: 'Tanzania' },
+      { code: 'UG', name: 'Uganda' },
+      { code: 'ET', name: 'Ethiopia' },
+      { code: 'RW', name: 'Rwanda' }
+    ];
+
+    (function() {
+      const locSearch = document.getElementById('loc-search');
+      const locDropdown = document.getElementById('loc-dropdown');
+      const locInput = document.getElementById('ai_overview_location');
+
+      function renderOptions(q) {
+        const filtered = q
+          ? AI_LOCATIONS.filter(l => l.name.toLowerCase().includes(q.toLowerCase()) || l.code.toLowerCase().includes(q.toLowerCase()))
+          : AI_LOCATIONS;
+        if (!filtered.length) {
+          locDropdown.innerHTML = '<div class="loc-empty">No results</div>';
+        } else {
+          locDropdown.innerHTML = filtered.map(l =>
+            `<div class="loc-option" data-code="${l.code}" data-name="${l.name}"><span>${l.name}</span><span class="loc-code">${l.code}</span></div>`
+          ).join('');
+          locDropdown.querySelectorAll('.loc-option').forEach(function(opt) {
+            opt.addEventListener('mousedown', function(e) {
+              e.preventDefault();
+              locInput.value = this.dataset.code;
+              locSearch.value = this.dataset.name + ' (' + this.dataset.code + ')';
+              locDropdown.classList.remove('open');
+            });
+          });
+        }
+      }
+
+      locSearch.addEventListener('focus', function() { renderOptions(this.value); locDropdown.classList.add('open'); });
+      locSearch.addEventListener('input', function() { locInput.value = ''; renderOptions(this.value); locDropdown.classList.add('open'); });
+      locSearch.addEventListener('blur', function() { setTimeout(function() { locDropdown.classList.remove('open'); }, 150); });
+      document.addEventListener('click', function(e) { if (!e.target.closest('#loc-wrapper')) locDropdown.classList.remove('open'); });
+    })();
 
     // ── DataLayer tracking ────────────────────────────────────
     window.dataLayer = window.dataLayer || [];
