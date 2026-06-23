@@ -685,6 +685,19 @@
         }, 8000);
       }
 
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+        'event': 'generate_lead',
+        'company_name': clientName,
+        'location': payload.ai_overview_location,
+        'category1': categories[0] || '',
+        'category2': categories[1] || '',
+        'category3': categories[2] || '',
+        'competitor1': competitors[0] ? Object.values(competitors[0])[0] : '',
+        'competitor2': competitors[1] ? Object.values(competitors[1])[0] : '',
+        'competitor3': competitors[2] ? Object.values(competitors[2])[0] : ''
+      });
+
       document.getElementById('form-container').style.display = 'none';
       document.getElementById('thankyou').style.display = 'flex';
       document.getElementById('thankyou').scrollIntoView({ behavior: 'smooth', block: 'center' });
@@ -719,7 +732,86 @@
         document.querySelectorAll('.gallery-slide').forEach(s => s.classList.remove('active'));
         this.classList.add('active');
         document.querySelector(`.gallery-slide[data-slide="${target}"]`).classList.add('active');
+        window.dataLayer.push({ 'event': 'gallery_clicks', 'click_text': this.textContent.trim() });
       });
+    });
+
+    // ── DataLayer tracking ────────────────────────────────────
+    window.dataLayer = window.dataLayer || [];
+
+    document.querySelectorAll('.nav-link, .mobile-link').forEach(function(link) {
+      link.addEventListener('click', function() {
+        window.dataLayer.push({ 'event': 'menu_clicks', 'click_text': this.textContent.trim() });
+      });
+    });
+
+    function _nearestH1(el) {
+      var node = el;
+      while (node && node !== document.body) {
+        var h1 = node.querySelector('h1');
+        if (h1) return h1.textContent.trim().replace(/\s+/g, ' ');
+        node = node.parentElement;
+      }
+      var first = document.querySelector('h1');
+      return first ? first.textContent.trim().replace(/\s+/g, ' ') : '';
+    }
+
+    document.querySelectorAll('a[href*="calendly"]').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        window.dataLayer.push({ 'event': 'book_demo', 'click_text': this.textContent.trim(), 'nearest_h1': _nearestH1(this) });
+      });
+    });
+
+    document.querySelectorAll('a[href="#free-trial"]').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        window.dataLayer.push({ 'event': 'scan_my_brand', 'click_text': this.textContent.trim(), 'nearest_h1': _nearestH1(this) });
+      });
+    });
+
+    // ── Section visibility (fires once after 3s dwell) ────────
+    const _sectionTimers = {};
+    const _sectionFired = new Set();
+    const _sectionObserver = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        const id = entry.target.id;
+        if (entry.isIntersecting && !_sectionFired.has(id)) {
+          _sectionTimers[id] = setTimeout(function() {
+            if (!_sectionFired.has(id)) {
+              _sectionFired.add(id);
+              window.dataLayer.push({ 'event': 'section_view', 'section_id': id });
+            }
+          }, 3000);
+        } else {
+          clearTimeout(_sectionTimers[id]);
+        }
+      });
+    }, { threshold: 0.3 });
+
+    ['hero', 'pain', 'features', 'gallery', 'how-it-works', 'free-trial'].forEach(function(id) {
+      var el = document.getElementById(id);
+      if (el) _sectionObserver.observe(el);
+    });
+
+    // ── Form field focus tracking (fires once per field) ───────
+    var _fieldFired = new Set();
+    function _trackField(name) {
+      if (!_fieldFired.has(name)) {
+        _fieldFired.add(name);
+        window.dataLayer.push({ 'event': 'form_field_focus', 'field_name': name });
+      }
+    }
+
+    [['client_name', 'company_name'], ['client_homepage', 'company_homepage'], ['ai_overview_location', 'ai_overview_location']].forEach(function(pair) {
+      var el = document.getElementById(pair[0]);
+      if (el) el.addEventListener('focus', function() { _trackField(pair[1]); });
+    });
+
+    document.getElementById('categories-list').addEventListener('focusin', function(e) {
+      if (e.target.tagName === 'INPUT') _trackField('category');
+    });
+
+    document.getElementById('competitors-list').addEventListener('focusin', function(e) {
+      if (e.target.classList.contains('comp-url')) _trackField('competitor');
     });
 
     // ── Smooth scroll for CTA anchors ─────────────────────────
