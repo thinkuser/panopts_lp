@@ -759,13 +759,13 @@
 
     document.querySelectorAll('a[href*="calendly"]').forEach(function(btn) {
       btn.addEventListener('click', function() {
-        window.dataLayer.push({ 'event': 'book_demo', 'click_text': this.textContent.trim(), 'nearest_h1': _nearestH1(this) });
+        window.dataLayer.push({ 'event': 'book_demo', 'click_text': this.textContent.trim(), 'section_title': _nearestH1(this) });
       });
     });
 
     document.querySelectorAll('a[href="#free-trial"]').forEach(function(btn) {
       btn.addEventListener('click', function() {
-        window.dataLayer.push({ 'event': 'scan_my_brand', 'click_text': this.textContent.trim(), 'nearest_h1': _nearestH1(this) });
+        window.dataLayer.push({ 'event': 'scan_my_brand', 'click_text': this.textContent.trim(), 'section_title': _nearestH1(this) });
       });
     });
 
