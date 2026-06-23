@@ -746,6 +746,7 @@
     });
 
     function _nearestH1(el) {
+      if (el.closest('nav')) return 'menu';
       var node = el;
       while (node && node !== document.body) {
         var h1 = node.querySelector('h1');
