@@ -35,6 +35,10 @@
     .loc-option:hover { background: #1e1e1e; }
     .loc-code { color: #00C896; font-size: 11px; font-weight: 600; letter-spacing: 0.05em; }
     .loc-empty { padding: 10px 14px; color: #555; font-size: 13px; }
+    .input-error {
+      border-color: #ff4d4d !important;
+      box-shadow: 0 0 0 2px rgba(255,77,77,0.18) !important;
+    }
   </style>
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><circle cx='16' cy='16' r='14' fill='%23000' stroke='%2300C896' stroke-width='2'/><circle cx='16' cy='16' r='5' fill='%2300C896'/><circle cx='16' cy='16' r='2' fill='%23000'/></svg>">
 </head>
@@ -483,7 +487,7 @@
           </div>
           <div class="form-row-1">
             <div class="loc-wrapper" id="loc-wrapper">
-              <input type="text" id="loc-search" class="loc-search" placeholder="AI Overview Location (optional)" autocomplete="off">
+              <input type="text" id="loc-search" class="loc-search" placeholder="AI Overview Location *" autocomplete="off">
               <div class="loc-dropdown" id="loc-dropdown"></div>
             </div>
             <input type="hidden" id="ai_overview_location">
@@ -495,7 +499,7 @@
           </div>
           <div id="categories-list">
             <div class="dynamic-row cat-row">
-              <input type="text" placeholder="Category 1 (e.g. sportbikes)">
+              <input type="text" placeholder="Category 1 * (e.g. sportbikes)">
               <button type="button" class="btn-remove" title="Remove">🗑</button>
             </div>
             <div class="dynamic-row cat-row">
@@ -515,7 +519,7 @@
           </div>
           <div id="competitors-list">
             <div class="dynamic-row">
-              <input type="url" placeholder="https://www.competitor.com/" class="comp-url">
+              <input type="url" placeholder="https://www.competitor.com/ *" class="comp-url">
               <button type="button" class="btn-remove" title="Remove">🗑</button>
             </div>
             <div class="dynamic-row">
@@ -595,11 +599,28 @@
 
       const clientName = document.getElementById('client_name').value.trim();
       const clientHomepage = document.getElementById('client_homepage').value.trim();
+      const aiLocation = document.getElementById('ai_overview_location').value.trim();
       const errorEl = document.getElementById('form-error');
 
-      if (!clientName || !clientHomepage) {
-        errorEl.textContent = 'Please fill in your Company Name and Homepage.';
+      // Clear previous highlights
+      document.querySelectorAll('.input-error').forEach(el => el.classList.remove('input-error'));
+
+      const catInputs = Array.from(document.querySelectorAll('#categories-list input'));
+      const filledCats = catInputs.map(i => i.value.trim()).filter(Boolean);
+      const compInputs = Array.from(document.querySelectorAll('#competitors-list .comp-url'));
+      const filledComps = compInputs.map(i => i.value.trim()).filter(Boolean);
+
+      const missing = [];
+      if (!clientName)      { document.getElementById('client_name').classList.add('input-error');     missing.push('Company Name'); }
+      if (!clientHomepage)  { document.getElementById('client_homepage').classList.add('input-error'); missing.push('Company Homepage'); }
+      if (!aiLocation)      { document.getElementById('loc-search').classList.add('input-error');      missing.push('AI Overview Location'); }
+      if (!filledCats.length)  { catInputs[0] && catInputs[0].classList.add('input-error');           missing.push('at least one Category'); }
+      if (!filledComps.length) { compInputs[0] && compInputs[0].classList.add('input-error');         missing.push('at least one Competitor URL'); }
+
+      if (missing.length) {
+        errorEl.textContent = 'Please fill in: ' + missing.join(', ') + '.';
         errorEl.style.display = 'block';
+        errorEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
         return;
       }
       errorEl.style.display = 'none';
@@ -609,23 +630,17 @@
       submitBtn.disabled = true;
       submitText.textContent = 'Initializing...';
 
-      const categories = Array.from(document.querySelectorAll('#categories-list input'))
-        .map(i => i.value.trim())
-        .filter(Boolean);
+      const categories = filledCats;
 
-      const competitors = Array.from(document.querySelectorAll('#competitors-list .comp-url'))
-        .map(input => {
-          const url = input.value.trim();
-          if (!url) return null;
-          let key;
-          try {
-            key = new URL(url).hostname.replace(/^www\./, '').split('.')[0];
-          } catch (e) {
-            key = url;
-          }
-          return { [key]: url };
-        })
-        .filter(Boolean);
+      const competitors = filledComps.map(url => {
+        let key;
+        try {
+          key = new URL(url).hostname.replace(/^www\./, '').split('.')[0];
+        } catch (e) {
+          key = url;
+        }
+        return { [key]: url };
+      });
 
       const payload = {
         client_name: clientName,
@@ -847,6 +862,14 @@
       locSearch.addEventListener('blur', function() { setTimeout(function() { locDropdown.classList.remove('open'); }, 150); });
       document.addEventListener('click', function(e) { if (!e.target.closest('#loc-wrapper')) locDropdown.classList.remove('open'); });
     })();
+
+    // ── Clear field error on input ────────────────────────────
+    document.getElementById('demo-form').addEventListener('input', function(e) {
+      if (e.target.classList.contains('input-error')) e.target.classList.remove('input-error');
+    });
+    document.getElementById('loc-search').addEventListener('input', function() {
+      this.classList.remove('input-error');
+    });
 
     // ── DataLayer tracking ────────────────────────────────────
     window.dataLayer = window.dataLayer || [];
